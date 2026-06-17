@@ -22,6 +22,7 @@ Invoke any member as a slash command in Claude Code. Ask them about your product
 | `/granick-clark` | Jennifer Granick + Jack Clark | Legal & AI Policy | Surveillance law, civil liberties (Granick); AI governance, existential risk policy (Clark) |
 | `/benioff-greene` | Marc Benioff + Diane Greene | Market/Customer Reality | Enterprise sales, stakeholder capitalism (Benioff); enterprise infrastructure, cloud trust (Greene) |
 | `/munger-naval` | Charlie Munger + Naval Ravikant | Director of Hard Truths | Latticework of mental models, inversion, incentives (Munger); specific knowledge, leverage, inner peace (Naval) |
+| `/sandberg-chesky` | Sheryl Sandberg + Brian Chesky | Operations & Scaling | Org design, Radical Candor, Lean In (Sandberg); founder mode, 11-star experience, accountability (Chesky) |
 | `/board-members` | Full Board | Orchestration | Routes questions to the right member(s); runs board meetings |
 
 ---
@@ -108,6 +109,8 @@ skills/
 ├── bruce-schneier/
 ├── granick-clark/         # Dual-voice: Jennifer Granick + Jack Clark
 ├── benioff-greene/        # Dual-voice: Marc Benioff + Diane Greene
+├── munger-naval/          # Dual-voice: Charlie Munger + Naval Ravikant
+├── sandberg-chesky/       # Dual-voice: Sheryl Sandberg + Brian Chesky
 └── board-members/         # Orchestration skill — routes to individual members
 ```
 
@@ -129,12 +132,12 @@ skills/
 | Granick + Clark | 15/15 (100%) | 15/15 (100%) |
 | Benioff + Greene | 15/15 (100%) | 15/15 (100%) |
 | Munger + Naval | 15/15 (100%) | 15/15 (100%) |
+| Sandberg + Chesky | 15/15 (100%) | 15/15 (100%) |
 
 ---
 
 ## Planned Members
 
-- Sheryl Sandberg / Brian Chesky — Operations/Scaling
 - Tristan Harris — Risk / Ethics
 
 ---

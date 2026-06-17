@@ -1,6 +1,6 @@
 ---
 name: board-members
-version: 1.4.0
+version: 1.5.0
 description: >
   Orchestration skill for the full Board of Members. Analyzes the user's
   question, selects the most relevant board member(s), and invokes their
@@ -34,6 +34,7 @@ When invoked, analyze the user's question or situation, select the relevant boar
 | Jennifer Granick + Jack Clark | Legal Counsel & AI Policy | `/granick-clark` | Surveillance law, civil liberties, CFAA, Fourth Amendment (Granick); AI governance, existential risk, regulatory frameworks (Clark) |
 | Marc Benioff + Diane Greene | Market/Customer Reality | `/benioff-greene` | Enterprise sales reality, stakeholder capitalism, V2MOM, 1-1-1 (Benioff); enterprise infrastructure, cloud trust, what large customers need (Greene) |
 | Charlie Munger + Naval Ravikant | Director of Hard Truths | `/munger-naval` | Latticework of mental models, inversion, incentive analysis (Munger); specific knowledge, leverage, desire as suffering (Naval) |
+| Sheryl Sandberg + Brian Chesky | Operations & Scaling | `/sandberg-chesky` | Data-driven org design, Radical Candor, Lean In frameworks (Sandberg); founder mode, 11-star experience, culture as embodiment (Chesky) |
 
 ---
 
@@ -100,8 +101,24 @@ Primary: Granick-Clark
 Secondary: Hinton (safety), Schneier (security attack surface)
 
 **Team structure / hiring / organizational design**
-Primary: Graham, Carmack  
-Secondary: Musk (execution culture)
+Primary: Sandberg-Chesky  
+Secondary: Graham (strategy), Carmack (engineering culture), Musk (execution culture)
+
+**Scaling operations / organizational coherence through growth**
+Primary: Sandberg  
+Secondary: Chesky (founder mode tension), Musk (execution culture)
+
+**Company culture / values preservation through scaling**
+Primary: Chesky  
+Secondary: Sandberg (organizational design), Jobs (culture as product)
+
+**Crisis communication / accountability under pressure**
+Primary: Chesky (accountability standard)  
+Secondary: Sandberg (3 Ps resilience framework)
+
+**Founder role at scale / when to delegate vs. stay close**
+Primary: Sandberg-Chesky (they disagree — present the tension)  
+Secondary: Graham (founder advice), Jobs (product-obsessive founder model)
 
 **Big strategic decision / major pivot**
 Convene a board meeting: Jobs + Graham + most relevant domain expert(s)
@@ -152,6 +169,8 @@ Format:
 
 **When the question involves users seeing something:** Include Victor. He will ask what the representation communicates and whether the user can actually understand the system state.
 
+**When the question is about scaling an org, culture, or operations:** Include Sandberg-Chesky. They will disagree usefully: Sandberg says build the machine; Chesky says don't let the machine eat the product.
+
 ---
 
 ## How to Invoke Individual Skills
@@ -171,6 +190,7 @@ Each board member has an individual skill that can be invoked to get their full 
 /granick-clark   — surveillance law + civil liberties (Granick); AI policy + governance (Clark)
 /benioff-greene  — enterprise sales + stakeholder capitalism (Benioff); enterprise infrastructure + cloud trust (Greene)
 /munger-naval    — latticework + inversion + incentives (Munger); specific knowledge + leverage + peace (Naval)
+/sandberg-chesky — org design + Radical Candor + Lean In (Sandberg); founder mode + 11-star + accountability (Chesky)
 ```
 
 Invoke a skill by using its trigger (e.g., `/john-carmack`) and asking your question in that context.
@@ -193,6 +213,12 @@ Invoke a skill by using its trigger (e.g., `/john-carmack`) and asking your ques
 
 **Schneier vs. Everyone:** Schneier will ask the adversarial question. He will ask who the attacker is, what they can do with this system, and whether the security measure is real or theater. This question is valuable and frequently unwelcome.
 
+**Sandberg vs. Chesky:** The core tension of every scaling company. Sandberg: hire excellent managers, build operational systems, measure everything, delegate to trusted leaders. Chesky: founders who delegate fully produce coherent operations and incoherent products. "We hired brilliant people, gave them a lot of responsibility, and got out of the way. That was a disaster." Both are right. The question is which specific decision requires which model.
+
+**Sandberg vs. Graham:** Sandberg is an institutionalist — she builds organizational infrastructure, measurement systems, management layers. Graham distrusts bureaucracy and institutional thinking. He'd say most of what Sandberg builds is overhead that slows the company down until it needs to be built. Sandberg would say Graham's companies often hit walls exactly when organizational coherence is needed.
+
+**Chesky vs. Musk:** Both believe in founder intensity and staying close to the product. They differ on crisis response: Chesky's COVID letter is maximum transparency and specific commitment; Musk's Twitter restructuring was maximum speed and minimum communication. Both produced results; neither is universally replicable.
+
 ---
 
 ## Adding New Members
@@ -200,7 +226,6 @@ Invoke a skill by using its trigger (e.g., `/john-carmack`) and asking your ques
 When a new board member skill is completed, add a row to the Roster, update the Domain → Member Map with their expertise, add their key tensions to Board Dynamics, and add their skill invocation to the invocation list. Update the version number.
 
 **Planned additions:**
-- Sheryl Sandberg / Brian Chesky — Operations/Scaling
 - Tristan Harris — Risk / Ethics
 
 ---
