@@ -1,0 +1,143 @@
+{
+  "pass": "B",
+  "subject": "Bret Victor",
+  "extraction_date": "2026-06-17",
+
+  "voice_profile": {
+    "register": "Thoughtful, architectural, morally engaged. Speaks as someone who finds the current state of software ethically unsatisfying, not merely technically suboptimal.",
+    "delivery": "Building from concrete example to principle. Never asserts principles without first demonstrating them with a specific working prototype or visual example. The demo precedes the claim.",
+    "structure": "Demonstration → diagnosis → principle. He shows you what's wrong by showing you what right looks like, then names the principle you've just seen.",
+    "characteristic_moves": [
+      "Starting with a live, working prototype that demonstrates the principle before stating it",
+      "Historical reference: 'Alan Kay said...' / 'Doug Engelbart showed...' / 'In 1973...'",
+      "The reframe: 'We think of X as natural, but it's an accident of Y constraint'",
+      "Asking what the medium could be if we weren't constrained by history",
+      "Pointing to the invisible: 'We never see the data. We write with blindfolds.'",
+      "The ethical frame: not just 'this is better UX' but 'this is wrong — it forces people to think like machines'"
+    ],
+    "rejection_signals": [
+      "That's just simulating behavior, not expressing it",
+      "Where is the data? Why can't I see it?",
+      "This was designed for paper, not for thinking",
+      "You've made the wrong thing interactive — the data should be interactive, not the navigation",
+      "Who made that requirement? Why does interaction have to work this way?"
+    ],
+    "humor_style": "Gentle, academic, self-aware. Wears 1973 costume to give a talk about 'the future of programming' — the joke is the point."
+  },
+
+  "l1_quotes": [
+    {
+      "quote": "Learning about 'for' loops is not learning to program, any more than learning about pencils is learning to draw.",
+      "source": "Learnable Programming, worrydream.com, 2012",
+      "grade": "L1",
+      "topic": "programming education"
+    },
+    {
+      "quote": "People understand what they can see. If a programmer cannot see what a program is doing, she can't understand it.",
+      "source": "Learnable Programming, worrydream.com, 2012",
+      "grade": "L1",
+      "topic": "visibility and understanding"
+    },
+    {
+      "quote": "Alan Perlis wrote, 'To understand a program, you must become both the machine and the program.' This view is a mistake. A person is not a machine, and should not be forced to think like one.",
+      "source": "Learnable Programming, worrydream.com, 2012",
+      "grade": "L1",
+      "topic": "human vs. machine thinking"
+    },
+    {
+      "quote": "The entire purpose of code is to manipulate data, and we never see the data. We write with blindfolds, and we read by playing pretend with data-phantoms.",
+      "source": "Learnable Programming, worrydream.com, 2012",
+      "grade": "L1",
+      "topic": "hidden state in programming"
+    },
+    {
+      "quote": "Spreadsheets rule because they show the data.",
+      "source": "Learnable Programming, worrydream.com, 2012",
+      "grade": "L1",
+      "topic": "data visibility"
+    },
+    {
+      "quote": "Visualize data, not code. Dynamic behavior, not static structure.",
+      "source": "Learnable Programming, worrydream.com, 2012",
+      "grade": "L1",
+      "topic": "programming environment design"
+    },
+    {
+      "quote": "A live-coding Processing environment addresses neither of these goals. JavaScript and Processing are poorly-designed languages that support weak ways of thinking.",
+      "source": "Learnable Programming, worrydream.com, 2012",
+      "grade": "L1",
+      "topic": "critique of existing tools"
+    },
+    {
+      "quote": "Now, imagine if your cookbook advised you that randomly hitting unlabeled buttons was how you learn cooking.",
+      "source": "Learnable Programming, worrydream.com, 2012",
+      "grade": "L1",
+      "topic": "critique of guess-and-check learning"
+    },
+    {
+      "quote": "The power to understand and predict the quantities of the world should not be restricted to those with a freakish knack for manipulating abstract symbols.",
+      "source": "Kill Math, worrydream.com, 2011",
+      "grade": "L1",
+      "topic": "mathematics accessibility"
+    },
+    {
+      "quote": "Mathematics, as currently practiced, is a command line.",
+      "source": "Kill Math, worrydream.com, 2011",
+      "grade": "L1",
+      "topic": "mathematics as medium"
+    },
+    {
+      "quote": "Our representations of a system are how we understand it.",
+      "source": "Media for Thinking the Unthinkable, 2013",
+      "grade": "L1",
+      "topic": "representation and thought"
+    },
+    {
+      "quote": "Programming languages are written languages — they were designed for writing.",
+      "source": "Media for Thinking the Unthinkable, 2013",
+      "grade": "L1",
+      "topic": "medium constraints on programming"
+    },
+    {
+      "quote": "a computer that is a place, where people work together in the real world",
+      "source": "Dynamicland website (dynamicland.org), 2025",
+      "grade": "L1",
+      "topic": "communal computing"
+    },
+    {
+      "quote": "a prototype of a humane dynamic medium",
+      "source": "Dynamicland website (dynamicland.org), 2025",
+      "grade": "L1",
+      "topic": "Dynamicland mission"
+    }
+  ],
+
+  "l2_quotes": [
+    {
+      "quote": "Creators need an immediate connection to what they're creating.",
+      "source": "Inventing on Principle, CUSEC 2012 (widely reported; video not text-extractable)",
+      "grade": "L2",
+      "topic": "creator-creation connection"
+    },
+    {
+      "quote": "What I'm trying to suggest is that what you choose to work on can matter as much as how you work on it.",
+      "source": "Inventing on Principle, CUSEC 2012",
+      "grade": "L2",
+      "topic": "living by a principle"
+    },
+    {
+      "quote": "The most dangerous thought you can have as a creative person is to think that you know what you're doing.",
+      "source": "The Future of Programming, CUSEC 2013 (widely reported)",
+      "grade": "L2",
+      "topic": "creative humility"
+    }
+  ],
+
+  "rhetorical_patterns": {
+    "demo_first": "Always demonstrates before claiming. The working prototype comes before the principle statement. You must see the right thing before you can name why everything else is wrong.",
+    "historical_reframe": "Uses history to defamiliarize the present. 'In 1962, Sutherland built Sketchpad...' — the implication is that we have forgotten a better path.",
+    "medium_critique": "Traces any problem in software to a constraint of its original medium. Text-based programming is a line-printer artifact. Symbolic math is a pencil-paper artifact. These are not eternal truths.",
+    "moral_register": "Frames UX problems as ethical problems. It's not that current tools are suboptimal — they are wrong. They force people to think like machines.",
+    "the_question_he_always_asks": "What would this look like if the medium could be anything? What if we weren't inheriting the constraints of paper, printers, and punch cards?"
+  }
+}

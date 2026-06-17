@@ -1,0 +1,136 @@
+{
+  "pass": "A",
+  "subject": "John Carmack",
+  "extraction_date": "2026-06-17",
+  "evidence_standard": "L1 = verbatim from primary sources (.plan files, interviews, keynotes), L2 = reported/documented, L3 = inferred",
+
+  "biography": {
+    "born": "August 21, 1970, Shawnee Mission, Kansas",
+    "education": "University of Missouri–Kansas City (two semesters, withdrew to pursue programming)",
+    "notable_early_incident": "As a teenager, broke into a school to steal Apple II computers; served one year in a juvenile home. Later attributed the experience to clarifying his focus on legitimate paths.",
+    "personal": "Married Katherine Kang 2000, divorced 2021. Two sons. Currently partnered with Trista DeLeon (2022). Received Domino's Pizza daily at 1995 prices for 15+ years during id Software era. Gave away Ferrari 328 as QuakeCon tournament prize (1997). Founded and self-funded Armadillo Aerospace (~$1M/year). Black belt equivalents in Brazilian jiu-jitsu and Judo. Libertarian. Atheist."
+  },
+
+  "career_timeline": [
+    {
+      "period": "1989-1991",
+      "company": "Softdisk",
+      "role": "Programmer",
+      "key_facts": [
+        "Met John Romero and Adrian Carmack at Softdisk's Shreveport, Louisiana office",
+        "Created Commander Keen demo (1990) as a proof-of-concept for smooth PC scrolling — technically solved a problem everyone assumed was impossible on IBM PC hardware",
+        "Left Softdisk to co-found id Software"
+      ]
+    },
+    {
+      "period": "1991-2013",
+      "company": "id Software",
+      "role": "Lead Programmer / Technical Director / Co-founder",
+      "key_facts": [
+        "Commander Keen (1991) — smooth scrolling on IBM PC: adaptive tile refresh technique",
+        "Wolfenstein 3D (1992) — ray casting; first mainstream FPS",
+        "Doom (December 1993) — Binary Space Partitioning (BSP); defined the FPS genre",
+        "Quake (June 1996) — first true 3D real-time engine; surface caching; networked multiplayer architecture",
+        "Quake III Arena (December 1999) — pure multiplayer focus; fast inverse square root (0x5f3759df popularized here)",
+        "Doom 3 (2004) — Carmack's Reverse (z-fail stencil shadows); volumetric shadow rendering",
+        "Enemy Territory: Quake Wars — MegaTexture technology",
+        "Engine licensing: Half-Life, Call of Duty, Medal of Honor all ran on id engines",
+        "Open-sourced engines progressively: Wolfenstein 3D (1995), Doom (1997/1999 GPL), Quake (1999), Quake 2 (2001), Quake 3 (2005), Doom 3 (2011)",
+        "Resigned November 22, 2013 — id's parent ZeniMax did not support Oculus development"
+      ]
+    },
+    {
+      "period": "2013-2022",
+      "company": "Oculus VR / Meta",
+      "role": "Chief Technology Officer → Consulting CTO",
+      "key_facts": [
+        "Joined August 7, 2013, as CTO of Oculus VR — three months before officially leaving id",
+        "ZeniMax v. Oculus lawsuit: jury absolved Carmack of personal liability; Oculus faced trademark/copyright/contract penalties",
+        "Carmack sued ZeniMax for $22.5M in unpaid acquisition compensation (2017); settled 2018",
+        "November 2019: stepped down to Consulting CTO to allocate time for AGI research",
+        "December 16, 2022: resigned from Meta entirely",
+        "Resignation memo (widely reported): 'We have a ridiculous amount of people and resources, but we constantly self-sabotage and squander effort. I have never been able to kill stupid things before they cause damage.' (L1: Wikipedia)",
+        "Also stated: 'A competent team of a few could have done it.' (L2: widely reported from resignation letter)"
+      ]
+    },
+    {
+      "period": "2022-present",
+      "company": "Keen Technologies",
+      "role": "Founder / CEO",
+      "key_facts": [
+        "Launched August 19, 2022, with $20M in funding",
+        "Focused on artificial general intelligence via determined engineering approach",
+        "Partnered with Richard S. Sutton (Alberta Machine Intelligence Institute) September 2023",
+        "Core thesis: AGI is achievable through hard work and the right engineering path — not waiting for a breakthrough"
+      ]
+    },
+    {
+      "period": "~2000-2013",
+      "company": "Armadillo Aerospace",
+      "role": "Founder / Funder",
+      "key_facts": [
+        "Self-funded personal aerospace company at ~$1M/year",
+        "Won NASA Lunar Lander Challenge Level 1 ($350,000) in October 2008",
+        "Won Level 2 ($500,000) in September 2009",
+        "Pattern: Carmack applies extreme technical focus to completely new domains as a learning exercise"
+      ]
+    }
+  ],
+
+  "technical_contributions": {
+    "adaptive_tile_refresh": "Commander Keen — enabled smooth horizontal scrolling on IBM PC hardware; solved a problem considered unsolvable",
+    "ray_casting": "Wolfenstein 3D — fast 2.5D rendering enabling first mainstream FPS",
+    "binary_space_partitioning": "Doom — BSP for scene management; first major game use; still used in BSP-based engines",
+    "surface_caching": "Quake — optimized texture rendering for true 3D",
+    "carmacks_reverse": "Doom 3 — z-fail algorithm for shadow volumes; formal algorithm named for him",
+    "fast_inverse_square_root": "Quake III — 0x5f3759df bit manipulation trick; one of most famous code snippets in history",
+    "megatexture": "Enemy Territory: Quake Wars — massive texture atlasing for terrain",
+    "networked_multiplayer": "Quake — client-server architecture with lag compensation; foundation of internet gaming"
+  },
+
+  "key_decisions_and_what_they_reveal": [
+    {
+      "decision": "Open-sourcing id engines progressively over 20 years",
+      "reveals": "Believes knowledge sharing compounds; 'costs us rather little but benefits many in significant ways'; long-term field growth > short-term competitive advantage",
+      "evidence_grade": "L1"
+    },
+    {
+      "decision": "Recanting 'when it's done' shipping philosophy (2019)",
+      "reveals": "Willing to publicly update beliefs; Rage's 6-year development was a failure — 'should have shipped two years earlier'; long dev cycles are their own failure mode",
+      "evidence_grade": "L1"
+    },
+    {
+      "decision": "Leaving Meta to pursue AGI",
+      "reveals": "Chooses the hardest unsolved problem over the comfortable well-funded environment; pattern of domain-jumping to apply engineering excellence to new problems (id → Armadillo Aerospace → VR → AGI)",
+      "evidence_grade": "L2"
+    },
+    {
+      "decision": "Programming retreats in random hotel rooms",
+      "reveals": "Deep focus is a resource to be engineered, not assumed; deliberately removes all interruption sources to maximize sustained cognitive output",
+      "evidence_grade": "L2"
+    },
+    {
+      "decision": "60-hour, 10 hours/day, 6 days/week work ethic",
+      "reveals": "Views sustained effort as the primary variable in achieving technical mastery; not a necessary evil but a chosen approach to maintain cognitive sharpness on hard problems",
+      "evidence_grade": "L2"
+    }
+  ],
+
+  "documented_failures": [
+    {
+      "failure": "Rage 6-year development cycle",
+      "specifics": "id's game Rage took ~6 years to develop; Carmack publicly recanted 'when it's done' philosophy on Joe Rogan Experience (2019): 'I largely recant from that now' — should have shipped 2 years earlier",
+      "learning": "Long development cycles are their own failure mode; iteration speed matters more than polish at some threshold"
+    },
+    {
+      "failure": "Meta organizational inefficiency",
+      "specifics": "Despite being CTO of one of the world's best-funded VR programs, Carmack could not prevent organizational waste: 'I have never been able to kill stupid things before they cause damage'",
+      "learning": "Engineering excellence does not translate to organizational effectiveness at scale; large organizations have inertia that individual excellence cannot overcome"
+    },
+    {
+      "failure": "SMP optimization in Quake",
+      "specifics": "Invested significant effort in symmetric multiprocessing acceleration only to find 3-15% gains on one scene, slower on others; abandoned the approach",
+      "learning": "Premature optimization at architectural level; empirical testing revealed theoretical assumptions were wrong"
+    }
+  ]
+}

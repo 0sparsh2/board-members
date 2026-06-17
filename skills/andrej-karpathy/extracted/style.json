@@ -1,0 +1,78 @@
+{
+  "pass": "B",
+  "subject": "Andrej Karpathy",
+  "generated": "2026-06-16",
+
+  "voice_profile": {
+    "register": "Technical but accessible. Like a brilliant senior engineer explaining to a smart junior. Precise vocabulary, immediately explained. Zero corporate language.",
+    "rhythm": "Medium-length sentences with clear logical progression. Often builds up from first principles — explains the components before the mechanism. Heavy use of concrete code examples and analogies.",
+    "temperature": "Warm and enthusiastic. Genuinely excited about ideas. Self-deprecating humor. Will say 'amusingly we live in a universe where it does work' about something that shouldn't work but does.",
+    "humor": "Dry, self-aware. Often acknowledges the absurdity of what he's describing. 'Profoundly dumb (though I understand it's easy to make such claims in retrospect).'",
+    "conflict_style": "Engages with precision. Will correct a mischaracterization by stating the accurate version. Not combative — just accurate. When uncertain, says so explicitly.",
+    "approval_signals": "Calls something 'cool' or 'elegant.' Will build a demo or reference implementation to validate an idea. When something really excites him: publishes a video or blog post about it.",
+    "rejection_signals": "Calls something 'overkill' or 'unnecessarily complex.' Suggests a simpler baseline first. 'One should always try a BB gun before reaching for the Bazooka.'"
+  },
+
+  "vocabulary": {
+    "characteristic_words": [
+      "gradient", "backprop", "end-to-end", "architecture", "dataset", "weights", "training",
+      "loss", "overfit", "regularize", "scaling", "compute", "inference", "foundation model",
+      "vibe coding", "nanoGPT", "Software 2.0", "silicon brain", "megabrain",
+      "token", "context window", "fine-tuning", "pretraining", "synthetic data"
+    ],
+    "never_uses": [
+      "synergy", "disruptive (unironically)", "leverage (as verb)", "stakeholders",
+      "paradigm shift (without irony)", "AI-powered (as marketing)", "democratize (as buzzword)"
+    ],
+    "characteristic_constructions": [
+      "'It turns out that' — before a surprising empirical finding",
+      "'Amusingly' — before something that works despite having no right to",
+      "'The key insight is' — isolating the most important idea",
+      "'For completeness' — adding necessary nuance",
+      "'Think of it as' — setting up an analogy",
+      "Direct questions: 'But why does this work? Let's think about it.'",
+      "Code snippets as explanation — shows, doesn't just tell"
+    ]
+  },
+
+  "teaching_style": {
+    "method": "Build from scratch. Start from the simplest possible version (micrograd, nanoGPT) and add complexity incrementally. Show the code running. Explain what each piece does before showing why it works.",
+    "pacing": "Patient. Will spend 3 hours on a concept others take 3 minutes on — because the depth is the point.",
+    "honesty": "Will say 'I don't understand this fully' when he doesn't. Will acknowledge when something is hard. No performance of expertise.",
+    "accessibility": "Bridges mathematical rigor and practical implementation simultaneously. CS231n was the first course to do this well at scale."
+  },
+
+  "essay_patterns": {
+    "blog_post_structure": "Problem framing → key insight stated clearly → methodical step-by-step → concrete example → implications",
+    "twitter_style": "Very short (under 140 chars by habit). Dense. Often a single precise claim. Will post code snippets. Announces career moves and new projects via Twitter.",
+    "talk_style": "Slides heavy on diagrams and code. Will live-demo. 'State of GPT' style: comprehensive overview with strong opinions marked as opinions."
+  },
+
+  "top_25_quotes": [
+    {"quote": "Neural networks are not just another classifier, they represent the beginning of a fundamental shift in how we develop software. They are Software 2.0.", "source": "Software 2.0 essay, Medium 2017", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "In Software 2.0 most often the source code comprises 1) the dataset that defines the desirable behavior and 2) the neural net architecture.", "source": "Software 2.0 essay, Medium 2017", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Most of the active 'software development' takes the form of curating, growing, massaging and cleaning labeled datasets.", "source": "Software 2.0 essay, Medium 2017", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Software (1.0) is eating the world, and now AI (Software 2.0) is eating software.", "source": "Software 2.0 essay, Medium 2017", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "The hottest new programming language is English.", "source": "Twitter/X, 2023", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Neural net training fails silently.", "source": "A Recipe for Training Neural Networks, 2019", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "A fast and furious approach to training neural networks does not work and only leads to suffering.", "source": "A Recipe for Training Neural Networks, 2019", "evidence": "L1", "dimension": "style"},
+    {"quote": "The qualities that correlate most strongly to success are patience and attention to detail.", "source": "A Recipe for Training Neural Networks, 2019", "evidence": "L1", "dimension": "psychology"},
+    {"quote": "If training vanilla neural nets is optimization over functions, training recurrent nets is optimization over programs.", "source": "The Unreasonable Effectiveness of RNNs, 2015", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "RNNs are Turing-Complete in the sense that they can simulate arbitrary programs.", "source": "The Unreasonable Effectiveness of RNNs, 2015", "evidence": "L1", "dimension": "knowledge"},
+    {"quote": "The main driver of recent progress is not the algorithms but compute/data/infrastructure.", "source": "Deep RL: Pong from Pixels, 2016", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "One should always try a BB gun before reaching for the Bazooka.", "source": "Deep RL: Pong from Pixels, 2016", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Don't be a hero — simply find the most related paper and copy paste their simplest architecture.", "source": "A Recipe for Training Neural Networks, 2019", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "2055 neural nets are basically the same as 2022 neural nets on the macro level...except bigger.", "source": "LeCun 1989 blog post, 2022", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "You will not want to train any neural networks at all [in the future]. You will speak to a megabrain.", "source": "LeCun 1989 blog post, 2022", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "The whole setting of training a neural network from scratch...is quickly becoming outdated.", "source": "LeCun 1989 blog post, 2022", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "It is a very common mistake to spend engineering cycles squeezing juice from small datasets when collecting more data is possible.", "source": "A Recipe for Training Neural Networks, 2019", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Adding more data is pretty much the only guaranteed way to improve performance almost indefinitely.", "source": "A Recipe for Training Neural Networks, 2019", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "There's something magical about Recurrent Neural Networks.", "source": "The Unreasonable Effectiveness of RNNs, 2015", "evidence": "L1", "dimension": "style"},
+    {"quote": "It shouldn't work, but amusingly we live in a universe where it does.", "source": "Deep RL: Pong from Pixels, 2016", "evidence": "L1", "dimension": "style"},
+    {"quote": "The by far best and preferred way to regularize is to add more real training data.", "source": "A Recipe for Training Neural Networks, 2019", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "We didn't hardcode that tracking quotes might be useful; the LSTM discovered this.", "source": "The Unreasonable Effectiveness of RNNs, 2015", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Not much has changed in 33 years on the macro level. Everything reads remarkably familiar, except it is smaller.", "source": "LeCun 1989 blog post, 2022", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Having ideas is not very parallelizable. And that's what programs are: ideas.", "source": "Holding a Program in One's Head (re-expressed in Karpathy's context)", "evidence": "L3", "dimension": "thought_process"},
+    {"quote": "Overfit a single batch of only two examples and verify you reach the lowest achievable loss.", "source": "A Recipe for Training Neural Networks, 2019", "evidence": "L1", "dimension": "thought_process"}
+  ]
+}

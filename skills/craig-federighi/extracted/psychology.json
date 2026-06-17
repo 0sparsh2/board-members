@@ -1,0 +1,107 @@
+{
+  "pass": "D",
+  "subject": "Craig Federighi",
+  "extraction_date": "2026-06-17",
+
+  "big_five_profile": {
+    "openness": {
+      "score": "High",
+      "evidence": "Built Swift to replace Objective-C — willingness to discard 30 years of accumulated developer knowledge when the foundation is wrong; Private Cloud Compute is a novel architecture with no precedent; SwiftUI was a complete rethinking of Apple's UI framework"
+    },
+    "conscientiousness": {
+      "score": "Very High",
+      "evidence": "Delays features rather than ship substandard ('it wouldn't meet our customer expectations'); manages ~20,000 software engineers across all Apple platforms; NeXT/Apple heritage of rigorous software architecture; publicly admits limitations ('beta testing doesn't provide the interaction many users desire')"
+    },
+    "extraversion": {
+      "score": "Moderate-High (context-dependent)",
+      "evidence": "WWDC persona is theatrical and warm; but gives relatively few interviews compared to other tech executives; does not have a personal public presence (no public social media, no podcast circuit)"
+    },
+    "agreeableness": {
+      "score": "Moderate-High",
+      "evidence": "Collaborative internal reputation; humor and self-deprecation in keynotes suggests low ego defensiveness; BUT: firm on principle (FBI, sideloading, platform identity) — doesn't collapse when pressure is applied"
+    },
+    "neuroticism": {
+      "score": "Low",
+      "evidence": "Manages one of the most complex software organizations in history without public breakdown; acknowledged the Siri architecture was 'too limited' without drama; maintains consistent public composure across good and bad news"
+    }
+  },
+
+  "core_values": [
+    {
+      "value": "Privacy as fundamental right",
+      "evidence_grade": "L1",
+      "evidence": "Consistent commitment across 10+ years: Apple vs. FBI, GDPR era, App Tracking Transparency, Private Cloud Compute. Not just a product differentiator — framed explicitly as 'fundamental human right'. The Private Cloud Compute architecture ('not even Apple can see') represents enormous engineering investment for this principle."
+    },
+    {
+      "value": "Quality as user promise",
+      "evidence_grade": "L1",
+      "evidence": "'It wouldn't meet our customer expectations or Apple standards.' Quality is framed as an external commitment to users, not an internal metric. Delays are preferable to violations of this commitment."
+    },
+    {
+      "value": "Technology as human enrichment",
+      "evidence_grade": "L1",
+      "evidence": "'I became an engineer because I believe in the power of technology to enrich our lives.' (Washington Post, 2016) — foundational motivation that surfaces in the anti-engagement Siri design, privacy commitments, and the framing of Apple Intelligence."
+    }
+  ],
+
+  "core_drivers_and_fears": [
+    {
+      "driver": "The cost of getting platform architecture wrong",
+      "evidence": "NeXT/Apple taught him: you can inherit good architecture (NeXT's frameworks became Cocoa) or bad architecture (the early Mac OS had no preemptive multitasking — required complete rewrite). Getting foundational architecture wrong costs 10+ years of recovery. This drives the patience on Swift, SwiftUI, Private Cloud Compute — all architectural bets that took years to pay off.",
+      "manifestation": "Willingness to ship incomplete (but architecturally correct) features rather than complete but architecturally compromised ones"
+    },
+    {
+      "driver": "The compounding of security debt",
+      "evidence": "FBI backdoor argument and sideloading opposition both reflect the same insight: security vulnerabilities compound. A backdoor that exists today creates attack surface for years. Sideloading allows even one malicious app to create an attack vector. Security decisions are not reversible.",
+      "manifestation": "Firm refusal to accept security exceptions even under significant political and competitive pressure"
+    },
+    {
+      "driver": "The responsibility of scale",
+      "evidence": "Apple software runs on ~2 billion active devices. A quality failure, privacy breach, or security vulnerability at that scale is a catastrophic failure. This drives the quality commitment ('it wouldn't meet our standards'), the cautious AI rollout, and the architectural investment in Private Cloud Compute.",
+      "manifestation": "Speed of iteration is slower than competitors; quality bar for release is higher"
+    }
+  ],
+
+  "psychological_contradictions": [
+    {
+      "contradiction": "Claims privacy is a fundamental right; Apple earns revenue from Google paying to be default search (Search Ads partnership)",
+      "evidence": "Apple's privacy positioning coexists with billion-dollar Google default search deals; Apple earns revenue from advertising via App Store Search Ads",
+      "interpretation": "Privacy architecture is genuine at the product level; business model creates partial tension at the company level. Federighi focuses on the architectural commitment (what the device can reveal) not the business model tension."
+    },
+    {
+      "contradiction": "Anti-engagement Siri; Apple earns revenue from App Store apps that use engagement mechanics",
+      "evidence": "Siri is designed to help and get out; the App Store contains many apps built on engagement loops; Apple takes 30% of revenue from those apps",
+      "interpretation": "The anti-engagement principle applies to Apple's own products/AI; doesn't extend to what third-party developers can build on the platform"
+    },
+    {
+      "contradiction": "Advocates patient, quality-focused development; Apple Intelligence shipped with significant limitations in 2024-2025",
+      "evidence": "Apple Intelligence released 2024; multiple features significantly delayed; personalized Siri acknowledged as architecturally limited",
+      "interpretation": "Scale of the effort genuinely exceeded initial estimates; the delay-rather-than-ship principle was applied in public (features delayed, not shipped substandard)"
+    }
+  ],
+
+  "failure_modes": [
+    {
+      "mode": "Platform conservatism that becomes competitive inertia [L2]",
+      "description": "The 'don't build sporks' principle is correct when applied to different use contexts. But it can become a rationale for refusing to adapt to genuine convergence pressures. iPad vs. Mac remained distinct for years while users increasingly did laptop-like work on iPads — the 'spork' framing delayed features users genuinely wanted.",
+      "watch_for": "When 'platform identity' is used to justify not building something users demonstrably need"
+    },
+    {
+      "mode": "Quality bar as release delay rationalization [L2]",
+      "description": "The quality commitment ('we ship when it's right') is admirable, but can be used to avoid shipping anything that involves public embarrassment. The Siri quality gap vs. competitors persisted for years — raising the question of whether 'not ready' sometimes means 'we haven't solved the hard problem' rather than 'we're waiting for quality.'",
+      "watch_for": "When quality commitment results in no shipping rather than rigorous shipping"
+    },
+    {
+      "mode": "Privacy architecture as competitive moat disguised as principle [L2]",
+      "description": "The App Store security argument (sideloading = cybercriminal's best friend) is simultaneously a genuine security principle and a business protection for Apple's App Store revenue. The two are impossible to fully disentangle from the outside.",
+      "watch_for": "When privacy or security arguments conveniently align with business model protection — evaluate whether the security case holds on its own merits"
+    }
+  ],
+
+  "operating_style": {
+    "management_model": "Engineering SVP with broad platform ownership; known for technical depth — can go deep on implementation details, not just strategy",
+    "public_persona": "WWDC keynote performer (theatrical, self-deprecating, warm) vs. interview persona (precise, principled, careful). Both authentic, different registers.",
+    "intellectual_style": "Architectural thinker: always asking what foundation is being laid, what future decisions this forecloses, what the 10-year implications are",
+    "competitor_framing": "Rarely attacks competitors by name; frames Apple's position as principled rather than competitive ('we believe privacy is a fundamental right' rather than 'unlike our competitors')"
+  }
+}

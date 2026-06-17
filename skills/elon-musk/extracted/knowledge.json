@@ -1,0 +1,233 @@
+{
+  "pass": "A",
+  "subject": "Elon Musk",
+  "extraction_date": "2026-06-17",
+  "evidence_standard": "L1 = verbatim traceable, L2 = reported verifiable, L3 = inferred",
+
+  "biography": {
+    "born": "June 28, 1971, Pretoria, South Africa",
+    "citizenship": "South African (birth), Canadian (1989 emigration), American (2002)",
+    "education": [
+      "University of Pretoria (5 months, 1989)",
+      "Queen's University, Ontario (2 years, 1989-1992)",
+      "University of Pennsylvania — BA Physics, BS Economics (1992-1997)"
+    ],
+    "early_formation": {
+      "grandfather": "Joshua Haldeman — aviator, chiropractor, anti-government far-right activist, alleged Nazi sympathies; told Musk stories of 'adventure and exploration'",
+      "father": "Errol Musk — electromechanical engineer, pilot, entrepreneur; verbally harsh; Musk chose to live with him at age 9 for Encyclopedia Britannica and computer access; later regretted",
+      "bullying": "Hospitalized after being thrown down concrete steps at paramilitary wilderness school; father berated him upon discharge",
+      "self_taught_programmer": "Learned BASIC from VIC-20 manual at age 10; sold Blastar game at age 12 for ~$500",
+      "science_fiction": "Formative books: Lord of the Rings, Foundation series, Hitchhiker's Guide to the Galaxy",
+      "military_avoidance": "Emigrated to Canada in June 1989 specifically to avoid South African mandatory military service and apartheid participation"
+    }
+  },
+
+  "career_timeline": [
+    {
+      "period": "1995-1999",
+      "company": "Zip2",
+      "role": "Co-founder",
+      "key_facts": [
+        "Co-founded with brother Kimbal Musk and Greg Kouri",
+        "City guide / web software company; secured New York Times and Chicago Tribune as clients",
+        "Worked 'seven days a week, all the time' (L2: his own account)",
+        "Built plastic supercomputer facade to impress investors (L2: reported)",
+        "Exit: Compaq acquired for $307M in Feb 1999; Musk received $22M (7% stake)"
+      ]
+    },
+    {
+      "period": "1999-2002",
+      "company": "X.com / PayPal",
+      "role": "Co-founder, CEO (briefly)",
+      "key_facts": [
+        "Founded X.com 1999 as online financial services; attracted 200,000+ customers in first months",
+        "Board replaced him as CEO within months — deemed 'inexperienced'; replaced by Intuit CEO Bill Harris",
+        "X.com merged with Confinity (Thiel/Levchin) in 2000; Musk became CEO but preference for Microsoft over Unix caused Thiel resignation",
+        "Board removed Musk a second time, installed Thiel as CEO",
+        "Company renamed PayPal; eBay acquired for $1.5B in 2002; Musk received $175.8M (11.72% stake)",
+        "Pattern: Unable to control direction → removed; capital preserved despite ouster"
+      ]
+    },
+    {
+      "period": "2002-present",
+      "company": "SpaceX",
+      "role": "Founder, CEO, Chief Engineer",
+      "key_facts": [
+        "Founded May 2002 with $100M of personal fortune after two failed attempts to buy Russian ICBMs",
+        "First Falcon 1 launch: 2006 (failed); three consecutive failures nearly bankrupted company",
+        "Fourth Falcon 1 attempt: 2008 (reached orbit); secured $1.6B NASA contract same year",
+        "2012: Dragon vehicle docked with ISS — first commercial spacecraft to do so",
+        "2015: Successfully landed Falcon 9 first stage — reusable rocket milestone",
+        "2018: Launched Falcon Heavy; payload was Musk's personal Tesla Roadster",
+        "Starlink: 7,600+ operational satellites by May 2025 (65% of all operational Earth satellites)",
+        "2024: NASA awarded $843M ISS deorbiting contract",
+        "Vertical integration: Built engines, avionics, manufacturing in-house — unusual in aerospace"
+      ]
+    },
+    {
+      "period": "2004-present",
+      "company": "Tesla",
+      "role": "Majority investor (2004), CEO and Product Architect (2008-present)",
+      "key_facts": [
+        "Led Series A investment of $6.35M in Feb 2004; company founded by Eberhard and Tarpenning in 2003",
+        "Became CEO and Product Architect after Eberhard's ouster in 2008",
+        "2009: Designated 'co-founder' via lawsuit settlement despite joining post-founding",
+        "Vehicle ladder: Roadster (2008) → Model S (2012) → Model X (2015) → Model 3 (2017) → Model Y (2020) → Cybertruck (2023)",
+        "Production Hell (2017-2018): Model 3 ramp catastrophically missed timelines; Musk slept on factory floor",
+        "2020: Tesla became world's most valuable carmaker",
+        "October 2021: Market cap reached $1 trillion (sixth US company to achieve)",
+        "SEC lawsuit (2018): 'Funding secured' tweet for Tesla-private deal → $20M fine + board resignation + tweet restrictions",
+        "SolarCity acquisition (2016): $2B for cousins' company over shareholder opposition; 10%+ stock drop on announcement"
+      ]
+    },
+    {
+      "period": "2016-present",
+      "company": "Neuralink",
+      "role": "Co-founder",
+      "key_facts": [
+        "Brain-computer interface company; aims to integrate human brain with AI",
+        "2021: Macaque played Pong via neural implant",
+        "Federal welfare probe launched 2022: employees alleged pressure from Musk led to 'botched experiments and unnecessary animal deaths' (L2: reported)",
+        "FDA approved six-year human trials September 2023"
+      ]
+    },
+    {
+      "period": "2017-present",
+      "company": "The Boring Company",
+      "role": "Founder",
+      "key_facts": [
+        "Underground vehicle tunnel company",
+        "Built initial test tunnel on SpaceX property to avoid permits",
+        "LA tunnel demo 2018: 'rough ride at suboptimal speeds' (L2: reported)",
+        "Las Vegas Convention Center tunnel completed early 2021 — only completed urban tunnel",
+        "Chicago and West LA projects canceled — regulatory/permitting barriers more intractable than engineering"
+      ]
+    },
+    {
+      "period": "2022-present",
+      "company": "Twitter / X",
+      "role": "Owner, CEO (Oct 2022 - May 2023), Executive Chairman / CTO (May 2023-present)",
+      "key_facts": [
+        "Reached 9.2% stake early 2022; made $43B offer in April; completed $44B acquisition October 27, 2022",
+        "Immediately fired top executives (CEO Parag Agrawal, others)",
+        "Laid off ~50% of workforce within days",
+        "Reduced content moderation → documented increase in hate speech and misinformation (L2: reported)",
+        "Released 'Twitter Files' on Hunter Biden laptop moderation to delegitimize previous leadership",
+        "Rebranded to 'X' 2023",
+        "Banned ElonJet account; suspended journalist accounts covering the ban",
+        "May 2023: Stepped down as CEO (per poll he ran); became Executive Chairman/CTO — power without formal responsibility"
+      ]
+    },
+    {
+      "period": "2015-2018",
+      "company": "OpenAI",
+      "role": "Co-founder, board member",
+      "key_facts": [
+        "Co-founded 2015 as non-profit AI safety research organization; pledged $1B but donated only ~$50M",
+        "Left board 2018: discontent with direction; later claimed was squeezed out",
+        "Pattern: Unable to control direction → exited → built competing xAI in 2023"
+      ]
+    },
+    {
+      "period": "2023-present",
+      "company": "xAI",
+      "role": "Founder, CEO",
+      "key_facts": [
+        "Launched July 2023 as direct ChatGPT competitor",
+        "Hired engineers from Google and OpenAI",
+        "Became SpaceX subsidiary 2026 (consolidation play)",
+        "Grokipedia (October 2025): AI-generated encyclopedia; cited Infowars, Stormfront; content framed 'in line with Musk's own views'"
+      ]
+    },
+    {
+      "period": "2025",
+      "company": "DOGE / Trump Administration",
+      "role": "Senior Advisor / de facto DOGE leader",
+      "key_facts": [
+        "Appointed by Trump January 2025",
+        "White House director sworn statement: Musk had 'no actual or formal authority'; Trump contradicted this",
+        "Presided over federal mass layoffs 2025",
+        "Senate report: Musk could avoid $2B in legal liability from DOGE actions",
+        "Left administration May 28, 2025"
+      ]
+    }
+  ],
+
+  "key_decisions_and_what_they_reveal": [
+    {
+      "decision": "Founding SpaceX with $100M personal fortune after Moscow ICBM failures",
+      "reveals": "Willing to self-fund from first principles when institutional path closed; not deterred by 'experts say no'",
+      "evidence_grade": "L2"
+    },
+    {
+      "decision": "Pushing through three Falcon 1 failures in 2006-2008",
+      "reveals": "Iteration-as-strategy; accepts early failures as learning data points; doesn't treat failure as final",
+      "evidence_grade": "L2"
+    },
+    {
+      "decision": "Sleeping on Tesla factory floor during Model 3 'production hell' 2017-2018",
+      "reveals": "Personal presence as signal to team; willingness to share operational pain; manufacturing complexity genuinely surprised him",
+      "evidence_grade": "L2"
+    },
+    {
+      "decision": "Acquiring Twitter for $44B in 6 weeks from 9.2% stake",
+      "reveals": "Impulsive action at scale; narrative control more important to him than financial return; personal vision overrides board/shareholder logic",
+      "evidence_grade": "L2"
+    },
+    {
+      "decision": "SolarCity acquisition for $2B over shareholder opposition",
+      "reveals": "Vertical integration instinct; personal/family interests influence corporate decisions; believes his judgment > market judgment",
+      "evidence_grade": "L2"
+    },
+    {
+      "decision": "'Funding secured' tweet triggering SEC lawsuit",
+      "reveals": "Public statements used as power tool; consequences of regulatory friction underestimated; tweets are operational decisions",
+      "evidence_grade": "L1 (public record)"
+    },
+    {
+      "decision": "Exiting OpenAI board and founding xAI",
+      "reveals": "Consistent pattern: when unable to control direction of important technology, builds competing alternative",
+      "evidence_grade": "L2"
+    },
+    {
+      "decision": "Making Starlink a $10B commitment without guaranteed revenue model",
+      "reveals": "Capital commitment follows strategic vision, not proven demand; treats large bets as inevitable if physics allows",
+      "evidence_grade": "L2"
+    }
+  ],
+
+  "documented_failures_and_learnings": [
+    {
+      "failure": "X.com/PayPal CEO removals (2000)",
+      "specifics": "Board removed him twice — first for being 'inexperienced', second for technical preference (Microsoft vs Unix) overriding business logic",
+      "learning_demonstrated": "Technical genius ≠ organizational leadership; later compensated by taking CEO roles himself and building board deference"
+    },
+    {
+      "failure": "Falcon 1 failures 2006-2008 (3 consecutive launches)",
+      "specifics": "Three consecutive failures nearly bankrupted SpaceX and drained personal reserves; fourth succeeded",
+      "learning_demonstrated": "Aerospace iteration is slower and more expensive than software; rapid failure requires more capital buffer than anticipated"
+    },
+    {
+      "failure": "Tesla Model 3 production hell 2017-2018",
+      "specifics": "Manufacturing ramp catastrophically missed timelines; overreliance on automation caused problems; Musk moved to factory floor",
+      "learning_demonstrated": "Manufacturing complexity is fundamentally different from engineering complexity; 'the machine that makes the machine' is the hard problem"
+    },
+    {
+      "failure": "Twitter/X content moderation collapse",
+      "specifics": "Promised 'free speech' platform; result was documented spike in hate speech, antisemitism, and misinformation",
+      "learning_demonstrated": "Content moderation is not censorship — it's infrastructure; deletion without replacement creates externalities"
+    },
+    {
+      "failure": "Neuralink animal deaths from pressure-driven acceleration",
+      "specifics": "Federal welfare probe 2022; employees documented 'botched experiments and unnecessary animal deaths'",
+      "learning_demonstrated": "Speed-over-safety in biological systems produces irreversible damage unlike reversible engineering failures"
+    }
+  ],
+
+  "political_and_personal_context": {
+    "political_evolution": "Bipartisan donor (Obama 2008/2012, Clinton 2016, Biden 2020) → Republican post-2022 → explicit far-right support 2023-2025 → largest individual donor in 2024 US election ($50M+ to Citizens for Sanity PAC)",
+    "turning_point_documented": "Biden's 2021 EV executive order excluded Tesla; Musk not invited. GM CEO Mary Barra said in 2024 Musk 'never forgave' the snub (L2: reported). Kamala Harris later called the snub 'a big mistake'",
+    "international": "NBC News (Feb 2025): documented Musk boosting far-right movements in 18+ countries since 2023",
+    "note": "Political evolution documented for board dynamics context, not ideological endorsement"
+  }
+}

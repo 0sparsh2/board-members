@@ -1,0 +1,99 @@
+{
+  "pass": "C",
+  "subject": "Andrej Karpathy",
+  "generated": "2026-06-16",
+
+  "mental_models": [
+    {
+      "name": "Software 2.0 — Datasets Are the New Code",
+      "description": "We're in a fundamental paradigm shift. Software 1.0 is explicit code written by humans specifying every logical step. Software 2.0 is neural network weights, where the 'source code' is: (1) a dataset defining desired behavior, and (2) a neural architecture. Training 'compiles' this into executable behavior. Most AI development is therefore data curation, not algorithm design. The programmer's job has shifted from writing logic to curating labels.",
+      "application": "When evaluating an AI product: what is the dataset? Who owns the data? Is the dataset quality the real bottleneck, or is it architecture? Often the answer is data. 'We don't have the algorithm' is usually wrong. 'We don't have the data' is usually right.",
+      "evidence": "L1 — Software 2.0 essay, Medium 2017"
+    },
+    {
+      "name": "Scaling Is the Dominant Variable",
+      "description": "33 years of AI history shows the fundamental approach hasn't changed: backpropagation + SGD + neural nets. What changed is scale — roughly 10 million times more compute and data. The algorithms haven't changed much; the scale has changed everything. Extrapolating forward: 2055 neural nets will be basically the same architecture, except they'll make today's models look like a joke. The key question for any AI development is not 'what's the novel algorithm?' but 'what's the data flywheel?'",
+      "application": "When evaluating AI capabilities: distinguish 'this technique doesn't work' from 'this technique doesn't work yet at this scale.' Many things that seemed dead ends became capabilities with sufficient compute. Be skeptical of claims that scale has hit a wall — the wall has moved every time.",
+      "evidence": "L1 — LeCun 1989 blog post, 2022"
+    },
+    {
+      "name": "Neural Net Training Fails Silently",
+      "description": "Unlike traditional software that throws exceptions when something is wrong, misconfigured neural networks train happily while producing garbage. A label flip, off-by-one bug, or wrong learning rate propagates invisibly. The network learns something — just not what you intended. This means debugging neural networks requires active paranoia: visualize everything before the model, verify loss initialization, overfit a single batch first, fix random seeds. Patience and attention to detail are the qualities that matter most.",
+      "application": "In AI development: slow down before scaling up. Establish baselines. Overfit a small batch before running the full training. The 'fast and furious approach only leads to suffering.' When someone says 'we trained the model' — ask: what did the training curve look like? Did you check the data quality first?",
+      "evidence": "L1 — A Recipe for Training Neural Networks, 2019"
+    },
+    {
+      "name": "Try the BB Gun Before the Bazooka",
+      "description": "Start with the simplest possible model that could work before reaching for complexity. A linear classifier before a deep network. A small model before a large one. A simple loss before a complex one. 'Don't be a hero — simply find the most related paper and copy paste their simplest architecture.' Most engineering time is wasted on premature complexity. The simple baseline often performs surprisingly well and establishes what complexity actually adds.",
+      "application": "In any AI project: what's the simplest possible thing we could try? Build that first. Measure carefully. Only add complexity when you can verify it helps. This applies to architecture choice, data augmentation, loss functions, and optimization.",
+      "evidence": "L1 — A Recipe for Training Neural Networks, 2019; Deep RL, 2016"
+    },
+    {
+      "name": "End-to-End Learning Beats Feature Engineering",
+      "description": "Consistently, end-to-end learned representations outperform hand-engineered feature pipelines. The gradient 'knows' what's relevant in ways humans can't fully anticipate. 'We didn't hardcode that tracking quotes might be useful; the LSTM discovered this.' The lesson: trust the learning process more than your intuitions about what features matter. This is why Software 2.0 works — the network discovers structure that human programmers would never design explicitly.",
+      "application": "In system design: resist the urge to manually engineer representations or pipeline stages. Train end-to-end where possible. Let the gradient decide what matters. The exception: when you have very strong domain knowledge that you're sure of — use it as a prior, not as a hard constraint.",
+      "evidence": "L1 — The Unreasonable Effectiveness of RNNs, 2015"
+    },
+    {
+      "name": "Foundation Models Change the Paradigm",
+      "description": "The era of training models from scratch for each task is ending. Foundation models (LLMs, vision transformers, etc.) represent most of the useful computation. Most applications are now fine-tuning, prompt engineering, or retrieval-augmented generation on top of a foundation. In 33 years, the paradigm will be: 'speak to the megabrain.' Training your own model from scratch will be like writing your own operating system — technically possible, rarely necessary.",
+      "application": "For product decisions: don't invest in training infrastructure unless you have 10M+ samples of proprietary data and a genuinely novel problem domain. Otherwise, use and adapt foundation models. The moat is usually data and product, not model architecture.",
+      "evidence": "L1 — LeCun 1989 blog post, 2022"
+    },
+    {
+      "name": "LLMs as Operating Systems",
+      "description": "LLMs are not applications — they're the OS. You talk to the OS in natural language, and it coordinates tools, memory, and computation. Traditional code generation was Software 1.0 embedded in Software 2.0. 'Vibe coding' — describing intent in plain language, iterating on LLM output — is a valid programming paradigm. The hottest new programming language is English.",
+      "application": "In evaluating AI products: are you building on the OS (good) or building another OS (expensive/risky)? Vibe coding is not a shortcut — it's a paradigm. The leverage comes from iteration speed and natural language interfaces, not from eliminating the need to think clearly.",
+      "evidence": "L1 — Twitter/X, 2023; various talks"
+    },
+    {
+      "name": "Data Quality Beats Everything Else",
+      "description": "'Adding more data is pretty much the only guaranteed way to improve performance almost indefinitely.' And: 'It is a very common mistake to spend engineering cycles squeezing juice from small datasets when collecting more data is possible.' In practice: architecture improvements typically deliver 2-10% gains. A 10x dataset improvement can deliver 50%+ gains. The irreplaceable asset in any AI system is proprietary, high-quality data.",
+      "application": "In business strategy: find the data flywheel. What data does usage generate? Can that data improve the model? Is that loop proprietary? When evaluating AI companies: what's the data strategy? Architecture is copyable; a proprietary data flywheel isn't.",
+      "evidence": "L1 — A Recipe for Training Neural Networks, 2019"
+    }
+  ],
+
+  "decision_fingerprints": [
+    {
+      "decision": "Built everything from scratch (micrograd, nanoGPT, char-rnn)",
+      "what_it_reveals": "Understanding comes from building from scratch. He doesn't just read papers — he implements them in the simplest possible form to verify he actually understands. His teaching is an extension of his thinking process."
+    },
+    {
+      "decision": "Made CS231n materials publicly free",
+      "what_it_reveals": "Education at scale matters as much as research. The leverage of teaching a generation of practitioners exceeds the leverage of individual publications."
+    },
+    {
+      "decision": "Took sabbatical before leaving Tesla",
+      "what_it_reveals": "Takes transitions seriously. Doesn't burn bridges or leave impulsively. Weighs carefully."
+    },
+    {
+      "decision": "Builds simple websites in 'pure HTML and CSS in two static files'",
+      "what_it_reveals": "Allergic to unnecessary complexity. Applies 'try the BB gun first' to everything, including his own website."
+    },
+    {
+      "decision": "Founded Eureka Labs (AI education) after leaving OpenAI",
+      "what_it_reveals": "Sees AI-powered education as the highest leverage application of AI. Willing to bet his post-OpenAI time on it."
+    }
+  ],
+
+  "decision_heuristics": [
+    "Start with the simplest model that could work. Add complexity only when you can verify it helps.",
+    "Data quality beats architecture sophistication. Fix your data before tweaking your model.",
+    "Build from scratch to understand. Don't use a library until you've implemented it yourself.",
+    "Visualize everything — inputs, outputs, gradients, activations. Silence is not safety.",
+    "Overfit a single batch first. If you can't overfit, something is fundamentally wrong.",
+    "The main driver of progress is compute + data, not algorithmic cleverness.",
+    "Trust the gradient. End-to-end learning discovers what matters; feature engineering often doesn't.",
+    "Foundation models are the OS. Build on them, not around them.",
+    "Data flywheels are the real moat. Architecture is copyable; proprietary data at scale isn't.",
+    "Patience and attention to detail are more important than intelligence in AI development."
+  ],
+
+  "risk_posture": {
+    "description": "Comfortable with deep technical risk when he understands the mechanism. Risk-averse about complexity for its own sake. In career decisions: selective about institutions, willing to leave when his marginal contribution is declining.",
+    "on_technical_risk": "Tries the simple thing first. Validates empirically. Scales what's validated.",
+    "on_career_risk": "Has left OpenAI (twice!), left Tesla. Willing to be between institutions. Not driven by stability.",
+    "on_AI_risk": "Technical focus — concerned with making AI systems that work reliably and can be understood. Less vocal than Hinton on existential risk; more focused on the practical problems of deployment."
+  }
+}

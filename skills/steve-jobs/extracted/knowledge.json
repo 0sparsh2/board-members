@@ -1,0 +1,113 @@
+{
+  "pass": "A — Knowledge Layer",
+  "subject": "Steve Jobs",
+  "generated": "2026-06-16",
+  "sources": ["Wikipedia", "Isaacson biography", "Becoming Steve Jobs (Schlender/Tetzeli)", "Smithsonian 1995", "Multiple interviews"],
+
+  "timeline": [
+    {"year": 1955, "event": "Born February 24, San Francisco. Adopted at birth by Paul and Clara Jobs (mechanic and bookkeeper). Biological father: Abdulfattah Jandali (Syrian Muslim academic). Biological mother: Joanne Schieble. He considered his adoptive parents his real parents '1000%'.", "evidence": "L1-Isaacson"},
+    {"year": 1972, "event": "Enrolled at Reed College, Portland. Dropped out after first semester but stayed 18 months auditing classes — calligraphy, Shakespeare, modern dance. The calligraphy class later became Mac's proportional fonts and multiple typefaces.", "evidence": "L1-Stanford2005"},
+    {"year": 1974, "event": "Traveled to India seeking Neem Karoli Baba (who had died in 1973). Returned with shaved head, Indian clothing, and deepened Zen practice. Called LSD 'one of two or three most important things I've done in my life'.", "evidence": "L2-Isaacson"},
+    {"year": 1976, "event": "Co-founded Apple Computer with Wozniak and Wayne on April 1. Jobs handled business and marketing; Wozniak designed the hardware. Jobs: 'There wouldn't have been an Apple without Woz.'", "evidence": "L2-Isaacson"},
+    {"year": 1977, "event": "Apple II launched April 1977. First highly successful mass-produced microcomputer. Established Apple's market position. By age 23, Jobs' net worth exceeded $1M.", "evidence": "L2-Wikipedia"},
+    {"year": 1983, "event": "Apple Lisa launched — first commercial GUI computer. Failed commercially due to $9,995 price. Jobs then took over Macintosh project from Jef Raskin, pushing for lower price and better design. Also gave the Aspen Design Conference speech predicting iPad, App Store, and wireless computing 24 years early.", "evidence": "L1-Aspen1983"},
+    {"year": 1984, "event": "Macintosh 128K launched January 24 with the famous '1984' Super Bowl ad. Jobs: 'We're gambling on our vision.' Initial strong sales but rapid decline in second half of 1984 due to low performance and limited software.", "evidence": "L2-Wikipedia"},
+    {"year": 1985, "event": "Power struggle with CEO John Sculley (whom Jobs had recruited with 'sugared water' line). Lost reorganization vote. Resigned September 17, 1985. Most traumatic event of his professional life. 'I was 30. And then I got fired. How can you get fired from a company you started?'", "evidence": "L1-Stanford2005"},
+    {"year": "1985-1987", "event": "Founded NeXT Inc. with $7M of his own money. Took 5 of Apple's best engineers. Apple sued, then settled. NeXT became an obsessive perfectionism exercise — $10K workstations, magnesium cases, and a software platform that was decades ahead.", "evidence": "L2-Isaacson"},
+    {"year": 1986, "event": "Purchased Pixar from Lucasfilm for $10M. Did not initially understand it was an animation company — thought it was a hardware company. Lost $50M over the next decade keeping it alive.", "evidence": "L2-BecomingSJ"},
+    {"year": 1995, "event": "Pixar's Toy Story released November 22. First feature-length CGI film. Jobs took Pixar public 3 days after release; his stake was worth ~$1.2B overnight. This experience — watching creative people he trusted make something extraordinary — changed how he thought about collaboration.", "evidence": "L2-BecomingSJ"},
+    {"year": 1996, "event": "Apple acquired NeXT for $400M cash + $37M in Apple stock. Jobs returned to Apple as informal advisor, then interim CEO (iCEO) in September 1997.", "evidence": "L2-Wikipedia"},
+    {"year": 1997, "event": "Returned as iCEO. Immediately killed 70% of Apple's product line. 'What are the 10 products you want me to focus on? Kill the rest.' Relaunched the 'Think Different' campaign. Settled Microsoft lawsuit for $150M. Signed 5-year Microsoft Office commitment.", "evidence": "L2-Isaacson"},
+    {"year": 1998, "event": "iMac launched. Distinctive translucent candy-colored design. 'It looks like it's from another planet. A good planet.' Restored Apple to profitability.", "evidence": "L1-iMacKeynote"},
+    {"year": 2001, "event": "iPod launched October 23: '1,000 songs in your pocket.' iTunes Store launched 2003: 99 cents per song. Turned Apple into a consumer electronics company. The 'digital hub' strategy.", "evidence": "L2-Wikipedia"},
+    {"year": 2003, "event": "Diagnosed with pancreatic cancer in October. Waited 9 months before surgery, pursuing alternative medicine (vegan diets, acupuncture, psychics). Later deeply regretted this delay — medical experts say it cost him years.", "evidence": "L2-Isaacson"},
+    {"year": 2007, "event": "iPhone launched January 9: 'An iPod, a phone, and an internet communicator.' The most revolutionary consumer product since the Macintosh. Jobs: 'Every once in a while a revolutionary product comes along that changes everything.'", "evidence": "L1-iPhoneKeynote"},
+    {"year": 2010, "event": "iPad launched. Published 'Thoughts on Flash' open letter — 1,500 words explaining why Flash was dying. Most developed piece of public argumentation he ever wrote.", "evidence": "L1-ThoughtsOnFlash"},
+    {"year": 2011, "event": "Resigned as CEO August 24 due to health. Tim Cook succeeded. Jobs died October 5, 2011. Reported last words: 'Oh wow. Oh wow. Oh wow.'", "evidence": "L2-Isaacson"}
+  ],
+
+  "key_decisions": [
+    {
+      "decision": "Dropped out of Reed College (1972)",
+      "reasoning": "Felt guilty about his parents spending their savings on education he wasn't sure about. Stayed 18 months auditing classes that interested him — calligraphy changed everything.",
+      "outcome": "The calligraphy class gave Mac its typography. Freed him from structured curriculum. 'You can't connect the dots looking forward; you can only connect them looking backwards.'",
+      "evidence": "L1-Stanford2005"
+    },
+    {
+      "decision": "Refused to license Mac OS to clone makers (1985)",
+      "reasoning": "Wanted control of the full user experience. Believed open systems produced mediocrity.",
+      "outcome": "IBM and clone makers dominated the market through the late 1980s/1990s. Jobs later called this Apple's biggest strategic mistake — though he repeated it with iPhone.",
+      "evidence": "L2-Isaacson"
+    },
+    {
+      "decision": "Delayed cancer surgery 9 months for alternative medicine (2003-2004)",
+      "reasoning": "Did not want his body 'opened' and 'violated.' Trusted intuition over medical expertise — the same instinct that drove product decisions.",
+      "outcome": "Medical experts say it likely cost him years. He later deeply regretted this. 'I didn't want to be opened up.'",
+      "evidence": "L2-Isaacson"
+    },
+    {
+      "decision": "Killed 70% of Apple's product line on return (1997)",
+      "reasoning": "Apple had 40+ products. Jobs drew a 2x2 grid: Consumer/Pro on one axis, Desktop/Portable on other. Only 4 products. Everything else eliminated.",
+      "outcome": "Restored focus and profitability. Apple was 90 days from bankruptcy before this.",
+      "evidence": "L2-Isaacson"
+    },
+    {
+      "decision": "Kept App Store closed/curated (2007-2011)",
+      "reasoning": "Quality control and user experience. 'I don't want third-party apps on my phone.' Initially opposed any App Store. Reversed after engineer Phil Schiller argued for it.",
+      "outcome": "Created the most profitable platform in history. Also created the 30% cut that led to Epic lawsuit.",
+      "evidence": "L2-Isaacson"
+    },
+    {
+      "decision": "Bought Pixar and kept it alive for 10 years while losing $50M (1986-1995)",
+      "reasoning": "Believed in the technology and the people. Also believed high-end computer graphics would be transformative. Ran out of revenue options and transitioned to animation.",
+      "outcome": "Toy Story, 7 Academy Awards, Disney acquisition for $7.4B, Jobs became largest Disney shareholder.",
+      "evidence": "L2-BecomingSJ"
+    },
+    {
+      "decision": "Chose magnesium case for NeXT computer requiring $1M custom die (1988)",
+      "reasoning": "Obsession with precision manufacturing and perfect cube form. Edwin Land (Polaroid) had shown that insisting on precision manufacturing was morally correct.",
+      "outcome": "NeXT hardware was never commercially successful. Aesthetic perfectionism over commercial pragmatism was a recurring pattern.",
+      "evidence": "L2-Isaacson"
+    }
+  ],
+
+  "documented_failures": [
+    {
+      "failure": "Apple Lisa (1983)",
+      "cause": "Technologically revolutionary but priced at $9,995. Wrong market timing.",
+      "lesson": "Technology without affordability doesn't reach people. He learned to balance innovation with accessibility."
+    },
+    {
+      "failure": "Getting fired from Apple (1985)",
+      "cause": "Overly confrontational management style, power struggle with Sculley he created by recruiting him.",
+      "lesson": "Jobs later admitted the firing was 'the best thing that could have ever happened to me.' Freed him to start NeXT and buy Pixar.",
+      "quote": "L1-Stanford2005: 'I didn't see it then, but it turned out that getting fired from Apple was the best thing that could have ever happened to me. The heaviness of being successful was replaced by the lightness of being a beginner again.'"
+    },
+    {
+      "failure": "NeXT hardware (1985-1993)",
+      "cause": "Priced too high ($9,999), limited software, too focused on perfection over pragmatism.",
+      "lesson": "The software (NeXTSTEP) was what mattered. Apple bought NeXT for its OS, not the hardware. He learned to separate the vessel from the content."
+    },
+    {
+      "failure": "Paternity denial of Lisa Brennan (1978)",
+      "cause": "Personal — refused to acknowledge daughter despite 94.1% DNA test. Paid $385/month in welfare.",
+      "lesson": "Never publicly reconciled this. A documented failure of character he did not resolve well.",
+      "note": "Relevant for Failure Mode section — his worst personal decision; shows compartmentalization of ethics."
+    },
+    {
+      "failure": "Cancer surgery delay (2003-2004)",
+      "cause": "Applied his standard operating principle (trust your gut, ignore conventional wisdom) to a medical situation where it was catastrophically wrong.",
+      "lesson": "The one domain where his fundamental operating philosophy was wrong. He admitted it.",
+      "quote": "L2-Isaacson: 'I should have gotten the surgery right away.'"
+    }
+  ],
+
+  "relationships_that_shaped_him": [
+    {"person": "Paul Jobs (adoptive father)", "influence": "Taught craftsmanship — 'the back of the fence matters even if nobody sees it.' The carpenter metaphor Jobs used throughout his life came from watching his father work."},
+    {"person": "Steve Wozniak", "influence": "Showed Jobs what genuine technical genius looks like. Jobs's role was always translation and distribution — he made Woz's genius accessible. 'There wouldn't have been Apple without Woz.'"},
+    {"person": "Edwin Land (Polaroid)", "influence": "Intellectual hero. Showed Jobs that someone could stand at the intersection of the humanities and sciences. Land's firing from Polaroid paralleled Jobs's from Apple."},
+    {"person": "Pixar team (Lasseter, Catmull, Bird)", "influence": "The NeXT/Pixar decade taught him to trust creative people and not micromanage content. Catmull: Jobs 'let the Pixar creatives do their thing.' This was new for him."},
+    {"person": "Kobun Chino Otogawa (Zen master)", "influence": "Lifelong Zen practice shaped his aesthetic minimalism, comfort with emptiness, and acceptance of death. 'Zen has been a great influence in everything I've done.'"},
+    {"person": "Bob Dylan", "influence": "Jobs revered Dylan for never standing still — always willing to alienate fans by changing. 'I've always thought of myself as a humanities person... but I like electronics.'"}
+  ]
+}

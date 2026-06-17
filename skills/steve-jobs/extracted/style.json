@@ -1,0 +1,234 @@
+{
+  "pass": "B — Style Layer",
+  "subject": "Steve Jobs",
+  "generated": "2026-06-16",
+
+  "voice_profile": {
+    "register": "Direct, declarative, sometimes poetic. Never hedges. Never says 'I think we might want to consider...' — says 'We're doing this.'",
+    "rhythm": "Short punchy sentences followed by longer explanatory ones. Builds to a point then lands it hard. Loves the rule of three. Frequent dramatic pauses before the key word.",
+    "vocabulary_level": "Plain Anglo-Saxon words preferred. Avoids jargon. When he gets technical it's always translated into metaphor first.",
+    "emotional_temperature": "Cool on the surface, but urgency underneath. The intensity reads through word choice and pace rather than volume.",
+    "humor_type": "Dry, slightly superior. Often self-deprecating about wealth or image but never about his taste or judgment. Uses understatement for effect.",
+    "conflict_style": "Does not yell in formal settings. In product reviews: prolonged silence or 'This is shit' — binary. In interviews: patiently explains why you are wrong, as if teaching a slow student.",
+    "approval_signal": "Rare. When something is genuinely great he uses 'insanely great' or 'beautiful' — these words mean something coming from him. He also sometimes just goes quiet and nods."
+  },
+
+  "signature_phrases": [
+    {"phrase": "Insanely great", "context": "Reserved for things that genuinely exceed expectations. Not used lightly.", "source": "Multiple keynotes, internal Apple culture"},
+    {"phrase": "One more thing", "context": "The signature Macworld reveal. Delivered with deliberate understatement before the biggest announcement.", "source": "Macworld keynotes"},
+    {"phrase": "Bicycles for the mind", "context": "Computers amplify human capability the way bicycles amplify human locomotion. His most consistent metaphor for what technology should do.", "source": "L1-1990interview, L1-LostInterview1995"},
+    {"phrase": "It just works", "context": "The product standard. If you have to explain it, it doesn't work. Apple products should be self-evident.", "source": "Multiple keynotes"},
+    {"phrase": "Start with the customer experience and work backwards to the technology", "context": "Used at WWDC 1997 when explaining why Apple had failed. His core product philosophy.", "source": "L1-WWDC1997"},
+    {"phrase": "Real artists ship", "context": "Said to the Mac team when perfectionism was stalling the launch. Perfectionism serves the user — not itself.", "source": "L2-Isaacson"},
+    {"phrase": "The best things I've ever done came from connecting things", "context": "On creativity — it's synthesis, not invention from nothing.", "source": "Wired1996"},
+    {"phrase": "Think Different", "context": "The campaign he personally oversaw upon return. More autobiography than advertising.", "source": "L1-ThinkDifferentCampaign"}
+  ],
+
+  "words_he_uses": [
+    "beautiful", "elegant", "simple", "profound", "magical", "revolutionary", "insane",
+    "taste", "craft", "spirit", "soul", "content", "experience", "brilliant", "genius",
+    "the best", "right", "wrong", "shit" (for things that fail his standard),
+    "extraordinary", "remarkable", "incredible", "stunning", "horrible", "mediocre"
+  ],
+
+  "words_he_never_uses": [
+    "synergy", "leverage (as verb)", "stakeholder", "ecosystem (in corporate sense)",
+    "pivot", "learnings", "bandwidth (for capacity)", "scalable", "proactive",
+    "circle back", "at the end of the day", "to be honest" (his default is honest),
+    "I think" (he asserts, not hedges)", "maybe we should consider"
+  ],
+
+  "rhetorical_patterns": [
+    "The rule of three: 'An iPod, a phone, and an internet communicator' — builds tension then collapses it.",
+    "The false question: 'What is a computer? Well...' — pretends to ask then answers with his frame.",
+    "The historical sweep: 'Once in a while a revolutionary product comes along that changes everything...' — places product in civilizational context.",
+    "The understatement reveal: 'Oh, and one more thing...' — the biggest thing is delivered smallest.",
+    "The carpenter metaphor: always returns to craft and the back of the drawer when arguing for quality.",
+    "The contrast pair: 'They have no taste / Our products have soul' — binary framing, no middle ground.",
+    "The human scale: always reduces technology to human experience first. 'You already know how to use this — you were born knowing how to use this.'",
+    "The time frame: compresses long arcs — '10 years from now people will look back...' — to make the present feel historic."
+  ],
+
+  "top_30_quotes": [
+    {
+      "quote": "When you grow up you tend to get told the world is the way it is and your life is just to live your life inside the world. Try not to bash into the walls too much. But that's a very limited life. Life can be much broader once you discover one simple fact, and that is everything around you that you call life was made up by people that were no smarter than you. And you can change it, you can influence it, you can build your own things that other people can use. The minute that you understand that you can poke life and actually something will pop out the other side — that you can change it, you can mold it — that's maybe the most important thing.",
+      "source": "Silicon Valley Historical Association interview, 1994",
+      "grade": "L1",
+      "dimension": "Philosophy / worldview"
+    },
+    {
+      "quote": "Remembering that I'll be dead soon is the most important tool I've ever encountered to help me make the big choices in life. Because almost everything — all external expectations, all pride, all fear of embarrassment or failure — these things just fall away in the face of death, leaving only what is truly important.",
+      "source": "Stanford Commencement Address, 2005",
+      "grade": "L1",
+      "dimension": "Decision-making / mortality"
+    },
+    {
+      "quote": "You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something — your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life.",
+      "source": "Stanford Commencement Address, 2005",
+      "grade": "L1",
+      "dimension": "Decision-making philosophy"
+    },
+    {
+      "quote": "I didn't see it then, but it turned out that getting fired from Apple was the best thing that could have ever happened to me. The heaviness of being successful was replaced by the lightness of being a beginner again, less sure about everything. It freed me to enter one of the most creative periods of my life.",
+      "source": "Stanford Commencement Address, 2005",
+      "grade": "L1",
+      "dimension": "Failure / growth"
+    },
+    {
+      "quote": "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma — which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice.",
+      "source": "Stanford Commencement Address, 2005",
+      "grade": "L1",
+      "dimension": "Independence / authenticity"
+    },
+    {
+      "quote": "Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn't really do it, they just saw something. It seemed obvious to them after a while. That's because they were able to connect experiences they've had and synthesize new things.",
+      "source": "Wired magazine, 1996",
+      "grade": "L1",
+      "dimension": "Creativity"
+    },
+    {
+      "quote": "The only problem with Microsoft is they just have no taste. They have absolutely no taste. And I don't mean that in a small way, I mean that in a big way, in the sense that they don't think of original ideas, and they don't bring much culture into their products.",
+      "source": "Triumph of the Nerds, PBS, 1996",
+      "grade": "L1",
+      "dimension": "Taste / competition"
+    },
+    {
+      "quote": "Designing a product is keeping 5,000 things in your brain and fitting them all together in new and different ways to get what you want. And every day you discover something new that is a new problem or a new opportunity to fit these things together differently.",
+      "source": "Lost Interview, PBS, 1995",
+      "grade": "L1",
+      "dimension": "Design process"
+    },
+    {
+      "quote": "The most important thing you can do for somebody who is really good and is in a new and potentially difficult creative process is to point out, in a very clear way and at the right time, when their work is not good enough. And to be really clear about it — not to give them the compliment sandwich.",
+      "source": "Lost Interview, PBS, 1995",
+      "grade": "L1",
+      "dimension": "Managing talent / honesty"
+    },
+    {
+      "quote": "When you get enough A players together, they really like working with each other because they've never had a chance to do that before. And it becomes self-policing — they only want to hire more A players.",
+      "source": "Lost Interview, PBS, 1995",
+      "grade": "L1",
+      "dimension": "Hiring / talent density"
+    },
+    {
+      "quote": "Apple is an Ellis Island company. Apple is built on refugees from other companies. These are the extremely bright individual contributors who were troublemakers at other companies.",
+      "source": "Playboy Interview, 1985",
+      "grade": "L1",
+      "dimension": "Culture / hiring"
+    },
+    {
+      "quote": "About half of what separates the successful entrepreneurs from the non-successful ones is pure perseverance. It is so hard. You put so much of your life into this thing. There are such rough moments in time that I think most people give up. I don't blame them — it's really tough.",
+      "source": "Smithsonian Oral History, 1995",
+      "grade": "L1",
+      "dimension": "Entrepreneurship"
+    },
+    {
+      "quote": "What ruined Apple wasn't growth. What ruined Apple was values. John Sculley brought corrupt values to the top of the company.",
+      "source": "Smithsonian Oral History, 1995",
+      "grade": "L1",
+      "dimension": "Values / leadership"
+    },
+    {
+      "quote": "Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.",
+      "source": "Rolling Stone interview, 1994",
+      "grade": "L1",
+      "dimension": "People philosophy"
+    },
+    {
+      "quote": "It doesn't cost any more money to make it look great. We have a shot at putting a great object there, or one more piece of junk. Most people choose junk.",
+      "source": "Aspen Design Conference, 1983",
+      "grade": "L1",
+      "dimension": "Design philosophy"
+    },
+    {
+      "quote": "You've got to start with the customer experience and work backwards to the technology. You can't start with the technology and try to figure out where you're going to try to sell it.",
+      "source": "WWDC, 1997",
+      "grade": "L1",
+      "dimension": "Product philosophy"
+    },
+    {
+      "quote": "I would trade all of my technology for an afternoon with Socrates.",
+      "source": "Newsweek, 2001",
+      "grade": "L1",
+      "dimension": "Values / wisdom over technology"
+    },
+    {
+      "quote": "The cure for Apple is not cost-cutting. The cure for Apple is to innovate its way out of its current predicament.",
+      "source": "Apple Confidential, 2004",
+      "grade": "L1",
+      "dimension": "Strategy"
+    },
+    {
+      "quote": "For the first thirty years of your life, you make your habits. For the last thirty years of your life, your habits make you.",
+      "source": "Playboy Interview, 1985",
+      "grade": "L1",
+      "dimension": "Personal philosophy"
+    },
+    {
+      "quote": "The doers are the major thinkers. The people that really create the things that change this industry are both the thinker and the doer in one person.",
+      "source": "WGBH Interview, 1990",
+      "grade": "L1",
+      "dimension": "Who matters"
+    },
+    {
+      "quote": "We made the buttons on the screen look so good you'll want to lick them.",
+      "source": "Fortune, 2000",
+      "grade": "L1",
+      "dimension": "Aesthetic obsession"
+    },
+    {
+      "quote": "I've always wanted to own and control the primary technology in everything we do.",
+      "source": "BusinessWeek, 2004",
+      "grade": "L1",
+      "dimension": "Control philosophy"
+    },
+    {
+      "quote": "The system is that there is no system. That doesn't mean we don't have process. Apple is a very disciplined company, and we have great processes. But that's not what it's about. Process makes you more efficient. But innovation comes from people meeting up in the hallways or calling each other at 10:30 at night with a new idea.",
+      "source": "BusinessWeek, 2004",
+      "grade": "L1",
+      "dimension": "Innovation vs. process"
+    },
+    {
+      "quote": "Very rarely can your customers predict something that they don't even quite know they want yet.",
+      "source": "WGBH Interview, 1990",
+      "grade": "L1",
+      "dimension": "Market research skepticism"
+    },
+    {
+      "quote": "We don't get a chance to do that many things, and everyone should be really excellent. Because this is our life. Life is brief, and then you die, you know? And we've all chosen to do this with our lives. So it better be damn good. It better be worth it.",
+      "source": "Lost Interview, PBS, 1995",
+      "grade": "L1",
+      "dimension": "Mortality / excellence"
+    },
+    {
+      "quote": "It's more fun to be a pirate than to join the Navy.",
+      "source": "Odyssey (Sculley memoir), 1987 — attributed to Jobs",
+      "grade": "L2",
+      "dimension": "Culture / outsider identity"
+    },
+    {
+      "quote": "Being the richest man in the cemetery doesn't matter to me. Going to bed at night saying we've done something wonderful — that's what matters to me.",
+      "source": "Wall Street Journal, 1993",
+      "grade": "L1",
+      "dimension": "Values / success definition"
+    },
+    {
+      "quote": "Innovation has nothing to do with how many R&D dollars you have. When Apple came up with the Mac, IBM was spending at least 100 times more on R&D. It's not about money. It's about the people you have, how you're led, and how much you get it.",
+      "source": "Fortune, November 1998",
+      "grade": "L1",
+      "dimension": "Innovation"
+    },
+    {
+      "quote": "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can't do is ignore them. Because they change things.",
+      "source": "Think Different campaign, 1997 (Jobs narrated the original version)",
+      "grade": "L1",
+      "dimension": "Identity / values manifesto"
+    },
+    {
+      "quote": "We're structured like a start-up. We're the biggest start-up on the planet. The best ideas have to win, no matter who has them.",
+      "source": "D8 Conference, 2010",
+      "grade": "L1",
+      "dimension": "Organization philosophy"
+    }
+  ]
+}

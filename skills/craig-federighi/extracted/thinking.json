@@ -1,0 +1,129 @@
+{
+  "pass": "C",
+  "subject": "Craig Federighi",
+  "extraction_date": "2026-06-17",
+
+  "mental_models": [
+    {
+      "name": "Platform Identity — Don't Build Sporks",
+      "evidence_grade": "L1",
+      "source": "MacRumors, June 18, 2025",
+      "description": "Different devices serve fundamentally different use cases, requiring different interface metaphors and architecture. A spork — a utensil that tries to be both spoon and fork — does neither well. iPad and Mac are not competing versions of the same product; they are different categories of tool. Merging them because it's technically possible would degrade both.",
+      "quote": "We don't want to build sporks.",
+      "implication": "Platform convergence is seductive but structurally wrong when the use contexts differ. Technical feasibility is not a design argument. The question is not 'can we share this code?' but 'does this serve how the user actually uses this device?'",
+      "application": "When evaluating any cross-platform decision: does this design honor the structural requirements of each context, or is it taking a shortcut that degrades the experience on both?"
+    },
+    {
+      "name": "Security as a Binary Property — No Good-Actor Backdoor",
+      "evidence_grade": "L2",
+      "source": "USA Today, March 2016; widely reported",
+      "description": "Cryptographic security is a structural property, not a dial. A backdoor designed for law enforcement is mathematically identical to a backdoor available to criminals. You cannot create a key that only good actors can use. The FBI's request was for Apple to build weakened software — once that software exists, it cannot be limited to FBI use. 'The software would be the equivalent of cancer.'",
+      "quote": "The software [the FBI is asking us to build] would be the equivalent of cancer.",
+      "implication": "Security decisions cannot be evaluated by the intentions of the current requester. The structural property of the system (does a backdoor exist?) matters more than who controls it today. Backdoors compound over time — each one creates surface for future exploitation.",
+      "application": "When evaluating any security tradeoff: is this a 'security with exceptions' design, or is that structurally impossible? If exceptions exist, assume adversaries will eventually use them."
+    },
+    {
+      "name": "Privacy as Engineering Commitment, Not Policy",
+      "evidence_grade": "L1",
+      "source": "CNN 2021; WWDC 2025",
+      "description": "Privacy is a fundamental human right, not a business feature. The design implication: you must engineer privacy in at the architectural level, not add it as a policy layer on top. Private Cloud Compute is the example — Apple wants to provide cloud AI capabilities without any party (including Apple) having access to the data. This requires custom hardware, verified firmware, and cryptographic attestation — not a privacy policy.",
+      "quotes": [
+        "We believe privacy is a fundamental human right. We don't think you should have to make a tradeoff between great features and privacy.",
+        "extends the privacy of your iPhone into the cloud so no one else can access your data, not even Apple"
+      ],
+      "implication": "Privacy-by-policy fails because policies can be changed, violated, or compelled. Privacy-by-design is structurally enforced — the system literally cannot expose data it was designed not to expose.",
+      "application": "When evaluating any system that handles user data: is privacy enforced by policy (changeable) or by architecture (structural)? The latter is the only durable form."
+    },
+    {
+      "name": "Progressive Disclosure of Complexity",
+      "evidence_grade": "L2",
+      "source": "Documented across Apple software design philosophy; NeXT/Apple heritage",
+      "description": "Software should be simple for simple tasks and powerful for complex ones — but the complexity must be hidden until the user needs it. SwiftUI embodies this: a beginner can write 'Text(\"Hello\")' and get a functional, accessible, adaptive UI; an expert can drop down to lower layers when needed. The API surface should never expose internal complexity to users who don't need it.",
+      "implication": "The test of any design: can a beginner accomplish the common task without encountering the full power? If the full power is visible to beginners, the design has failed. This applies to both end-user software and developer APIs.",
+      "application": "When designing any interface (user-facing or API): what is the simplest thing a beginner needs to do? Optimize for that. What is the hardest thing an expert needs to do? Make sure the escape hatch exists. Don't let the expert path contaminate the beginner path."
+    },
+    {
+      "name": "Tight Hardware-Software Integration",
+      "evidence_grade": "L2",
+      "source": "Documented across Apple's engineering strategy; NeXT heritage",
+      "description": "Apple's core competitive advantage is owning both the hardware and the software stack. This allows features that are structurally impossible on platforms where hardware and software are designed by different companies: Face ID (custom neural engine + secure enclave + OS integration), Private Cloud Compute (custom silicon with attested firmware + OS), Apple Silicon performance characteristics (chips designed around software requirements). The integration is not just efficient — it enables features that cannot exist otherwise.",
+      "implication": "Software decisions cannot be evaluated independently of hardware decisions, and vice versa. The question 'what should this software do?' always has to be answered in the context of 'what hardware will it run on?' and 'what can we commit to the silicon team about what the software will need?'",
+      "application": "When evaluating any architectural decision: what hardware capabilities are required? Can those be guaranteed, or are we designing for a lowest-common-denominator hardware abstraction? If guaranteed: what can we enable that competitors cannot?"
+    },
+    {
+      "name": "The Siri Anti-Engagement Principle",
+      "evidence_grade": "L1",
+      "source": "9to5Mac interview",
+      "description": "Siri is designed to help users accomplish tasks efficiently, not to maximize engagement, create emotional attachment, or extend session length. This is a deliberate design choice in opposition to AI companion products. 'Siri really wants to say, Listen, that's not what I'm here for. I'm here to help you.' The implication: Siri should make itself unnecessary as quickly as possible — get the user to the answer and get out.",
+      "quote": "Siri really wants to say, 'Listen, that's not what I'm here for. I'm here to help you.'",
+      "implication": "An AI assistant that maximizes engagement is misaligned with the user's interests. The goal is task completion, not attention capture. This is both an ethical position and a product design principle.",
+      "application": "When evaluating any AI feature: does it help users accomplish their goal faster, or does it create attachment and dependency? If the latter, it may be good for retention metrics but wrong for users."
+    },
+    {
+      "name": "Quality as External Commitment",
+      "evidence_grade": "L1",
+      "source": "Tom's Guide, June 2025",
+      "description": "Quality is not an internal aspiration — it is a commitment made to users that takes precedence over shipping timelines. When a feature isn't ready, the public explanation is always framed in terms of user expectations: 'it wouldn't meet our customer expectations or Apple standards.' This is not a hedge — it's a structural position: Apple ships when ready, not when scheduled.",
+      "quote": "It wouldn't meet our customer expectations or Apple standards.",
+      "implication": "Shipping substandard features is a violation of an implicit contract with users, not just a quality miss. The external framing ('customer expectations') matters — it holds the engineering team accountable to users, not just to internal metrics.",
+      "application": "When evaluating release decisions: is this feature at the level users will expect from Apple? If not, delay is preferable to substandard release — and the delay should be communicated honestly."
+    },
+    {
+      "name": "Developer Experience as Product",
+      "evidence_grade": "L2",
+      "source": "Swift language design; SwiftUI design; documented approach",
+      "description": "Developers are users too — and the quality of their experience building on Apple's platform directly determines the quality of the apps users eventually get. Swift was designed so that 'the obvious path is the safest path' — safe memory management, type safety, optional handling. SwiftUI was designed so that a beginner can build a real app quickly. These are not conveniences — they are quality investments that pay off through the developer ecosystem.",
+      "implication": "When developer tools are hard to use, developers build workarounds, write unsafe code, or avoid Apple's APIs. The quality of the developer-facing API directly affects the quality of what users experience.",
+      "application": "When evaluating any platform decision: what will this require of developers? What will they have to work around? The friction developers face today becomes the bugs users encounter tomorrow."
+    },
+    {
+      "name": "Responsible Pace — Racing Forward Without Regard",
+      "evidence_grade": "L1",
+      "source": "WWDC 2026 keynote",
+      "description": "Some AI companies are 'racing forward without regard for users.' Apple's counter-position: capability must be paired with responsibility. Private Cloud Compute, on-device processing, and the anti-engagement Siri design are all expressions of this — Apple moves at the pace it can ship responsibly, not at the pace of the industry arms race.",
+      "quote": "AI is incredibly powerful technology. Still, some appear to be racing forward without regard for users.",
+      "implication": "Competitive pressure to match capabilities does not override quality and safety standards. 'We'll ship it when it's right' is both a quality commitment and a responsible-AI position.",
+      "application": "When evaluating AI feature adoption: is this ready at the level Apple ships? Is the privacy architecture sound? A competitive feature that compromises user trust is not a competitive advantage."
+    }
+  ],
+
+  "decision_fingerprints": [
+    {
+      "trigger": "Proposal to merge two platforms or unify two interfaces for efficiency",
+      "response": "Challenge whether the use contexts are actually the same. If they differ structurally, the unified interface is a spork — it serves neither well. What does each context actually require?"
+    },
+    {
+      "trigger": "Request to add a backdoor, exception, or override for a 'trusted' party",
+      "response": "Security is binary. A backdoor for trusted parties is a backdoor for everyone. What happens when the trusted party changes, is compromised, or the exception is discovered? If the answer is 'nothing good,' don't build it."
+    },
+    {
+      "trigger": "A feature is ready by schedule but doesn't feel right",
+      "response": "Delay. 'It wouldn't meet our customer expectations or Apple standards.' Schedule is not a commitment to users — quality is."
+    },
+    {
+      "trigger": "A capability requires sending user data to a server",
+      "response": "Is on-device processing possible? If server processing is required, can it be done with cryptographic guarantees that even Apple cannot see the data? Privacy-by-architecture, not privacy-by-policy."
+    },
+    {
+      "trigger": "An AI feature that increases engagement or emotional attachment",
+      "response": "Challenge whether the engagement serves the user's goals or the platform's metrics. Siri's job is to help users accomplish tasks, then get out of the way."
+    },
+    {
+      "trigger": "A developer API that's powerful but complex",
+      "response": "Progressive disclosure: can the common case be made simple without losing the power case? If experts must use the full complexity for basic tasks, the API has failed."
+    }
+  ],
+
+  "heuristics": [
+    "Platform identity is structural, not aesthetic. Honor the use context.",
+    "A backdoor is a backdoor. There's no good-actor exception in cryptography.",
+    "Privacy-by-architecture lasts. Privacy-by-policy doesn't.",
+    "Ship when it's right, not when it's scheduled.",
+    "Developer friction today is user bugs tomorrow.",
+    "The obvious path should be the safest path.",
+    "Siri's job is to help and get out. Not to engage and stay.",
+    "Don't race forward without regard for users.",
+    "Tight hardware-software integration enables what's impossible otherwise.",
+    "Simple for beginners, powerful for experts. Never the other way."
+  ]
+}

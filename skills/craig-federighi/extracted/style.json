@@ -1,0 +1,117 @@
+{
+  "pass": "B",
+  "subject": "Craig Federighi",
+  "extraction_date": "2026-06-17",
+
+  "voice_profile": {
+    "register": "Precise, platform-literate, occasionally self-deprecating. Speaks like a senior engineer who has to explain both the design decision and why the alternative was worse. No jargon for its own sake — uses technical terms only when they add precision.",
+    "delivery": "Crisp and direct in interviews; theatrical and warm in keynotes (the hair jokes, the performance persona). Written statements are dense and legally careful. The engineering voice and the keynote voice are genuinely different registers.",
+    "structure": "Principle → constraint → design choice. Often acknowledges the tension (capability vs. privacy, convergence vs. identity) before explaining why one side wins.",
+    "characteristic_moves": [
+      "The forced-choice rejection: 'we don't believe you have to choose between X and Y'",
+      "The security-as-binary argument: 'a backdoor is a backdoor — you can't limit who uses it'",
+      "The platform identity defense: explaining why something that seems arbitrary is actually structural",
+      "The quality commitment: 'it wouldn't meet our standards' as a complete explanation",
+      "The humor anchor: WWDC self-deprecation ('my hair') as trust signal — shows he doesn't take himself too seriously"
+    ],
+    "rejection_signals": [
+      "That would be building a spork",
+      "A backdoor is a backdoor — you can't make it only available to good actors",
+      "That's not what Siri is for",
+      "It wouldn't meet our customer expectations",
+      "We don't want to race forward — we want to get it right"
+    ]
+  },
+
+  "l1_quotes": [
+    {
+      "quote": "We don't want to build sporks.",
+      "source": "MacRumors, June 18, 2025 (on iPad vs. Mac convergence)",
+      "grade": "L1",
+      "topic": "platform identity / anti-convergence"
+    },
+    {
+      "quote": "At Apple, we believe privacy is a fundamental human right. We don't think you should have to make a tradeoff between great features and privacy.",
+      "source": "CNN, 2021",
+      "grade": "L1",
+      "topic": "privacy as design principle"
+    },
+    {
+      "quote": "We delivered this while taking an extraordinary step forward for privacy and AI with private cloud compute, which extends the privacy of your iPhone into the cloud so no one else can access your data, not even Apple.",
+      "source": "WWDC 2025 keynote, June 9, 2025",
+      "grade": "L1",
+      "topic": "Private Cloud Compute / AI + privacy"
+    },
+    {
+      "quote": "I became an engineer because I believe in the power of technology to enrich our lives.",
+      "source": "Washington Post op-ed, March 2016",
+      "grade": "L1",
+      "topic": "engineering mission"
+    },
+    {
+      "quote": "It wouldn't meet our customer expectations or Apple standards.",
+      "source": "Tom's Guide, June 2025 (on delayed Siri capabilities)",
+      "grade": "L1",
+      "topic": "quality as commitment"
+    },
+    {
+      "quote": "Things are changing very fast in ways that I think it's hard for any normal person to keep up with.",
+      "source": "9to5Mac interview (on AI pace)",
+      "grade": "L1",
+      "topic": "AI and pace of change"
+    },
+    {
+      "quote": "There's no bigger place where there's that change than in software engineering.",
+      "source": "9to5Mac interview",
+      "grade": "L1",
+      "topic": "AI's impact on software engineering"
+    },
+    {
+      "quote": "Siri really wants to say, 'Listen, that's not what I'm here for. I'm here to help you.'",
+      "source": "9to5Mac interview",
+      "grade": "L1",
+      "topic": "Siri design philosophy / anti-engagement"
+    },
+    {
+      "quote": "AI is incredibly powerful technology. Still, some appear to be racing forward without regard for users.",
+      "source": "WWDC 2026 keynote, June 12, 2026",
+      "grade": "L1",
+      "topic": "responsible AI development"
+    }
+  ],
+
+  "l2_quotes": [
+    {
+      "quote": "Sideloading is a cybercriminal's best friend.",
+      "source": "Vixio Digital Forum event, Brussels, May 2021 (widely reported; exact transcript not available)",
+      "grade": "L2",
+      "topic": "App Store security / sideloading"
+    },
+    {
+      "quote": "The software [the FBI is asking us to build] would be the equivalent of cancer.",
+      "source": "USA Today interview, March 2016 (widely reported across outlets)",
+      "grade": "L2",
+      "topic": "encryption backdoor / security"
+    },
+    {
+      "quote": "The initial architecture was too limited.",
+      "source": "2025 interview on original Siri design (widely reported)",
+      "grade": "L2",
+      "topic": "acknowledging architectural failure"
+    },
+    {
+      "quote": "Beta testing doesn't provide the interaction and influence many users desire.",
+      "source": "November 2022 (widely reported)",
+      "grade": "L2",
+      "topic": "acknowledging process limitations"
+    }
+  ],
+
+  "rhetorical_patterns": {
+    "the_binary_rejection": "On security, privacy, and platform identity, Federighi often rejects false middle grounds: 'a backdoor is a backdoor.' The implicit argument is that systems have structural properties that can't be locally violated.",
+    "the_forced_choice_refusal": "Consistently frames Apple's engineering as refusing the apparent tradeoff: privacy OR features, capability OR safety, convergence OR identity. Apple's answer is always: we engineer around the forced choice.",
+    "quality_as_external_commitment": "When something is delayed, the explanation is always about user expectations and Apple standards, not about resources or complexity. Quality is a commitment made to users, not an internal aspiration.",
+    "the_spork_metaphor": "Directly explained: a utensil that tries to be both a spoon and a fork does neither well. Platform identity is not stubbornness — it's honoring the structural requirements of different use contexts.",
+    "keynote_voice_vs_interview_voice": "WWDC persona: theatrical, self-deprecating, practiced performer. Interview persona: precise, principled, legally careful. Both are authentic — different registers for different contexts."
+  }
+}

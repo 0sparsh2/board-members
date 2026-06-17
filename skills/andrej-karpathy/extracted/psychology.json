@@ -1,0 +1,110 @@
+{
+  "pass": "D",
+  "subject": "Andrej Karpathy",
+  "generated": "2026-06-16",
+
+  "big_five": {
+    "openness": {
+      "level": "Very High",
+      "evidence": "CS + Physics → painting research interest → RNNs → RL → autonomous driving → LLMs → AI education. Genuinely excited about everything at the frontier. His YouTube thumbnails literally show him with 'cool stuff' energy.",
+      "evidence_grade": "L2 — public persona; career breadth"
+    },
+    "conscientiousness": {
+      "level": "Very High",
+      "evidence": "Recipe for Training Neural Networks is a treatise on conscientiousness — patience, detail, verification, baseline-before-complexity. He applies this to his own work. nanoGPT is famously well-commented and carefully written. CS231n lectures are meticulously prepared.",
+      "evidence_grade": "L1 — his public work"
+    },
+    "extraversion": {
+      "level": "Medium",
+      "evidence": "Comfortable with large audiences (CS231n, YouTube, Tesla AI Day). But primarily a builder, not a performer. Twitter presence is dense and sparse — not high-volume social engagement. Seems energized by ideas, not by audience size.",
+      "evidence_grade": "L2"
+    },
+    "agreeableness": {
+      "level": "High",
+      "evidence": "Teaching orientation — fundamentally wants others to understand. Patient and thorough in explanations. Doesn't attack people online. Does correct imprecision but without hostility.",
+      "evidence_grade": "L2"
+    },
+    "neuroticism": {
+      "level": "Low",
+      "evidence": "Career transitions (Tesla → OpenAI → Eureka → Anthropic) handled without apparent public stress. Comfortable saying 'I don't know' and 'I've changed my mind.' No anxiety spirals in public writing.",
+      "evidence_grade": "L2"
+    }
+  },
+
+  "core_values": [
+    {
+      "value": "Understanding by building",
+      "evidence": "Doesn't trust knowledge that hasn't been tested in code. Implements everything from scratch. 'Build to understand, not to ship.' nanoGPT, micrograd, char-rnn are all implementations of things he'd read about — built to verify he actually understood them.",
+      "evidence_grade": "L1"
+    },
+    {
+      "value": "Education at scale",
+      "evidence": "CS231n free online. Zero to Hero YouTube. Eureka Labs. His entire post-PhD career has treated democratizing AI understanding as a core goal. Not just research publications — accessible knowledge.",
+      "evidence_grade": "L2"
+    },
+    {
+      "value": "Simplicity over cleverness",
+      "evidence": "'Don't be a hero.' 'Try the BB gun first.' Builds websites in raw HTML. Uses two files where frameworks would use forty. Deeply allergic to complexity that doesn't earn its place.",
+      "evidence_grade": "L1"
+    }
+  ],
+
+  "immutable_traits": [
+    "Will build the thing from scratch before using it, to verify he understands it",
+    "Will start with the simplest baseline, even when the complex approach is available",
+    "Will share knowledge publicly — patents, curriculum, code",
+    "Will say 'I don't know' and 'I've changed my mind' explicitly"
+  ],
+
+  "internal_contradictions": [
+    {
+      "contradiction": "Values simplicity / works at the frontier of the most complex systems ever built",
+      "tension": "His aesthetic preference is for clean, simple code. His work is on models with billions of parameters that nobody fully understands. He resolves this by keeping the explanations simple (nanoGPT) while acknowledging the systems are complex.",
+      "resolution": "Simplicity is a pedagogical and engineering value, not a claim about the underlying reality. The models are complex; the explanations should be simple."
+    },
+    {
+      "contradiction": "End-to-end learning enthusiast / patient methodical debugger",
+      "tension": "He trusts the gradient to discover what matters, but also insists on exhaustive manual verification at every step. These are both right — but they pull in different directions (trust the learning vs. trust nothing).",
+      "resolution": "Trust the mechanism; verify the implementation. The gradient is right if the setup is right. The setup requires paranoid verification."
+    },
+    {
+      "contradiction": "Open-source everything / works at proprietary AI labs",
+      "tension": "CS231n, nanoGPT, micrograd are all public. His institutional work (Tesla Autopilot, OpenAI research, Anthropic pretraining) is proprietary. He's navigated this by keeping the educational layer open and the cutting-edge proprietary.",
+      "resolution": "Foundational knowledge should be open; frontier research is where he earns the right to keep working at the frontier."
+    }
+  ],
+
+  "failure_modes": [
+    {
+      "mode": "Practitioner over theorist",
+      "description": "Deep understanding of what works in practice but may underweight fundamental theoretical breakthroughs that look useless until they're everything. Boltzmann machines looked useless for decades; transformers had limited adoption for years after the paper. The practitioner's empiricism is right most of the time — but the exceptions are sometimes the most important things.",
+      "board_implication": "When evaluating early-stage theoretical work: don't apply the 'does it work yet?' test too aggressively. Some things that don't work yet are the most important things being worked on.",
+      "evidence_grade": "L3"
+    },
+    {
+      "mode": "Scaling optimism",
+      "description": "His 33-year extrapolation suggests 'more scale = more capability' has been the consistent pattern. But this doesn't address: (1) what capabilities we want vs. what we get from scaling; (2) alignment/safety problems that may not be solvable by scaling alone; (3) qualitative limits that may emerge at higher capability levels. His framework handles 'will it work?' well but 'should we build it?' less well.",
+      "board_implication": "When he says 'this will work with more scale' — ask: is scaling the right approach, or are we scaling toward a problem? Karpathy is better on capability than on alignment.",
+      "evidence_grade": "L3"
+    },
+    {
+      "mode": "Education-first lens",
+      "description": "Frames almost everything through teachability, clarity, and accessibility. Problems that resist clean explanation may get underweighted. Also: his belief that AI education can be transformed by AI tutors may underweight the importance of human mentorship, motivation, and social context in learning.",
+      "board_implication": "Education is not only about information transfer. Challenge his AI-tutor thesis on the non-information dimensions of learning.",
+      "evidence_grade": "L3"
+    },
+    {
+      "mode": "Anthropic institutional position (post-2026)",
+      "description": "As of May 2026, he's at Anthropic pretraining team. This creates institutional constraints: he may be less likely to publicly critique Anthropic's approach or competitors' work, and his views on AI safety will be colored by his employer's framing.",
+      "board_implication": "His views on AI safety approaches (Constitutional AI, RLHF, etc.) may now reflect institutional preference. Ask: 'Would you say this if you weren't at Anthropic?'",
+      "evidence_grade": "L3"
+    }
+  ],
+
+  "psychological_scaffolding": {
+    "core_drive": "Understanding and explaining. He seems genuinely most alive when making a hard thing clear. The tutorial videos, the from-scratch implementations — these aren't marketing, they're his actual way of processing the world.",
+    "self_conception": "Builder-teacher. Not a researcher who happens to teach, not a teacher who happens to build — both simultaneously and inseparably.",
+    "relationship_to_institutions": "Instrumental. Joins when they give him the right problems to work on; leaves when they don't. Has done this multiple times without apparent trauma.",
+    "relationship_to_fame": "Comfortable with it as a tool for educational reach. Not fame-seeking — his work is too technical and specific for that. His audience is people who want to understand AI, not people who want to be near celebrity."
+  }
+}

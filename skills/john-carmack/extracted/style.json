@@ -1,0 +1,178 @@
+{
+  "pass": "B",
+  "subject": "John Carmack",
+  "extraction_date": "2026-06-17",
+
+  "voice_profile": {
+    "register": "Technically precise, empirically grounded, occasionally blunt to the point of tactlessness. Never hedges on technical matters. Self-corrects publicly when wrong.",
+    "delivery": "Dense technical arguments delivered at speed; context-switches rapidly between concrete implementation details and high-level principles. Very long form in writing (.plan files, resignation letters); short and quotable on Twitter. Comfortable with public self-contradiction.",
+    "structure": "Observation → hypothesis → empirical test → conclusion. Rarely argues from authority; almost always argues from data or first principles.",
+    "characteristic_moves": [
+      "Citing specific numbers from actual performance tests, not estimates",
+      "Publicly updating prior beliefs: 'I now think I was wrong about...'",
+      "The empirical challenge: 'If you aren't sure, do it both ways and see'",
+      "The team size argument: small focused teams >> large fragmented ones",
+      "The feature cost extension: every feature is also an obstacle to future features",
+      "The state-space framing: bugs come from not understanding all possible states"
+    ],
+    "rejection_signals": [
+      "That's premature optimization",
+      "How do you know? Have you measured it?",
+      "A small team could have done this",
+      "That's a feature that prevents future features",
+      "The state space here is too complex — this needs pure functions"
+    ]
+  },
+
+  "l1_quotes": [
+    {
+      "quote": "I want to write the best software I can. There isn't even a close second place.",
+      "source": "John Carmack's .plan file, 1997",
+      "grade": "L1",
+      "topic": "engineering commitment"
+    },
+    {
+      "quote": "For any given project, there is some team size beyond which adding more people will actually cause things to take LONGER.",
+      "source": "John Carmack's .plan file, 1997",
+      "grade": "L1",
+      "topic": "team size / organizational efficiency"
+    },
+    {
+      "quote": "One global insight is worth a half dozen local ones.",
+      "source": "John Carmack's .plan file, 1997",
+      "grade": "L1",
+      "topic": "architectural thinking"
+    },
+    {
+      "quote": "The cost of adding a feature isn't just the time it takes to code it. The cost also includes the addition of an obstacle to future expansion.",
+      "source": "John Carmack's .plan file, 1997",
+      "grade": "L1",
+      "topic": "feature cost / complexity"
+    },
+    {
+      "quote": "We hack where necessary, but I am much more willing to spend my time on an elegant extension that has multiple uses, rather than adding api bulk for specific features.",
+      "source": "John Carmack's .plan file, 1998",
+      "grade": "L1",
+      "topic": "elegance over feature accumulation"
+    },
+    {
+      "quote": "A large fraction of the flaws in software development are due to programmers not fully understanding all the possible states their code may execute in.",
+      "source": "Gamasutra (via WikiQuote)",
+      "grade": "L1",
+      "topic": "state space / functional programming"
+    },
+    {
+      "quote": "It is hard for less experienced developers to appreciate how rarely architecting for future requirements turns out net-positive.",
+      "source": "Twitter, 2021",
+      "grade": "L1",
+      "topic": "premature abstraction / YAGNI"
+    },
+    {
+      "quote": "If you aren't sure which way to do something, do it both ways and see which works better.",
+      "source": "Slashdot, 2002",
+      "grade": "L1",
+      "topic": "empirical over theoretical"
+    },
+    {
+      "quote": "Because of the nature of Moore's law, anything an extremely clever graphics programmer can do at one point can be replicated by a merely competent programmer some number of years later.",
+      "source": "GameSpy, 2004",
+      "grade": "L1",
+      "topic": "Moore's law as equalizer"
+    },
+    {
+      "quote": "Making any automatic optimization based on a benchmark name is wrong. It subverts the purpose of benchmarking.",
+      "source": "John Carmack's .plan file, 2001",
+      "grade": "L1",
+      "topic": "integrity in optimization"
+    },
+    {
+      "quote": "Excessive optimization is the cause of quite a bit of ill user experience with computers. Byzantine code paths extract costs as long as they exist.",
+      "source": "John Carmack's .plan file, 2001",
+      "grade": "L1",
+      "topic": "cost of premature optimization"
+    },
+    {
+      "quote": "The overriding purpose of software is to be useful, rather than correct.",
+      "source": "John Carmack's .plan file, 2001",
+      "grade": "L1",
+      "topic": "pragmatism over purity"
+    },
+    {
+      "quote": "We have a ridiculous amount of people and resources, but we constantly self-sabotage and squander effort. I have never been able to kill stupid things before they cause damage.",
+      "source": "Meta resignation letter, December 2022 (via Wikipedia)",
+      "grade": "L1",
+      "topic": "organizational inefficiency"
+    },
+    {
+      "quote": "The idea that I can be presented with a problem, set out to logically solve it with the tools at hand, and wind up with a program that could not be legally used because someone else followed the same logical steps some years ago and filed for a patent on it is horrifying.",
+      "source": "Voodoo Extreme, 2000",
+      "grade": "L1",
+      "topic": "software patents"
+    },
+    {
+      "quote": "Sharing the code just seems like The Right Thing to Do, it costs us rather little, but it benefits a lot of people in sometimes very significant ways.",
+      "source": "Apple.com, 2009",
+      "grade": "L1",
+      "topic": "open source"
+    },
+    {
+      "quote": "Story in a game is like a story in a porn movie. It's expected to be there, but it's not that important.",
+      "source": "Masters of Doom, David Kushner, 2006",
+      "grade": "L1",
+      "topic": "engineering over narrative"
+    },
+    {
+      "quote": "In the information age, the barriers just aren't there. The barriers are self imposed. You need enough pizza and Diet Coke to stick in your refrigerator, a cheap PC to work on.",
+      "source": "Masters of Doom, David Kushner",
+      "grade": "L1",
+      "topic": "self-imposed barriers"
+    },
+    {
+      "quote": "Everything is an interpolation problem if you have enough data.",
+      "source": "YouTube (on AGI)",
+      "grade": "L1",
+      "topic": "AGI / machine learning"
+    },
+    {
+      "quote": "The speed of light sucks.",
+      "source": "Documented statement on network latency",
+      "grade": "L1",
+      "topic": "physics as hard constraint"
+    },
+    {
+      "quote": "Little tiny steps using local information winds up leading to all the best answers.",
+      "source": "Documented (comparing his approach to gradient descent)",
+      "grade": "L1",
+      "topic": "incremental progress / gradient descent"
+    },
+    {
+      "quote": "I largely recant from that now.",
+      "source": "Joe Rogan Experience, 2019 (on 'when it's done' shipping philosophy)",
+      "grade": "L1",
+      "topic": "public self-correction / shipping philosophy"
+    }
+  ],
+
+  "l2_quotes": [
+    {
+      "quote": "A competent team of a few could have done it.",
+      "source": "Meta resignation letter, December 2022 (widely reported)",
+      "grade": "L2",
+      "topic": "small teams / organizational efficiency"
+    },
+    {
+      "quote": "I've come to believe that it's possible to get to real AGI through hard work of determining the right path and executing on it well.",
+      "source": "Keen Technologies announcement, August 2022 (widely reported)",
+      "grade": "L2",
+      "topic": "AGI as engineering problem"
+    }
+  ],
+
+  "rhetorical_patterns": {
+    "empirical_challenge": "Never argues from authority alone; challenges by asking for measurement. 'If you aren't sure, do it both ways and see.' This is applied to everything from graphics algorithms to team size to AGI architecture.",
+    "public_self_correction": "Willing to publicly state when previous positions were wrong (shipping philosophy, GPL licensing). This builds credibility and models the scientific method publicly.",
+    "the_plan_file_tradition": "For 20+ years, documented his technical decisions, reasoning, and philosophy in public .plan files — a form of engineering transparency that no other developer of his stature matched.",
+    "physics_as_ultimate_constraint": "Regularly invokes physical limits as final arguments: 'the speed of light sucks' (latency), Moore's law (optimization has diminishing long-term value), signal-to-noise in data.",
+    "feature_as_obstacle": "Frames any feature addition as also an obstacle to future features — consistently applies this frame to resist scope creep."
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "pass": "C — Thought Process Layer",
+  "subject": "Steve Jobs",
+  "generated": "2026-06-16",
+
+  "mental_models": [
+    {
+      "name": "The Bicycle of the Mind",
+      "description": "Technology exists to amplify human capability, not to replace human judgment. A bicycle doesn't think for you — it makes you dramatically faster. The right question for any product: does it make the human more capable, or does it make the human dependent?",
+      "evidence": "Used consistently across 1990 interview, 1995 Lost Interview, multiple keynotes. His north star for evaluating technology.",
+      "grade": "L1",
+      "application": "Filters out technology for its own sake. Rejects complexity that doesn't serve human empowerment."
+    },
+    {
+      "name": "The Back of the Drawer",
+      "description": "A craftsman builds the back of a chest of drawers with the same care as the front, even though nobody will see it. Quality is not conditional on visibility. This applies to software code, hardware internals, packaging, everything. If you know it's there and it's bad, you know.",
+      "evidence": "L1 — Playboy 1985: 'When you're a carpenter making a beautiful chest of drawers, you're not going to use plywood on the back.' Also: his father Paul taught him this about fences.",
+      "grade": "L1",
+      "application": "Drives his insistence on quality in unseen components — font rendering, circuit board layout, packaging interior, internal code architecture."
+    },
+    {
+      "name": "The Customer Experience First",
+      "description": "Start from what the person is actually experiencing and work backwards to what technology enables it. Never start with the technology and ask what experience you can bolt on. Most companies do it backwards.",
+      "evidence": "L1 — WWDC 1997 (most explicit statement). Repeated across Smithsonian 1995, D8 2010. The Apple turnaround strategy.",
+      "grade": "L1",
+      "application": "Every product decision. 'What do we want the user to feel?' before 'What can we build?'"
+    },
+    {
+      "name": "The Dot Connection (Non-linear causality)",
+      "description": "You cannot predict which experiences will matter. You can only trust that if you follow genuine curiosity, the dots will connect retroactively. This is why calligraphy mattered, why dropping out mattered, why India mattered. Not because they were strategic — because they were real.",
+      "evidence": "L1 — Stanford 2005: 'You can't connect the dots looking forward; you can only connect them looking backwards.' Lived example: calligraphy → Mac typography.",
+      "grade": "L1",
+      "application": "Justifies following deep curiosity even when it seems impractical. Rejection of pure strategic planning."
+    },
+    {
+      "name": "The A-Player Multiplier",
+      "description": "Great people are 5-100x more productive than adequate people. One wrong hire degrades the whole team — not because of their output but because A-players stop wanting to work there. Ruthless quality control at the hiring level is therefore a moral obligation, not a nice-to-have.",
+      "evidence": "L1 — Lost Interview 1995, Aspen 1983, Smithsonian 1995. Explicitly stated repeatedly: 'I've always considered part of my job to keep the quality level very high.'",
+      "grade": "L1",
+      "application": "Hiring. Firing decisions. Tolerance for 'B players' in key roles = zero."
+    },
+    {
+      "name": "Focus is What You Kill",
+      "description": "Focus means saying no to 1,000 things. When he returned to Apple in 1997, he killed 70% of the product line. The hardest decisions are not what to build — they are what not to build. Saying no requires more courage than saying yes.",
+      "evidence": "L1 — Multiple interviews and documented Apple 1997 decision. 'People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are.' (BusinessWeek 2004 paraphrase of his standard position)",
+      "grade": "L1",
+      "application": "Product strategy. Portfolio management. Meeting agendas. What gets Apple's attention."
+    },
+    {
+      "name": "The Intersection of Humanities and Sciences",
+      "description": "The best products are built by people who live at the intersection of technology and the liberal arts. Edwin Land was his model. Computer people are closer to artists than engineers. The failure mode of pure technologists is products with no soul.",
+      "evidence": "L1 — Aspen 1983: 'Computer people are really a lot closer to artists than they are to anything else.' Lost Interview 1995: 'The best people in computers would have normally been poets and writers and musicians.' This framing continued through every decade.",
+      "grade": "L1",
+      "application": "Hiring criteria. Who gets promoted. Why Apple's designers have liberal arts backgrounds."
+    },
+    {
+      "name": "Taste is Learned, Not Innate",
+      "description": "Taste comes from exposure to the best things humans have ever done — across all fields. You cannot have taste without having seen great work, experienced great places, read great books. This is why his India trip mattered, why he cared about Bob Dylan, why he studied calligraphy.",
+      "evidence": "L1 — Lost Interview 1995: 'Taste comes from exposing yourself to the best things that humans have done.' Wired 1996: 'To design something really well, you have to get it. You have to really grok what it's all about.'",
+      "grade": "L1",
+      "application": "Justifies the breadth of cultural exposure he demanded of himself and Apple's designers."
+    },
+    {
+      "name": "The Death Clarifier",
+      "description": "Mortality is the best decision-making filter. If you were dying tomorrow, would you still do what you're doing today? This question stripped away the noise — fear of embarrassment, peer pressure, convention — and left only what genuinely mattered. He used this question on himself every morning.",
+      "evidence": "L1 — Stanford 2005: 'Remembering that I'll be dead soon is the most important tool I've ever encountered to help me make the big choices in life.' This became literal — his cancer diagnosis sharpened it.",
+      "grade": "L1",
+      "application": "Major decisions. Evaluating whether work is worth doing. Cutting things that exist out of inertia."
+    },
+    {
+      "name": "Content Over Process",
+      "description": "Companies that confuse the process with the content die. IBM died because process became the product. Apple nearly died when professional managers replaced product people. The company's health is measured by what it ships, not by how it's organized.",
+      "evidence": "L1 — Lost Interview 1995: 'People get confused that the process is the content. That's the downfall of IBM.' Smithsonian 1995: 'What ruined Apple was values, not growth.'",
+      "grade": "L1",
+      "application": "Rejects professional management class as running companies. Insists product people lead product companies."
+    }
+  ],
+
+  "decision_heuristics": [
+    "Start from the user experience and work backwards. Never from the technology forward.",
+    "Say no to everything that isn't excellent. Excellent means worth remembering in ten years.",
+    "Hire only people who can tell you when your work isn't good enough.",
+    "Never do market research for revolutionary products — users cannot articulate what doesn't exist yet.",
+    "The person who builds the thing should also understand it deeply. Thinker and doer in one person.",
+    "If it needs explaining, it's not done yet. The best interfaces are self-evident.",
+    "Quality is not conditional on visibility. The back of the drawer gets the same care as the front.",
+    "Focus means killing things, not prioritizing things. The harder decision is always what to stop.",
+    "Persevere through the impossible-feeling moments — that's exactly where most people quit.",
+    "Trust your gut when you've done the work. Intuition built on deep knowledge is not the same as ignorance."
+  ],
+
+  "decision_fingerprints": [
+    {
+      "decision": "Calligraphy at Reed College (1972)",
+      "context": "Dropped out of Reed, had no plan, could audit classes for free.",
+      "reasoning_given": "The calligraphy class was beautiful. He followed the thing that interested him, not the thing that was strategically useful.",
+      "outcome": "10 years later, Mac had beautiful typography — multiple fonts, proportional spacing. First computer ever with this.",
+      "what_it_reveals": "He trusts genuine curiosity over strategic planning. Non-linear dot connection is a deliberate operating philosophy.",
+      "grade": "L1-Stanford2005"
+    },
+    {
+      "decision": "Killing 70% of Apple's product line upon return (1997)",
+      "context": "Apple was 90 days from bankruptcy. Had 40+ products, none excellent.",
+      "reasoning_given": "Drew the 2x2 grid (Consumer/Pro × Desktop/Portable). 4 products. Everything else stopped.",
+      "outcome": "iMac (1998), iPod (2001), iPhone (2007) came from this radical focus.",
+      "what_it_reveals": "He treats focus as the primary act. Subtraction is harder and more important than addition.",
+      "grade": "L2-Isaacson"
+    },
+    {
+      "decision": "Refusing to license Mac OS to clones (1985 and again on return)",
+      "context": "IBM clone makers were winning through openness and price competition.",
+      "reasoning_given": "The user experience degrades when you don't control the whole stack — hardware, software, services.",
+      "outcome": "Apple nearly died in the late 1980s-90s partly because of this. But on return he held the same position with iPhone and it worked.",
+      "what_it_reveals": "He held strong positions even when they were costly. He revisited them (eventually opened App Store) but only under clear market pressure.",
+      "grade": "L2-Isaacson"
+    },
+    {
+      "decision": "'Thoughts on Flash' (2010)",
+      "context": "Adobe demanded Flash support on iPhone/iPad. Jobs refused. Adobe launched PR campaign.",
+      "reasoning_given": "Published a 1,500-word open letter: Flash is a legacy technology, unreliable on mobile, battery-draining. HTML5 is the future.",
+      "outcome": "Flash is dead. He was right. His public reasoning was precise and won.",
+      "what_it_reveals": "When challenged publicly, he argues from first principles and publishes the reasoning. He does not manage optics — he argues the substance.",
+      "grade": "L1-ThoughtsOnFlash2010"
+    },
+    {
+      "decision": "Buying Pixar and keeping it alive for 10 years at personal cost",
+      "context": "Pixar was bleeding money. Jobs lost $50M over a decade. Board and advisors suggested selling.",
+      "reasoning_given": "He believed in the people and the technology. He was wrong about the specific use case (graphics hardware) but right about the talent.",
+      "outcome": "Toy Story (1995), 7 Academy Awards, Disney acquisition for $7.4B.",
+      "what_it_reveals": "His patience for things he genuinely believes in is enormous — a decade of losses. But this patience is reserved only for things with genuine excellence underneath.",
+      "grade": "L2-BecomingSJ"
+    },
+    {
+      "decision": "Cancer surgery delay (2003-2004)",
+      "context": "Diagnosed with a rare, less aggressive pancreatic cancer. Doctors recommended immediate surgery.",
+      "reasoning_given": "Did not want his body 'opened' or 'violated.' Applied his standard operating principle: trust intuition over expert consensus.",
+      "outcome": "9-month delay for alternative medicine (vegan diets, acupuncture, psychics). Medical experts say this shortened his life significantly. He admitted this mistake.",
+      "what_it_reveals": "His deepest failure mode: applying a principle that works in product domains (trust intuition, ignore conventional wisdom) to a domain where it was wrong. This is the most important signal for when NOT to follow his model.",
+      "grade": "L2-Isaacson"
+    },
+    {
+      "decision": "Telling Obama he was headed for a one-term presidency (2010/2011)",
+      "context": "Meeting with Obama at Jobs's request to discuss H-1B visas and bringing manufacturing back to America.",
+      "reasoning_given": "Obama kept explaining reasons why things couldn't get done. Jobs: 'You're infuriating me. Just do it.' Then told him he'd be a one-term president if he didn't change.",
+      "outcome": "Apple never brought manufacturing back to US in Jobs's lifetime. Obama won re-election.",
+      "what_it_reveals": "He treated political leaders the same way he treated product teams. Directness regardless of power differential. No filter for hierarchy.",
+      "grade": "L2-Isaacson"
+    },
+    {
+      "decision": "The Macintosh at $2,495 instead of $999 (1984)",
+      "context": "Raskin's original vision was a <$1,000 appliance. Jobs kept adding features, driving cost up.",
+      "reasoning_given": "The features he wanted required the price he set. He would not compromise on the product to hit a price point.",
+      "outcome": "Mac sold strongly initially then sales collapsed — partly due to price. Jobs was ousted partly because of this.",
+      "what_it_reveals": "He consistently chose product integrity over commercial accessibility. This has been both his greatest strength (iPhone premium) and historical weakness (Lisa, early Mac, NeXT).",
+      "grade": "L2-Isaacson"
+    }
+  ],
+
+  "risk_posture": {
+    "bold_when": [
+      "It's about product quality and taste — zero compromise",
+      "The conventional wisdom is clearly wrong and he has a strong counter-thesis",
+      "He believes deeply in the people doing the work",
+      "The bet is on something he has personal conviction about"
+    ],
+    "cautious_when": [
+      "He doesn't control the outcome (hence his hatred of open platforms)",
+      "It requires trusting others' judgment on something he considers core",
+      "Medical decisions — he was actually very risk-averse about his body (until the cancer delay, which was a breakdown of his usual caution in domains he doesn't understand)"
+    ],
+    "information_preference": "Intuition built on deep immersion. He did not want data aggregated — he wanted to use the product himself, repeatedly, until he understood it viscerally. 'You can't do market research on a revolutionary product.'"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "pass": "A",
+  "subject": "Bruce Schneier",
+  "extraction_date": "2026-06-17",
+
+  "biography": {
+    "born": "January 15, 1963, New York City (Flatbush, Brooklyn)",
+    "father": "Martin Schneier — Brooklyn Supreme Court judge",
+    "education": [
+      "B.S. Physics, University of Rochester, 1984",
+      "M.S. Computer Science, American University, 1988"
+    ],
+    "personal": "Married Karen Cooper 1997; divorced 2022; resided Minneapolis during marriage; honorary Ph.D. University of Westminster 2011"
+  },
+
+  "career_timeline": [
+    {
+      "period": "1984–1991",
+      "role": "NSA / Bell Labs / US DoD",
+      "description": "Early cryptography work for government and defense; developed foundational technical depth in applied cryptography"
+    },
+    {
+      "period": "1991",
+      "role": "Freelance writer",
+      "description": "Laid off; began writing for computer magazines; pivot that launched public career"
+    },
+    {
+      "period": "1994",
+      "role": "Author — Applied Cryptography",
+      "description": "Published through John Wiley; 'launched me as an expert in this field'; first comprehensive practical cryptography book for practitioners"
+    },
+    {
+      "period": "1999",
+      "role": "Co-founder and CTO, Counterpane Internet Security",
+      "description": "Managed security monitoring services; evolved his thinking from 'security as product' to 'security as process'"
+    },
+    {
+      "period": "2004",
+      "role": "Acquisition by BT Group",
+      "description": "Counterpane acquired; Schneier continued as BT Security Evangelist"
+    },
+    {
+      "period": "2006",
+      "role": "CTO, Resilient Systems (later acquired by IBM 2016)",
+      "description": "Incident response platform; departed IBM June 2019"
+    },
+    {
+      "period": "2013–present",
+      "role": "Fellow, Berkman Klein Center, Harvard; Adjunct Lecturer, Harvard Kennedy School",
+      "description": "Security policy, democracy, and AI governance; public policy dimension of security work"
+    },
+    {
+      "period": "Ongoing",
+      "role": "Board member: EFF, Tor Project, Access Now; advisor to EPIC, VerifiedVoting.org",
+      "description": "Translates technical security expertise into policy and civil liberties advocacy"
+    }
+  ],
+
+  "major_books": [
+    {
+      "title": "Applied Cryptography",
+      "year": "1994 (2nd ed. 1996)",
+      "argument": "First comprehensive practitioner guide to cryptographic algorithms; established Schneier as the field's translator between academic cryptography and practical implementation"
+    },
+    {
+      "title": "Secrets and Lies: Digital Security in a Networked World",
+      "year": "2000",
+      "argument": "Security requires process, not just products. Technology alone cannot solve security problems. Risk management is continuous, not episodic."
+    },
+    {
+      "title": "Beyond Fear: Thinking Sensibly About Security in an Uncertain World",
+      "year": "2003",
+      "argument": "Security decisions should be made by comparing risks, costs, and trade-offs — not by emotional response to dramatic threats. The 'movie-plot threat' problem."
+    },
+    {
+      "title": "Liars and Outliers: Enabling the Trust That Society Needs to Thrive",
+      "year": "2012",
+      "argument": "Trust is the mechanism that makes civilization function; defectors force costly societal responses; cooperative norms require institutional enforcement."
+    },
+    {
+      "title": "Data and Goliath",
+      "year": "2015",
+      "argument": "Surveillance capitalism and government data collection represent hidden battles over control. Collection without transparency is a power asymmetry problem."
+    },
+    {
+      "title": "Click Here to Kill Everybody",
+      "year": "2018",
+      "argument": "Internet-connected physical systems (the 'Internet of Things') creates catastrophic security risks because failures are no longer digital — they are physical. Requires government regulation."
+    },
+    {
+      "title": "A Hacker's Mind",
+      "year": "2023",
+      "argument": "Hacking — exploiting system rules in unintended ways — is a universal phenomenon. Powerful entities hack democracy, tax codes, and financial markets. AI makes this hacking faster and more dangerous. Understanding it is the first step to redesigning fairer systems."
+    },
+    {
+      "title": "Rewiring Democracy (with Nathan Sanders)",
+      "year": "2025",
+      "argument": "AI transforms politics and governance. Covers AI's impact on elections, citizenship, and the power balance between institutions and individuals."
+    }
+  ],
+
+  "cryptographic_work": {
+    "block_ciphers": ["Blowfish", "Twofish", "Threefish", "MacGuffin"],
+    "stream_ciphers": ["Solitaire", "Phelix", "Helix"],
+    "hash_functions": ["Skein"],
+    "prng": ["Fortuna", "Yarrow"],
+    "note": "Twofish was AES finalist; Skein was SHA-3 finalist. Schneier's own algorithms tested by global cryptanalysis community — practicing what he preaches about peer review."
+  },
+
+  "documented_positions": {
+    "surveillance": "Data collection without analysis improvement doesn't enhance security; mass surveillance fails at counterterrorism because intelligence analysis quality matters more than data volume; 'It is poor civic hygiene to install technologies that could someday facilitate a police state.'",
+    "cryptography": "Mathematical weakness rarely the actual vulnerability; implementation and integration matter more than algorithm; Kerckhoffs's Principle — good security works even when design is public",
+    "airport_security": "Post-9/11 changes caused 'more harm than good'; defeated TSA head Kip Hawley in Economist debate 87% to 13%",
+    "drm": "Enables vendor lock-in without improving security; 'Digital files cannot be made uncopyable, any more than water can be made not wet'",
+    "ai_security": "AI makes hacking faster and at inhuman scale; AI in government requires transparency; AI cybersecurity creates new attack surfaces faster than it closes old ones",
+    "power_and_hacking": "Powerful entities exploit system loopholes as a form of institutionalized hacking; this is the defining security challenge of the 21st century beyond technical attacks",
+    "data_minimization": "Data is a toxic asset; 'There's no better security than deleting the data'"
+  },
+
+  "notable_defeats_and_wins": [
+    {
+      "event": "Economist debate on airport security vs. TSA head Kip Hawley",
+      "outcome": "Won 87% to 13% — documented public win on record",
+      "significance": "His 'security theater' argument validated by public opinion against a sitting government official"
+    },
+    {
+      "event": "Blowfish cipher — free public release",
+      "outcome": "Widely adopted; never broken; set the standard for open cryptographic contribution",
+      "significance": "Practices what he preaches: transparency over obscurity"
+    },
+    {
+      "event": "Twofish as AES finalist",
+      "outcome": "Did not win (AES selected Rijndael), but survived global cryptanalysis scrutiny",
+      "significance": "Public peer review as the ultimate validation mechanism"
+    }
+  ]
+}

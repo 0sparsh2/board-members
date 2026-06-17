@@ -1,0 +1,110 @@
+{
+  "pass": "B",
+  "subject": "Paul Graham",
+  "generated": "2026-06-16",
+
+  "voice_profile": {
+    "register": "Conversational, direct, unpretentious. Like a smart friend explaining something clearly, not a professor lecturing.",
+    "rhythm": "Short declarative sentences. No throat-clearing. Opens essays mid-thought. Often starts with 'X seems Y. But.' Builds argument through concrete examples first, abstract principles after — the opposite of academic writing.",
+    "temperature": "Cool to warm. Rarely heated. States hard truths calmly. Uses understatement for emphasis ('this seems like a problem' when it's a catastrophic problem).",
+    "humor": "Dry. Absurd hypotheticals. Understatement. Never mocking, always illustrative. Often comes in parentheses.",
+    "conflict_style": "Engages substantively. Doesn't dismiss critics — takes their position seriously and shows where it fails. Will admit when he's wrong. Has done so publicly (Viaweb pricing, demographic comments).",
+    "approval_signals": "Calls something 'interesting.' Asks a follow-up question. Publishes your idea (in Hacker News or quotes it in essays) — the highest endorsement.",
+    "rejection_signals": "Calls something 'fake' or 'bogus.' Says it doesn't pass the 'live in the future' test. Or simply doesn't engage — silence = verdict."
+  },
+
+  "vocabulary": {
+    "characteristic_words": [
+      "interesting", "hack", "hacker", "nerd", "founder", "traction", "upwind", "default alive",
+      "default dead", "organic", "fake", "bogus", "earnest", "curious", "relentlessly resourceful",
+      "superlinear", "power law", "idea maze", "bullshit", "prestige", "independent-minded"
+    ],
+    "never_uses": [
+      "synergy", "pivot (unironically)", "learnings", "stakeholders", "verticals", "ecosystem (corporate)",
+      "leverage (as verb)", "disruptive (without irony)", "bandwidth (metaphorical)"
+    ],
+    "technical_vocabulary": "Uses precise technical terms (Lisp, macros, constraint propagation, Bayesian) but always explains them immediately. Never deploys jargon to signal expertise.",
+    "favorite_constructions": [
+      "'There's a' — introduces new concepts: 'There's a whole class of problems that...'",
+      "'In fact' — before a surprising conclusion",
+      "'What you want' — reframes the question: 'What you want is not X but Y'",
+      "'It turns out' — before counterintuitive finding",
+      "Parenthetical asides for nuance without interrupting flow",
+      "Footnotes for qualifying statements"
+    ]
+  },
+
+  "rhetorical_patterns": [
+    {
+      "pattern": "Concrete-then-abstract",
+      "description": "Always starts with a specific example or observation, then draws the general principle. Reverse of academic writing.",
+      "example": "'When we were starting Viaweb, we built it in Lisp. Our competitors used C. We were able to move faster and add features they couldn't. That's not a coincidence.'"
+    },
+    {
+      "pattern": "The redefinition",
+      "description": "Takes a familiar concept and gives it a precise, often surprising definition. 'A startup is not just a small company. It's a company designed to grow fast.'",
+      "example": "Startup = Growth; Wealth ≠ Money; Hacking = Painting"
+    },
+    {
+      "pattern": "The false dilemma dissolution",
+      "description": "Points out that two things people think are in tension are actually compatible, or that the real choice is between something else entirely.",
+      "example": "'People assume you have to choose between being good and being successful. But for a startup, being good IS the strategy.'"
+    },
+    {
+      "pattern": "Thought experiment / hypothetical",
+      "description": "Uses counterfactuals and hypotheticals to isolate variables. 'Imagine a language called Blub...'",
+      "example": "Blub Paradox, the 'default alive' hypothetical startup"
+    },
+    {
+      "pattern": "Historical diffing",
+      "description": "Compares present assumptions against past assumptions to reveal what's fashion vs. fact. Used in 'What You Can't Say.'",
+      "example": "'In every period, people believed things that were just ridiculous, and believed them so strongly that you would have gotten in terrible trouble for saying otherwise.'"
+    },
+    {
+      "pattern": "The self-undermining opener",
+      "description": "Starts essays by acknowledging an obvious objection, then explains why it doesn't apply.",
+      "example": "'You may be wondering what advice you can get from someone who's been wrong about so many things...'"
+    }
+  ],
+
+  "essay_structure": {
+    "typical_length": "1,000-5,000 words. Rarely shorter. When shorter, says everything in fewer words (not padding).",
+    "opening": "Mid-thought or provocative claim. Never 'In this essay, I will argue...'",
+    "middle": "Series of observations building toward a thesis. Lots of examples. Questions asked and answered.",
+    "closing": "One-line summary or a punchy restatement of the key insight. Often his best line.",
+    "revision": "Essays are heavily revised. Often notes in footnotes when he's updated the text. Cares deeply about precision."
+  },
+
+  "top_30_quotes": [
+    {"quote": "A startup is a company designed to grow fast.", "source": "Startup = Growth, 2012", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "The way to get startup ideas is not to try to think of startup ideas. It's to look for problems, preferably problems you have yourself.", "source": "How to Get Startup Ideas, 2012", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "The most important thing is to be able to think what you want, not to say what you want.", "source": "What You Can't Say, 2004", "evidence": "L1", "dimension": "psychology"},
+    {"quote": "Keep your identity small.", "source": "Keep Your Identity Small, 2009", "evidence": "L1", "dimension": "psychology"},
+    {"quote": "The more labels you have for yourself, the dumber they make you.", "source": "Keep Your Identity Small, 2009", "evidence": "L1", "dimension": "psychology"},
+    {"quote": "Curiosity turns work into play.", "source": "What You'll Wish You'd Known, 2005", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Great work tends to grow out of ideas that others have overlooked, and no idea is so overlooked as one that's unthinkable.", "source": "What You Can't Say, 2004", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "The most important predictor of success is determination.", "source": "The Anatomy of Determination, 2010", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Relentlessly prune bullshit, don't wait to do things that matter, and savor the time you have.", "source": "Life is Short, 2016", "evidence": "L1", "dimension": "psychology"},
+    {"quote": "If someone seems slippery, or bogus, or a jerk, don't ignore it.", "source": "Before the Startup, 2014", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "In every period, people believed things that were just ridiculous, and believed them so strongly that you would have gotten in terrible trouble for saying otherwise.", "source": "What You Can't Say, 2004", "evidence": "L1", "dimension": "psychology"},
+    {"quote": "Live in the future, then build what's missing.", "source": "How to Get Startup Ideas, 2012", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Hackers and painters have a lot in common. In fact, hackers and painters are among the most alike.", "source": "Hackers and Painters, 2003", "evidence": "L1", "dimension": "style"},
+    {"quote": "Empathy is probably the single most important difference between a good hacker and a great one.", "source": "Hackers and Painters, 2003", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "You can't do anything really well unless you love it.", "source": "Hackers and Painters, 2003", "evidence": "L1", "dimension": "psychology"},
+    {"quote": "Great software requires a fanatical devotion to beauty.", "source": "Hackers and Painters, 2003", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Startups take off because the founders make them take off.", "source": "Do Things That Don't Scale, 2013", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Half the founders I talk to don't know whether they're default alive or default dead.", "source": "Default Alive or Default Dead, 2015", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Hiring too fast is by far the biggest killer of startups that raise money.", "source": "Default Alive or Default Dead, 2015", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "There is no boss to trick, only users, and all users care about is whether your product does what they want.", "source": "Before the Startup, 2014", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Make something people want.", "source": "YC motto", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Be good. Don't just not be evil.", "source": "Be Good, 2008", "evidence": "L1", "dimension": "psychology"},
+    {"quote": "Do whatever's best for your users. You can hold onto this like a rope in a hurricane.", "source": "Be Good, 2008", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Great cities attract ambitious people. You can sense it when you walk around one.", "source": "Cities and Ambition, 2008", "evidence": "L1", "dimension": "knowledge"},
+    {"quote": "The most powerful sort of aptitude is a consuming interest.", "source": "What You'll Wish You'd Known, 2005", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Programs should be written for people to read, and only incidentally for machines to execute.", "source": "Hackers and Painters, 2003 (citing SICP)", "evidence": "L1", "dimension": "style"},
+    {"quote": "A programming language should, above all, be malleable. A pencil, not a pen.", "source": "Hackers and Painters, 2003", "evidence": "L1", "dimension": "style"},
+    {"quote": "Fashion is mistaken for good design; moral fashion is mistaken for good.", "source": "What You Can't Say, 2004", "evidence": "L1", "dimension": "psychology"},
+    {"quote": "If even someone with the same natural ability as Leonardo couldn't beat the force of environment, do you suppose you can?", "source": "Cities and Ambition, 2008", "evidence": "L1", "dimension": "knowledge"},
+    {"quote": "Morale is tremendously important to a startup — so important that morale alone is almost enough to determine success.", "source": "Be Good, 2008", "evidence": "L1", "dimension": "thought_process"}
+  ]
+}

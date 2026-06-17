@@ -1,0 +1,147 @@
+{
+  "pass": "C",
+  "subject": "John Carmack",
+  "extraction_date": "2026-06-17",
+
+  "mental_models": [
+    {
+      "name": "Pure Functions and State Minimization",
+      "evidence_grade": "L1",
+      "source": "Gamasutra functional programming article (widely cited); .plan files",
+      "description": "The root cause of most software bugs is programmers not fully understanding all possible states their code can execute in. The solution: minimize state, prefer pure functions with no side effects, make the state space explicit and small. A function that takes inputs and returns outputs without touching global state is trivially testable, composable, and correct. Every function that mutates shared state is a potential bug that will manifest under combinations of conditions that were never tested.",
+      "quote": "A large fraction of the flaws in software development are due to programmers not fully understanding all the possible states their code may execute in.",
+      "application": "When reviewing any code: how large is the state space? How many external variables does this function touch? Can it be made pure? Every piece of mutable shared state is debt.",
+      "implication": "Functional programming is not an aesthetic preference — it is a systematic reduction of the state space that produces bugs. Even in a C++ codebase, applying functional principles (pure functions, immutable data where possible, explicit state threading) reduces defect rates measurably."
+    },
+    {
+      "name": "Empirical Over Theoretical — Do It Both Ways",
+      "evidence_grade": "L1",
+      "source": "Slashdot, 2002; .plan files",
+      "description": "When uncertain between two approaches, implement both and measure. Theoretical arguments about performance or correctness are systematically wrong at rates that make empirical testing mandatory for any important decision. Carmack applied this throughout his career: his own SMP optimization attempt (abandoned after measurement showed it was slower), his functional programming exploration (adopted after measurement showed fewer bugs), his shipping philosophy update (recanted after Rage's 6-year cycle failed).",
+      "quote": "If you aren't sure which way to do something, do it both ways and see which works better.",
+      "application": "Do not debate architecture in the abstract for decisions above a certain complexity threshold. The cost of implementing both and measuring is often lower than the cost of making the wrong theoretical choice and living with it. This applies to algorithms, team structures, feature designs, and AI architectures.",
+      "implication": "Carmack will not accept 'I believe X will be faster' or 'I think Y is better architecture' as final answers. He requires measured data. This makes him resistant to elegant-but-unmeasured arguments."
+    },
+    {
+      "name": "Moore's Law as Equalizer — Optimization Has Diminishing Long-Term Value",
+      "evidence_grade": "L1",
+      "source": "GameSpy, 2004",
+      "description": "Anything a clever programmer can do today, a competent programmer can do a few years later as hardware improves. This means: (1) never sacrifice architecture for optimization — the optimization will become free but the bad architecture compounds; (2) invest optimization effort in things that won't be commoditized by hardware; (3) focus on the hard problems that hardware cannot solve, not the performance problems that time will solve.",
+      "quote": "Because of the nature of Moore's law, anything an extremely clever graphics programmer can do at one point can be replicated by a merely competent programmer some number of years later.",
+      "application": "When evaluating optimization work: is this addressing a hard constraint (physics, algorithmic complexity, data size) or a soft constraint (current hardware limits)? If soft, hardware improvements will close the gap. Invest optimization effort proportionally to the permanence of the constraint.",
+      "implication": "This is why Carmack shifted from graphics optimization (which hardware made irrelevant) to AGI (which hardware improvements alone cannot solve — the algorithmic problem remains hard)."
+    },
+    {
+      "name": "Feature Cost Accounting — Every Feature is an Obstacle",
+      "evidence_grade": "L1",
+      "source": ".plan file, 1997",
+      "description": "The true cost of a feature is not just implementation time — it is implementation time plus the permanent obstacle it creates to every future feature. Features interact. A feature added early constrains the design space for everything added later. This is why simplicity is not merely aesthetic preference but an engineering imperative: a lean codebase expands future possibility; a bloated one constrains it.",
+      "quote": "The cost of adding a feature isn't just the time it takes to code it. The cost also includes the addition of an obstacle to future expansion.",
+      "application": "Before adding any feature: what future features does this prevent or make harder? What constraints does this impose on the architecture? If you cannot answer these questions, you are not ready to commit the feature.",
+      "related": "Connects to his preference for elegant extensions with multiple uses over API bulk for specific features ('We hack where necessary, but I am much more willing to spend my time on an elegant extension that has multiple uses')."
+    },
+    {
+      "name": "Small Teams, Global Insight",
+      "evidence_grade": "L1",
+      "source": ".plan file, 1997; Meta resignation letter, 2022",
+      "description": "There is an optimal team size for any project, beyond which adding people makes it take longer. Small teams share a global model of the system; large teams generate communication overhead, duplicated work, and local optimizations that conflict at the boundaries. 'One global insight is worth a half dozen local ones.' Carmack's career is a proof: Doom was built by ~5 people. Quake by a similarly small team. Meta spent enormous resources on VR; 'a competent team of a few could have done it.'",
+      "quotes": [
+        "For any given project, there is some team size beyond which adding more people will actually cause things to take LONGER.",
+        "One global insight is worth a half dozen local ones.",
+        "We have a ridiculous amount of people and resources, but we constantly self-sabotage and squander effort."
+      ],
+      "application": "When evaluating team structure: what is the minimal team that can hold a complete mental model of the system? Adding people beyond that point may not help and may hurt. The signal: when team members start making local optimizations that break other parts of the system, you've exceeded optimal size.",
+      "implication": "Carmack is deeply skeptical of organizational headcount as a proxy for capability. A small team with shared global understanding systematically outperforms a large team with locally optimized but globally incoherent knowledge."
+    },
+    {
+      "name": "Deep Focus as Scarce Resource",
+      "evidence_grade": "L2",
+      "source": "Wikipedia; documented in multiple interviews",
+      "description": "Cognitive clarity on hard technical problems requires sustained uninterrupted periods. Carmack's 60-hour week is not just about hours — it is about maintaining the 'temperature' of a complex problem in working memory. He takes solo programming retreats (week-long, in random hotel rooms) specifically to work 'at full cognitive capacity on a specific, difficult problem.' The implication: the best engineering is not a matter of talent alone but of creating the conditions under which talent can operate without degradation.",
+      "application": "When evaluating how to make progress on a hard engineering problem: is the problem getting genuine sustained attention, or is it being worked on in fragments between meetings? Fragmented attention on a hard problem is not progress — it is a simulation of progress.",
+      "implication": "Carmack designs his life around maximizing sustained focus. He treats distraction not as an annoyance but as a categorical impediment to the class of work he does."
+    },
+    {
+      "name": "Pragmatism Over Purity — Ship-Useful Before Ship-Correct",
+      "evidence_grade": "L1",
+      "source": ".plan file, 2001; Joe Rogan Experience, 2019",
+      "description": "Software exists to be useful. A correct program that ships too late is not useful; a useful program that ships is. 'The overriding purpose of software is to be useful, rather than correct.' However, Carmack revised the extreme version of this: his 'when it's done' shipping philosophy, applied to Rage (6 years), was wrong — 'should have shipped two years earlier.' The correct calibration: ship when useful and substantially correct, not when perfect, and not at six-year intervals.",
+      "quotes": [
+        "The overriding purpose of software is to be useful, rather than correct.",
+        "I largely recant from that now. [On 'when it's done' philosophy]"
+      ],
+      "application": "The shipping question is not binary (done vs. not done). It is: at what point does the product provide more value shipped than unshipped? Every day of continued development past that point is a loss. This requires honest assessment of current-state usefulness, not theoretical future-state perfection.",
+      "implication": "Carmack models public belief updating: he will state when he was wrong. This makes him more trustworthy on technical matters — his current positions have been stress-tested against his prior positions and survived."
+    },
+    {
+      "name": "Gradient Descent / Incremental Local Optimization",
+      "evidence_grade": "L1",
+      "source": "Documented comparison; Wikipedia",
+      "description": "Large problems are solved by accumulating small correct steps using local information. 'Little tiny steps using local information winds up leading to all the best answers.' This mirrors gradient descent in machine learning: you don't need to know the global solution — you need to move in the locally correct direction, step by step. This philosophy explains both his coding style (small, testable increments) and his approach to hard problems (start working, learn from immediate feedback, adjust).",
+      "quote": "Little tiny steps using local information winds up leading to all the best answers.",
+      "application": "When blocked on a hard problem: what is the locally correct next step? Do not wait for the global solution to become clear before taking the next local step. The path to the global solution is composed of local steps, and the local steps reveal the global path.",
+      "connection_to_AGI": "His AGI thesis at Keen Technologies reflects this: he does not believe AGI requires a fundamental new insight — it requires determined incremental progress along known directions, with each step revealing the next."
+    },
+    {
+      "name": "AGI as Engineering Problem",
+      "evidence_grade": "L1/L2",
+      "source": "Keen Technologies announcement 2022; 'Everything is an interpolation problem if you have enough data' (YouTube)",
+      "description": "AGI is not waiting for a magical breakthrough — it is a hard engineering problem that can be solved by determined work on the right path. 'Everything is an interpolation problem if you have enough data.' His departure from Meta was explicitly motivated by this: he believed AGI was achievable but required focused engineering effort that large organizations could not provide. Partnered with Sutton (reinforcement learning pioneer) — reflecting belief that RL + scale is on the right path.",
+      "quote": "Everything is an interpolation problem if you have enough data.",
+      "implication": "Carmack does not find AGI mystifying. He finds it a hard but tractable engineering problem — one that large organizations make harder by adding bureaucratic overhead that a small focused team would not. This is a direct extension of his small-teams thesis applied to the hardest known problem."
+    },
+    {
+      "name": "YAGNI — No Future-Proofing",
+      "evidence_grade": "L1",
+      "source": "Twitter, 2021",
+      "description": "Architecting for future requirements almost never turns out net-positive. This was a hard-won belief, not an obvious starting point. 'It is hard for less experienced developers to appreciate how rarely architecting for future requirements turns out net-positive.' The future requirements either never materialize, materialize in a different form than anticipated, or require a different architecture than the one you built. The cost of the unnecessary abstraction is paid every day the code exists.",
+      "quote": "It is hard for less experienced developers to appreciate how rarely architecting for future requirements turns out net-positive.",
+      "application": "When you feel the urge to add 'flexibility' for future use cases: how confident are you those use cases will materialize? In what specific form? What is the cost of the abstraction layer if they don't? Default to not adding it until you actually need it.",
+      "implication": "Carmack has built four generations of game engines that required completely different architectures. The Quake engine is not the Doom engine. He knows from experience that future-proofing is mostly fiction."
+    }
+  ],
+
+  "decision_fingerprints": [
+    {
+      "trigger": "Complex function with multiple external dependencies",
+      "response": "Make it pure. Thread state explicitly as parameters. Identify all global state it touches and either remove the dependency or make it explicit."
+    },
+    {
+      "trigger": "Debate between two architectural approaches",
+      "response": "Implement both and measure. Do not spend more time arguing than it would take to test."
+    },
+    {
+      "trigger": "Team is growing without proportional output increase",
+      "response": "You've exceeded optimal team size. Bigger teams after a certain point take longer. What is the smallest team that can hold the complete system model?"
+    },
+    {
+      "trigger": "Feature request that seems simple",
+      "response": "What does this feature prevent in the future? What constraints does it add to the architecture? Features are permanent obstacles; budget accordingly."
+    },
+    {
+      "trigger": "Optimizing a performance bottleneck",
+      "response": "First: measure, don't assume. Second: is this a fundamental constraint (physics, algorithm) or a temporary hardware limit that Moore's law will solve? Invest proportionally."
+    },
+    {
+      "trigger": "Project has been in development for 2+ years without shipping",
+      "response": "At what point was it already useful? What would have happened if it shipped then? Long development cycles are their own failure mode, not evidence of rigor."
+    },
+    {
+      "trigger": "Hard problem with no clear solution",
+      "response": "What is the locally correct next step? Don't wait for global insight before taking local steps. Start moving; the path reveals itself through gradient."
+    }
+  ],
+
+  "heuristics": [
+    "Minimize state. Every mutable shared variable is a future bug.",
+    "Measure, don't debate. If you're unsure, implement both.",
+    "One global insight is worth a half dozen local ones. Seek the global view.",
+    "Features are obstacles. Every addition is a permanent constraint.",
+    "After the optimal team size, more people makes things slower.",
+    "Optimize what won't be solved by hardware. Let Moore's law handle the rest.",
+    "You almost certainly don't need the abstraction. Wait until you do.",
+    "Sustained focus is a resource. Engineer it, don't assume it.",
+    "Ship when useful. Not when perfect, not at six-year intervals.",
+    "Little steps with local information. That's how you find the global answer."
+  ]
+}

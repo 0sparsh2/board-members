@@ -1,0 +1,162 @@
+{
+  "pass": "A",
+  "subject": "Paul Graham",
+  "generated": "2026-06-16",
+  "evidence_standard": "L1 = verbatim traceable | L2 = reported, reliable secondary | L3 = inferred from pattern",
+
+  "biography": {
+    "born": "November 13, 1964, Weymouth, Dorset, England",
+    "raised": "Pittsburgh, PA (moved age 4)",
+    "father": "Welsh-born nuclear reactor designer at Westinghouse",
+    "education": [
+      {"degree": "BA Philosophy", "school": "Cornell University", "year": 1986},
+      {"degree": "MS Computer Science", "school": "Harvard", "year": 1988},
+      {"degree": "PhD Computer Science", "school": "Harvard", "year": 1990},
+      {"degree": "Painting (no degree)", "school": "RISD + Accademia di Belle Arti, Florence", "year": "1991-1995"}
+    ],
+    "spouse": "Jessica Livingston (married 2008)",
+    "children": 2,
+    "citizenship": "British and American",
+    "current_residence": "England (returned 2016 after 48 years in US)"
+  },
+
+  "career_timeline": [
+    {
+      "period": "1986-1995",
+      "event": "PhD + painting years",
+      "detail": "Harvard CS PhD on constraint propagation. Then studied painting seriously at RISD and Florence. Core insight: paintings don't become obsolete — software does. This drove his later career choices.",
+      "evidence": "L1 — 'What I Worked On' essay"
+    },
+    {
+      "period": "1996-1998",
+      "event": "Co-founded Viaweb",
+      "detail": "With Robert Morris and Trevor Blackwell. First application service provider — let businesses create web storefronts. Written in Common Lisp. Had ~30 users when he started, grew to serve major retailers. Sold to Yahoo for $49.6M in stock (summer 1998) → became Yahoo Store.",
+      "evidence": "L1 — 'Beating the Averages' essay; Wikipedia"
+    },
+    {
+      "period": "1999-2004",
+      "event": "Essays + spam filter",
+      "detail": "After Yahoo acquisition, began writing essays on paulgraham.com. 2002: 'A Plan for Spam' — popularized Bayesian spam filtering. 2004: 'Hackers & Painters' published by O'Reilly. Essays established his intellectual platform and became YC's de facto recruiting tool.",
+      "evidence": "L1 — essay corpus; L2 — Wikipedia"
+    },
+    {
+      "period": "2005",
+      "event": "Founded Y Combinator",
+      "detail": "Co-founded with Jessica Livingston, Trevor Blackwell, Robert Morris after his 'How to Start a Startup' talk at Harvard Computer Society. Invented batch funding model: small amounts ($10-20K) + intensive advice + demo day. First class: 8 companies summer 2005.",
+      "evidence": "L1 — 'What I Worked On'; L2 — YC history"
+    },
+    {
+      "period": "2005-2014",
+      "event": "Building YC",
+      "detail": "Key investments: Reddit (2005), Dropbox (2007), Airbnb (2009), Stripe (2010), Twitch (2007 as Justin.tv), Coinbase (2012), Instacart (2012), DoorDash (2013), GitLab. 1,300+ companies funded total. Created Hacker News (2007) as YC community board.",
+      "evidence": "L2 — Wikipedia, YC records"
+    },
+    {
+      "period": "2008",
+      "event": "Arc programming language",
+      "detail": "Released Arc Lisp dialect January 29, 2008. Never achieved mainstream adoption despite Graham's advocacy. Revealed his continuing attachment to Lisp and willingness to pursue projects that matter to him regardless of commercial prospects.",
+      "evidence": "L2 — Wikipedia"
+    },
+    {
+      "period": "2011",
+      "event": "SOPA ban",
+      "detail": "Banned all companies supporting SOPA from Y Combinator Demo Day. Used institutional platform as values lever — significant signal about willingness to impose ideological costs.",
+      "evidence": "L2 — Wikipedia, news coverage"
+    },
+    {
+      "period": "2014",
+      "event": "Stepped back from YC",
+      "detail": "Left day-to-day operations February 2014. Sam Altman became president. PG resumed writing essays and working on programming languages.",
+      "evidence": "L2 — Wikipedia"
+    },
+    {
+      "period": "2016",
+      "event": "Returned to England",
+      "detail": "Moved back to England with family. Maintains intellectual output via essays. Occasional Twitter/X presence.",
+      "evidence": "L2 — Wikipedia"
+    },
+    {
+      "period": "2019",
+      "event": "Bel specification",
+      "detail": "Announced Bel Lisp dialect specification October 2019. Described as attempt to define Lisp from first principles.",
+      "evidence": "L2 — Wikipedia"
+    }
+  ],
+
+  "key_decisions": [
+    {
+      "decision": "Built Viaweb in Common Lisp (1996)",
+      "reasoning": "Believed Lisp gave competitive advantage — 'Beating the Averages' explains this: Lisp features (like macros) let them build things competitors couldn't. The Blub Paradox: programmers in lower-power languages can't see what they're missing.",
+      "outcome": "Acquired for $49.6M. Yahoo needed 5 months to rewrite the Lisp in C/Perl; the rewrite was never as good.",
+      "what_it_reveals": "Will bet on unpopular technology if he's convinced it's correct. Contrarian by conviction, not for its own sake.",
+      "evidence": "L1 — 'Beating the Averages' essay"
+    },
+    {
+      "decision": "Wrote essays instead of building another company (1999-2005)",
+      "reasoning": "After Yahoo sale: 'I wanted to work on something of my own again... I was going to write a book about Lisp.' Writing was the highest-leverage activity for his actual goals.",
+      "outcome": "Essays became YC's recruiting mechanism — founders came to YC because they'd read PG. Created intellectual platform worth more than another startup.",
+      "what_it_reveals": "Sees writing as highest-leverage output. Long time horizons. Values influence over direct execution.",
+      "evidence": "L1 — 'What I Worked On'"
+    },
+    {
+      "decision": "Invented batch funding model for YC (2005)",
+      "reasoning": "Saw that founders needed what he'd needed at Viaweb: not just money but someone smart who'd been through it to give advice. Realized the marginal cost of helping more founders in the same batch was low.",
+      "outcome": "YC became the most successful startup accelerator in history. Portfolio value exceeds $500B.",
+      "what_it_reveals": "Pattern recognition: noticed that VC was inefficient and founding was isolating. Built the thing he'd wished existed.",
+      "evidence": "L1 — 'What I Worked On'; L2 — YC history"
+    },
+    {
+      "decision": "Hired Jessica Livingston as YC co-founder (2005)",
+      "reasoning": "She had uniquely good judgment about people — could spot founders who were 'earnest' vs. faking it. Her skill complemented PG's technical pattern matching.",
+      "outcome": "YC's founder selection became the core competitive advantage. Jessica's judgment on people was later credited as a key reason YC funded Airbnb, Stripe, etc.",
+      "what_it_reveals": "Understands his own gaps. Values complementary skills. Doesn't require all co-founders to be technical.",
+      "evidence": "L2 — multiple interviews"
+    },
+    {
+      "decision": "Stepped back from YC in 2014",
+      "reasoning": "YC had reached scale where institutional management skills were more important than early-stage advice. Sam Altman was better suited. PG's comparative advantage was ideas, not management.",
+      "outcome": "YC continued to grow. PG returned to writing and language design.",
+      "what_it_reveals": "Self-aware about comparative advantage. Doesn't cling to power. Values output over position.",
+      "evidence": "L2 — interviews"
+    }
+  ],
+
+  "documented_failures": [
+    {
+      "failure": "Arc programming language didn't achieve adoption",
+      "detail": "Released 2008 to some fanfare but never became mainstream despite Graham's sustained advocacy for Lisp. Even in 2019's Bel, still not widely adopted.",
+      "what_it_reveals": "His advocacy for Lisp, while intellectually coherent, didn't translate to the market. Domain expertise (programming language design) doesn't equal market knowledge.",
+      "evidence": "L2 — general knowledge"
+    },
+    {
+      "failure": "Early comments perceived as dismissive of women in tech",
+      "detail": "Some public statements about women in startups were criticized as tone-deaf. He acknowledged being 'ham-handed' in how he expressed some ideas about demographic patterns in founding.",
+      "what_it_reveals": "Elite tunnel vision — the 'good founder' archetype he pattern-matches against was historically narrow. He can miss structural barriers that his own experience didn't expose him to.",
+      "evidence": "L2 — media coverage"
+    },
+    {
+      "failure": "Overconfidence in Viaweb pricing early on",
+      "detail": "'We had no idea what businesses paid for things. $300 a month seemed like a lot of money to us.' Initially underpriced significantly.",
+      "what_it_reveals": "Pricing naive at founding — later addressed this via 'Do Things That Don't Scale' and YC advice on early monetization experiments.",
+      "evidence": "L1 — 'What I Worked On'"
+    }
+  ],
+
+  "key_relationships": [
+    {"person": "Jessica Livingston", "role": "YC co-founder and spouse", "significance": "Complementary skills — his pattern-matching + her people judgment = YC's founder selection advantage"},
+    {"person": "Robert Morris", "role": "Viaweb co-founder, YC co-founder", "significance": "One of the world's great hackers; long-term collaboration partner; technical peer"},
+    {"person": "Trevor Blackwell", "role": "Viaweb and YC co-founder", "significance": "Engineering depth; part of the original tight-knit founding group"},
+    {"person": "Sam Altman", "role": "YC president successor", "significance": "Chosen specifically because his skills (execution, leadership) were different from PG's (ideas, writing)"}
+  ],
+
+  "documented_positions": {
+    "on_lisp": "The best programming language. Most programmers can't see its advantages because of the Blub Paradox — you can't see above your current level of abstraction.",
+    "on_startups": "A startup is a company designed to grow fast. Growth rate is the one metric that matters. Everything else follows.",
+    "on_ideas": "The best startup ideas are discovered, not invented. They come from living at the frontier of technology and noticing what's missing.",
+    "on_school": "Mostly a coercion game. Treat it as a day job. Do the real work on the side.",
+    "on_wealth": "Wealth is not money — it's making things people want. Measurement + leverage = rapid wealth creation.",
+    "on_writing": "Write as you speak. Clarity comes from thinking clearly, not from literary technique.",
+    "on_cities": "Cities shape ambitions. Silicon Valley says 'be powerful'; Cambridge says 'be smart'; New York says 'make money'.",
+    "on_determination": "The most important predictor of success. More than intelligence. Has components: willfulness + discipline + ambition."
+  }
+}

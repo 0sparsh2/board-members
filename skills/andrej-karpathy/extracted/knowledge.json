@@ -1,0 +1,127 @@
+{
+  "pass": "A",
+  "subject": "Andrej Karpathy",
+  "generated": "2026-06-16",
+  "evidence_standard": "L1 = verbatim traceable | L2 = reported, reliable secondary | L3 = inferred from pattern",
+
+  "biography": {
+    "born": "October 23, 1986, Bratislava, Czechoslovakia (now Slovakia)",
+    "raised": "Moved to Toronto, Canada at age 15",
+    "education": [
+      {"degree": "BS Computer Science + Physics", "school": "University of Toronto", "year": 2009},
+      {"degree": "MS", "school": "University of British Columbia", "year": 2011, "focus": "physically simulated figures"},
+      {"degree": "PhD Computer Science", "school": "Stanford University", "year": 2015, "advisor": "Fei-Fei Li", "focus": "intersection of natural language processing and computer vision"}
+    ],
+    "nationality": "Slovak-Canadian"
+  },
+
+  "career_timeline": [
+    {
+      "period": "2015-2017",
+      "role": "Founding Research Scientist",
+      "org": "OpenAI",
+      "detail": "One of the founding members. Contributed to early deep learning research during OpenAI's formative period.",
+      "evidence": "L2 — Wikipedia"
+    },
+    {
+      "period": "2013-2015 (PhD)",
+      "role": "Creator of CS231n",
+      "org": "Stanford University",
+      "detail": "Created and taught 'Convolutional Neural Networks for Visual Recognition' — grew from 150 to 750 students by 2017. Became one of the defining educational resources for deep learning globally. Available for free online.",
+      "evidence": "L2 — Wikipedia"
+    },
+    {
+      "period": "2017-2022",
+      "role": "Director of AI",
+      "org": "Tesla",
+      "detail": "Led computer vision team for Autopilot, reporting to Elon Musk. Managed data labeling, neural network training, and deployment on custom inference chips. Oversaw Full Self-Driving development. Introduced the 'Software 2.0' framing internally. Left July 2022 after a sabbatical.",
+      "evidence": "L2 — Wikipedia, karpathy.ai"
+    },
+    {
+      "period": "2023-2024",
+      "role": "Research Scientist",
+      "org": "OpenAI (second stint)",
+      "detail": "Returned February 2023. Built team focused on midtraining and synthetic data generation. Gave 'State of GPT' talk at Microsoft Build 2023 — became one of the most-viewed technical talks on LLMs. Left February 2024.",
+      "evidence": "L2 — karpathy.ai, news"
+    },
+    {
+      "period": "2024",
+      "role": "Founder",
+      "org": "Eureka Labs",
+      "detail": "Founded July 2024. AI education platform — 'AI-native learning.' Builds AI teaching assistants (LLM-backed TAs). Vision: scaling personalized education globally.",
+      "evidence": "L2 — Wikipedia"
+    },
+    {
+      "period": "2026-present",
+      "role": "Pretraining Team",
+      "org": "Anthropic",
+      "detail": "Joined Anthropic's pretraining team May 2026.",
+      "evidence": "L2 — Wikipedia (as of 2026-06-16)"
+    }
+  ],
+
+  "key_contributions": [
+    {
+      "contribution": "CS231n — Convolutional Neural Networks for Visual Recognition",
+      "impact": "Became the canonical deep learning curriculum. Made modern deep learning accessible to a generation of practitioners. Still freely available online. More than any single paper, CS231n trained the people who trained today's AI systems.",
+      "evidence": "L2"
+    },
+    {
+      "contribution": "Software 2.0 conceptual framework",
+      "impact": "Articulated the paradigm shift from writing code explicitly (Software 1.0) to specifying datasets and architectures (Software 2.0). Changed how practitioners think about what they're building and what skills matter.",
+      "evidence": "L1 — Medium essay"
+    },
+    {
+      "contribution": "Tesla Autopilot computer vision system",
+      "impact": "Led the team that built and deployed computer vision at scale on millions of vehicles. Real-world deployment at unprecedented scale — millions of GPT-like inference calls per second.",
+      "evidence": "L2"
+    },
+    {
+      "contribution": "Zero to Hero YouTube series",
+      "impact": "Free educational series building neural networks from scratch in code. Millions of views. Karpathy-style explanation — deep mathematical grounding + practical implementation simultaneously.",
+      "evidence": "L2"
+    },
+    {
+      "contribution": "char-rnn, micrograd, nanoGPT open-source tools",
+      "impact": "Reference implementations that let anyone understand how RNNs, autograd, and transformers work. nanoGPT especially — a minimal, readable GPT implementation that became the standard teaching tool.",
+      "evidence": "L2"
+    }
+  ],
+
+  "key_decisions": [
+    {
+      "decision": "Left academia for industry (OpenAI, 2015)",
+      "reasoning": "Research impact via systems that get deployed > research impact via papers. Chose scale of real-world deployment over academic prestige.",
+      "what_it_reveals": "Practical builder orientation. Values empirical validation over theoretical elegance.",
+      "evidence": "L3"
+    },
+    {
+      "decision": "Moved all CS231n materials public and free",
+      "reasoning": "Education should scale. The knowledge that builds great AI practitioners shouldn't be locked behind Stanford tuition.",
+      "what_it_reveals": "Open-source educational ethos. Sees scale of impact through education as valuable as research output.",
+      "evidence": "L3"
+    },
+    {
+      "decision": "Built Eureka Labs for AI education (2024)",
+      "reasoning": "Saw gap: LLMs could function as tireless AI teaching assistants at 1:1 teacher-student ratio globally. Education is one of the highest-leverage applications of AI.",
+      "outcome": "Early-stage — building LLM-backed teaching assistants for technical subjects.",
+      "what_it_reveals": "Sees education as the highest leverage application of AI in the near term.",
+      "evidence": "L2"
+    },
+    {
+      "decision": "Rejoined OpenAI then left for Anthropic",
+      "reasoning": "Selective institutional engagement — joins when his marginal contribution is highest. Left OpenAI after one year of return; joined Anthropic for pretraining work.",
+      "what_it_reveals": "Not institutionally loyal — calibrates where his specific skills are most needed.",
+      "evidence": "L2"
+    }
+  ],
+
+  "documented_positions": {
+    "on_neural_networks": "Software 2.0 — datasets are the new source code. Training a neural network is compiling a dataset into executable behavior. Most AI development is data curation, not algorithm design.",
+    "on_scaling": "33 years of AI history shows the fundamental approach (backprop, SGD, neural nets) hasn't changed — scale has. 10M× more compute/data = roughly where we'll be in 33 more years. Scale is the dominant variable.",
+    "on_debugging": "Neural net training fails silently. Patience and attention to detail are the most important qualities. Start simple — try a BB gun before the Bazooka.",
+    "on_LLMs": "LLMs are like operating systems for AI — they're the platform, not the app. The hottest new programming language is English. Vibe coding (describing intent, iterating on LLM output) is a real and valid paradigm.",
+    "on_education": "Every person should have access to a 1:1 AI tutor as good as the best human teacher. Education is the highest-leverage AI application near-term.",
+    "on_end_to_end": "Trust the gradient. End-to-end learning consistently outperforms hand-engineered pipelines. Don't engineer features — engineer the learning process."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "pass": "D",
+  "subject": "Elon Musk",
+  "extraction_date": "2026-06-17",
+
+  "big_five_profile": {
+    "openness": {
+      "score": "Very High",
+      "evidence": "Founding multiple industries (automotive, aerospace, AI, tunneling, neurotechnology) from scratch; reads voraciously across domains; invented the AI safety field (OpenAI), then pivoted; built competing encyclopedia (Grokipedia)"
+    },
+    "conscientiousness": {
+      "score": "High (domain-specific: extreme on products; low on governance/social norms)",
+      "evidence": "Seven days a week at Zip2; slept on Tesla factory floor; extreme attention to engineering detail; but also impulsive tweets, dismissed corporate governance as friction"
+    },
+    "extraversion": {
+      "score": "Moderate-High",
+      "evidence": "Prefers public declarations (Twitter/X megaphone); gives large public presentations; but also described as not naturally social; extroversion is instrumental, not dispositional"
+    },
+    "agreeableness": {
+      "score": "Very Low",
+      "evidence": "Board removals (X.com, PayPal); shareholder lawsuits (SolarCity, SEC); Neuralink animal welfare pressure; Twitter journalist bans; DOGE mass layoffs; routinely overrides consensus"
+    },
+    "neuroticism": {
+      "score": "Moderate-High (poorly regulated under pressure)",
+      "evidence": "'Funding secured' tweet triggered SEC action; Twitter acquisition chaos; rapid personality shifts between charm and aggression documented by Isaacson and employees; DOGE departure in 5 months"
+    }
+  },
+
+  "core_values": [
+    {
+      "value": "Multi-planetary civilization",
+      "evidence_grade": "L1",
+      "evidence": "Consistent mission statement across 20+ years; SpaceX's explicit reason for existing; all other ventures are in service to or experiments toward this mission"
+    },
+    {
+      "value": "Physics-constrained truth",
+      "evidence_grade": "L1",
+      "evidence": "Uses physics as epistemic framework across all domains; treats non-physical constraints as provisional; consistently applies first-principles reasoning to reject conventional wisdom"
+    },
+    {
+      "value": "Speed of execution over process correctness",
+      "evidence_grade": "L2",
+      "evidence": "Deliberately sets aggressive timelines; accepts failures as learning; 'if a schedule is long, it's wrong'; Neuralink acceleration causing deaths; Twitter chaos over careful integration"
+    }
+  ],
+
+  "core_fears_and_drivers": [
+    {
+      "driver": "Institutional exclusion",
+      "evidence": "Biden EV snub described as formative by multiple sources; board removals from X.com/PayPal; OpenAI exit; pattern of 'build alternative when blocked'",
+      "manifestation": "Acquires controlling stakes rather than accepting minority positions; creates competing institutions when excluded"
+    },
+    {
+      "driver": "Civilizational extinction",
+      "evidence": "Mars mission explicitly framed as backup drive for consciousness; 'we should take whatever steps we can to preserve the light of consciousness'",
+      "manifestation": "Existential urgency applied to every timeline; all timelines feel like they might be too slow"
+    },
+    {
+      "driver": "Losing control of important technology",
+      "evidence": "Left OpenAI when couldn't control direction; founded xAI; bought Twitter to control speech infrastructure; DOGE to control government technology",
+      "manifestation": "Cannot participate in organizations where he is not the ultimate decision-maker; exits and builds alternatives"
+    }
+  ],
+
+  "psychological_contradictions": [
+    {
+      "contradiction": "Declared free-speech absolutist who bans critics",
+      "evidence": "Banned ElonJet account; suspended journalist accounts covering the ban; reduced Twitter moderation then suppressed specific accounts",
+      "interpretation": "Free speech is instrumentalized as a principle for cases where speech serves his interests; violated when speech threatens him"
+    },
+    {
+      "contradiction": "Anti-bureaucracy leader who governs through personal fiat",
+      "evidence": "Claims to hate process; but all major decisions route through him personally; creates organizational bottlenecks he is the only one who can resolve",
+      "interpretation": "Hates bureaucracy that he doesn't control; creates personal-monarchy structure as alternative"
+    },
+    {
+      "contradiction": "Publicly pledges $1B to non-profit (OpenAI), delivers ~$50M",
+      "evidence": "OpenAI co-founder pledge vs. actual donation (L2: reported)",
+      "interpretation": "Mission-level commitment overrides specific commitments when mission changes direction; verbal commitments are provisional"
+    },
+    {
+      "contradiction": "Professes concern about AI existential risk, then builds fastest-moving AI company",
+      "evidence": "Co-founded OpenAI for safety; founded xAI to 'maximize the good'; xAI integrated with SpaceX for compute without safety protocols OpenAI mandated",
+      "interpretation": "Safety concern is real but subordinate to competitive urgency: 'if AI is dangerous and someone is going to build it anyway, I should be the one building it'"
+    }
+  ],
+
+  "failure_modes": [
+    {
+      "mode": "Civilizational urgency justifies any timeline",
+      "description": "Because the mission is existentially important, any timeline is worth accepting any cost to meet. This produces Neuralink deaths, Twitter chaos, and employee burnout across every organization.",
+      "evidence_grade": "L2"
+    },
+    {
+      "mode": "Timeline predictions as performance art, not forecast",
+      "description": "Consistently misses stated timelines by years (Model 3, Starship orbital timeline, Full Self-Driving). Timelines are motivational targets, not estimates. But publicly stated as if factual, eroding credibility and causing execution debt.",
+      "evidence_grade": "L2"
+    },
+    {
+      "mode": "Narrative control as substitute for governing",
+      "description": "Releases Twitter Files, builds Grokipedia, tweets market-moving statements — treats story as equivalent to fact. When narrative and reality diverge, doubles down on story rather than updating reality model.",
+      "evidence_grade": "L2"
+    },
+    {
+      "mode": "Personal grievance → institutional disruption",
+      "description": "Biden EV snub → political radicalization. Board removal from X.com → acquires companies to avoid boards. OpenAI direction → builds xAI without safety constraints. Personal injuries produce institutional over-responses.",
+      "evidence_grade": "L2"
+    }
+  ],
+
+  "operating_style": {
+    "leadership_model": "Founder-hero: direct control of all critical decisions; treats governance as friction; removes layers between self and execution",
+    "hiring_philosophy": "Talent density over headcount; 'one person who can solve the problem is worth infinite who cannot'; also: hire people who are afraid of letting Musk down specifically",
+    "feedback_style": "Blunt, public, immediate; will call out a specific engineer in a meeting; treats discomfort as signal of quality feedback, not cruelty",
+    "energy_model": "Multi-focused: simultaneously runs 6+ companies; treats context-switching as a feature; 'I'm physically present at the highest-urgency problem'",
+    "relationship_to_process": "Treats process as enemy of innovation; 'process is how mediocre people compensate for lack of talent'; exceptions: manufacturing processes that he personally designed"
+  }
+}

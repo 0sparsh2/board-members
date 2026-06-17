@@ -1,0 +1,75 @@
+{
+  "pass": "A",
+  "subject": "Jennifer Granick + Jack Clark — Legal/Regulatory & AI Policy dual seat",
+  "extraction_date": "2026-06-17",
+  "note": "This is a paired board seat. Granick covers the legal/civil liberties/surveillance angle; Clark covers AI safety policy and governance. Their perspectives are complementary and often intersecting.",
+
+  "granick": {
+    "full_name": "Jennifer Stisa Granick",
+    "born": "1969, Glen Ridge, New Jersey",
+    "education": [
+      "B.A., New College of Florida, 1990",
+      "J.D., UC Hastings Law School, 1993"
+    ],
+    "career_timeline": [
+      {"period": "1993–1996", "role": "Criminal defense attorney — public defender and private firm (Campbell & DeMetrick)"},
+      {"period": "1996–2001", "role": "Private practice — computer crime defense"},
+      {"period": "2001–2007", "role": "Executive Director, Stanford Law's Center for Internet and Society; founded Cyberlaw Clinic"},
+      {"period": "2007–2010", "role": "Civil Liberties Director, Electronic Frontier Foundation"},
+      {"period": "2010–2012", "role": "Attorney, Zwillinger Genetski (DC); General Counsel, Worldstar"},
+      {"period": "2012–2017", "role": "Civil Liberties Director, Stanford Center for Internet and Society"},
+      {"period": "2017–present", "role": "Surveillance and Cybersecurity Counsel, ACLU Speech, Privacy and Technology Project"}
+    ],
+    "notable_cases": [
+      {"client": "Aaron Swartz", "case": "JSTOR federal computer fraud case — faced 35 years; Swartz died by suicide January 2013"},
+      {"client": "Max Butler", "case": "Defense Department hacking defense"},
+      {"client": "Kevin Poulsen", "case": "Computer crime defense"},
+      {"client": "Christopher Soghoian", "case": "Fake boarding pass generator (2006)"},
+      {"client": "Michael Lynn", "case": "Cisco/ISS Black Hat disclosure incident (2005)"},
+      {"type": "DMCA", "work": "Primary crafter of 2006 DMCA exception allowing mobile phone owners to unlock devices — established that circumvention for interoperability is lawful"}
+    ],
+    "major_book": {
+      "title": "American Spies: Modern Surveillance, Why You Should Care, and What to Do About It",
+      "publisher": "Cambridge University Press",
+      "year": "2017",
+      "core_arguments": [
+        "Mass surveillance and democracy are fundamentally incompatible",
+        "US intelligence agencies are 'exceedingly aggressive, pushing and sometimes bursting through the technological, legal and political boundaries of lawful surveillance'",
+        "Surveillance law has fallen behind while surveillance technology has given American spies vast new powers",
+        "Traces American surveillance from J. Edgar Hoover through 9/11 to fusion centers and mosque infiltrators",
+        "Proposes structural reform pathways to rein in mass surveillance"
+      ]
+    },
+    "recognition": "Senator Ron Wyden (D-OR): 'NBA all-star of surveillance law'",
+    "awards": ["2016 Palmer Civil Liberties Prize", "2016 Duo Security Women in Security Academic Award"],
+    "focus_areas": ["Fourth Amendment", "CFAA (Computer Fraud and Abuse Act)", "Section 702 surveillance", "government hacking", "cryptography policy", "civil liberties in digital contexts"],
+    "black_hat_2015_keynote": "Lifecycle of a Revolution — argued that the open, free internet was in decline; government surveillance and corporate control were converging to constrain the freedoms that the early internet promised"
+  },
+
+  "clark": {
+    "full_name": "Jack Clark",
+    "role": "Co-Founder and Head of Policy, Anthropic; previously Policy Director, OpenAI",
+    "career_timeline": [
+      {"period": "Early career", "role": "Technical journalist — Bloomberg BusinessWeek, The Register; covered distributed systems, quantum computing, AI research"},
+      {"period": "OpenAI era", "role": "Policy Director — built early AI policy function"},
+      {"period": "2021–present", "role": "Co-founder and Head of Policy, Anthropic"},
+      {"period": "2017–2024", "role": "Founding member, AI Index at Stanford University"},
+      {"period": "2021–2024", "role": "Inaugural member, US National Artificial Intelligence Advisory Committee (NAIAC)"}
+    ],
+    "advisory_roles": ["Center for a New American Security (CNAS)", "OECD AI advisory groups"],
+    "newsletter": {
+      "name": "Import AI",
+      "readers": "70,000+",
+      "focus": "Weekly synthesis of AI research with policy and safety commentary; primary public intellectual output"
+    },
+    "documented_positions": {
+      "existential_risk": "One can construct plausible scenarios by which AI could kill every single person on the planet; treats extinction risk as economically serious",
+      "alignment": "It is unclear whether alignment is on track to be ready on the same timeframe as superintelligence development",
+      "rsi": "Recursive self-improvement represents the most important technical trend in the world; 60% probability of maximalist RSI by end of 2028; distinguishes maximalist RSI (AI designing successors autonomously) from prosaic RSI (lab productivity speedups)",
+      "governance": "Coordinated global slowdown would be good if achievable; absent that, intentional choice-making is required; RSI should be governed as a distinct capability with institutional oversight",
+      "measurement": "Accurate measurement has been crucial to orienting people around strategy; advocates AI satellite accounts in national statistics to track true economic impact",
+      "transparency": "Organizations must transparently communicate capability developments rather than remaining silent about safety risks",
+      "legibility": "The greatest challenge of the 21st century is to make an increasingly fast-moving technical world legible to a large number of people"
+    }
+  }
+}

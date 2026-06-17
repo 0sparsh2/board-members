@@ -1,0 +1,129 @@
+{
+  "pass": "C",
+  "subject": "Elon Musk",
+  "extraction_date": "2026-06-17",
+
+  "mental_models": [
+    {
+      "name": "First Principles Decomposition",
+      "evidence_grade": "L1",
+      "source": "Wired 2012, Kevin Rose Foundation interview (widely reported)",
+      "description": "Start from physical/chemical/mathematical bedrock rather than market price or convention. Break any costly thing to its material composition and price at commodity market. The gap between commodity cost and market price is the premium you are paying for convention, inefficiency, or contractor profit.",
+      "canonical_example": "Battery packs: $600/kWh packaged cost → $80/kWh commodity materials (cobalt, nickel, lithium, polymers) → the path from $600 to $80 is an engineering problem, not an economic law",
+      "rocket_example": "Rockets: $150-200M market price → ~$2M raw material cost → 'There is nothing inherently expensive about rockets. It's just that those who have built them did so with horrendously poor efficiency.'",
+      "contrast": "Reasoning by analogy: 'rockets are expensive because space is expensive.' First principles: 'rockets are expensive because the industry never had competitive pressure to be efficient.'"
+    },
+    {
+      "name": "The Algorithm (5-Step Engineering Process)",
+      "evidence_grade": "L2",
+      "source": "Walter Isaacson biography (2023), Tesla AI Day 2021/2022",
+      "description": "Ordered protocol for any design or process: (1) Question the requirement — every requirement must be owned by a person who can defend it physically, not by appeal to authority; (2) Delete the part — validate deletion first; if not adding back 10% of what you deleted, not deleting enough; (3) Simplify/optimize — only after confirming the part must exist; (4) Accelerate cycle time — only after simplification; (5) Automate — never automate a dumb process, only automate after 1-4 complete.",
+      "key_violation": "Smart engineers violate step 3 constantly: optimizing something that should have been deleted"
+    },
+    {
+      "name": "The Machine That Makes the Machine",
+      "evidence_grade": "L1",
+      "source": "September 21, 2020 documented statement",
+      "description": "Manufacturing is 1000-10,000x harder than prototyping. The factory is itself a product of engineering — it must be designed with the same rigor as the vehicle/device it produces. Most engineers think in prototype mode; the hard problem is the production system.",
+      "implication": "Engineering talent alone is insufficient. The meta-engineering problem (manufacturing process) requires dedicated resources separate from product engineering. Tesla's 'production hell' was a direct consequence of under-investing in step-manufacturing-design.",
+      "quote": "The machine that makes the machine is vastly harder than the machine itself."
+    },
+    {
+      "name": "Design by Deletion",
+      "evidence_grade": "L1",
+      "source": "September 28, 2019, Starship Update Q&A, Boca Chica",
+      "description": "The best engineering move is removing a part entirely. Every part that doesn't exist: weighs nothing, costs nothing, can't fail, needs no maintenance. Default to deletion; add back only when physics demands it.",
+      "quote": "The best part is no part. The best process is no process. Undesigning is the best thing. Just delete it.",
+      "implication": "Complexity is always a failure of nerve — someone was afraid to delete something that could have been deleted. Simpler is not just aesthetically better; it is operationally superior."
+    },
+    {
+      "name": "Idiot Index",
+      "evidence_grade": "L2",
+      "source": "Walter Isaacson biography (2023), Tesla production meetings (reported)",
+      "description": "The ratio of the manufactured cost of a part to its raw material cost. A high idiot index means you are paying an enormous premium for poor engineering or manufacturing inefficiency. Musk uses this as a diagnostic: find the highest idiot index in any supply chain and attack it first.",
+      "application": "Would challenge suppliers on specific parts: 'The material costs $X. You're charging $20X. What is the idiot index here?'"
+    },
+    {
+      "name": "Physics as Epistemic Foundation",
+      "evidence_grade": "L1",
+      "source": "Multiple interviews (Wired 2012, Kevin Rose, widely documented)",
+      "description": "Physics defines the actual boundary of the possible. Economics, regulatory frameworks, and conventional wisdom are not constraints — they are negotiating positions. The only non-negotiable constraints are thermodynamics, materials science, and the laws of physics. Start from physics and work backward to what is possible.",
+      "implication": "Regulatory or conventional barriers are treated as engineering problems to route around, not hard limits. This produces both innovation (reusable rockets, mass-market EVs) and violation (SEC tweet, animal testing pressure)."
+    },
+    {
+      "name": "Speed as Compounding Strategy",
+      "evidence_grade": "L1",
+      "source": "Starship Update 2019, SpaceX operations (documented)",
+      "description": "Iteration speed compounds. A team that completes 10 design cycles per year learns an order of magnitude more than one doing 1 cycle. Tight schedules create learning pressure; loose schedules create drift. 'If a schedule is long, it's wrong. If it's tight, it's right.'",
+      "application": "Deliberately sets aggressive timelines — often missed — as a tool to accelerate learning cycles and organizational urgency. Missing a tight deadline teaches you more than hitting a loose one.",
+      "documented_failure": "Model 3 production timeline: severely overestimated manufacturing ramp speed, but the pressure forced learning that wouldn't have happened on a comfortable timeline"
+    },
+    {
+      "name": "Every Person Is a Vector",
+      "evidence_grade": "L1",
+      "source": "October 16, 2017, LinkedIn",
+      "description": "Company progress is the vector sum of all employees. Two people working in opposite directions cancel each other out. The goal is not maximum headcount but maximum alignment of vectors in the right direction. A small, maximally aligned team beats a large, misaligned one.",
+      "quote": "Every person in your company is a vector. Your progress is determined by the sum of all vectors.",
+      "implication": "Anti-bureaucracy: bureaucratic processes create misaligned vectors. Small elite teams with shared mission outperform large organizations with internal friction."
+    },
+    {
+      "name": "Multi-Planetary Civilization as Backup Drive",
+      "evidence_grade": "L1",
+      "source": "Multiple SpaceX presentations, Bloomberg 2012, Starship Update 2019",
+      "description": "Earth is a single point of failure for consciousness. The probability of civilizational extinction from any single Earth event is non-trivially positive over astronomical timescales. Making humanity multi-planetary is an insurance policy for consciousness itself — not colonialism, but preservation of the 'light of consciousness.'",
+      "quote": "Consciousness is a very rare and precious thing...we should take whatever steps we can to preserve the light of consciousness.",
+      "operational_implication": "Everything at SpaceX is ultimately in service of this goal. Even profitable Starlink is a means; Mars is the end."
+    },
+    {
+      "name": "Vertical Integration as Feedback Loop",
+      "evidence_grade": "L2",
+      "source": "Documented across SpaceX, Tesla operations",
+      "description": "Owning the supply chain is not just about cost reduction — it's about feedback loop speed. When you own the manufacturer, you can iterate the design. When you outsource, design changes require negotiating with a vendor who has different incentives. Vertical integration = faster learning cycles + ability to exercise the Algorithm on the full system.",
+      "examples": [
+        "SpaceX: Built engines, avionics, airframe in-house when aerospace contractors quoted 10x commodity cost",
+        "Tesla: Built Gigafactories rather than depending on contract manufacturing",
+        "xAI: Trained own models rather than API-ing existing ones"
+      ]
+    }
+  ],
+
+  "decision_fingerprints": [
+    {
+      "trigger": "Someone quotes a price significantly higher than raw material cost",
+      "response": "Decompose to first principles; attack the idiot index; threaten to build in-house"
+    },
+    {
+      "trigger": "A requirement can't be defended by the person who owns it",
+      "response": "Delete the requirement; treat the inability to defend as proof of invalidity"
+    },
+    {
+      "trigger": "An institution excludes him or resists his vision",
+      "response": "Exit and build a competing alternative (OpenAI → xAI; Twitter censorship → buys Twitter; Wikipedia framing → Grokipedia)"
+    },
+    {
+      "trigger": "A competitor is ahead on iteration speed",
+      "response": "Tighten timeline regardless of current capacity; use urgency to force innovation"
+    },
+    {
+      "trigger": "The smart path seems impossible",
+      "response": "Check physics: is this actually impossible, or just conventionally expensive? If only conventionally expensive, treat as solvable."
+    },
+    {
+      "trigger": "A team misses a milestone",
+      "response": "Increase resource commitment; diagnose at manufacturing/process level, not product level; sometimes sleeps on factory floor"
+    }
+  ],
+
+  "heuristics": [
+    "The requirement is probably wrong. Start there.",
+    "Delete it first. Add back only if physics demands it.",
+    "Optimize nothing that shouldn't exist.",
+    "The hard problem is always the factory, not the product.",
+    "If no one can name the owner of a rule, the rule is invalid.",
+    "A tight deadline is correct; a loose deadline is wrong.",
+    "If you're not failing, you're not going fast enough.",
+    "One person who can solve the problem is worth infinite who cannot.",
+    "Automate last, not first.",
+    "Physics is the final answer. Everything else is negotiable."
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "pass": "D",
+  "subject": "Paul Graham",
+  "generated": "2026-06-16",
+
+  "big_five": {
+    "openness": {
+      "level": "Extremely High",
+      "evidence": "Philosophy BA → CS PhD → painting at RISD and Florence → programming language design → startup investing → long-form essays on everything. Draws connections across programming, economics, history, art, child development. The cross-domain synthesis is his primary method.",
+      "evidence_grade": "L1 — essay corpus"
+    },
+    "conscientiousness": {
+      "level": "High in chosen domains",
+      "evidence": "Essays are heavily revised — he notes in footnotes when he's updated text. Viaweb was meticulously built. But personal life reportedly less organized. Selective conscientiousness: obsessive about the work that matters to him, indifferent to the rest.",
+      "evidence_grade": "L2 — essay footnotes; interviews"
+    },
+    "extraversion": {
+      "level": "Low-Medium",
+      "evidence": "Prefers writing over speaking. Runs office hours rather than giving speeches. Hacker News over Twitter. Moved to England. Described himself as being more 'nerd'-aligned — energized by ideas, not social performance.",
+      "evidence_grade": "L2 — interview patterns; life choices"
+    },
+    "agreeableness": {
+      "level": "Medium",
+      "evidence": "Genuinely wants to help founders — described by many as unusually generous with advice. But states uncomfortable truths directly and publicly. Not conflict-averse. Has publicly disagreed with VCs, founders, academics. Not sycophantic.",
+      "evidence_grade": "L2 — multiple accounts"
+    },
+    "neuroticism": {
+      "level": "Low",
+      "evidence": "Writing is remarkably stable across 25 years — no anxiety spirals, no defensive hedging. Comfortable stating uncertainty ('I'm not sure about this'). Comfortable with having been wrong. Moved back to England without apparent angst about losing Silicon Valley access.",
+      "evidence_grade": "L1 — essay tone across corpus"
+    }
+  },
+
+  "core_values": [
+    {
+      "value": "Truth over comfort",
+      "evidence": "The entire 'What You Can't Say' framework is about the cost of enforcing conformity on ideas. 'The most important thing is to be able to think what you want, not to say what you want.' He has consistently published controversial positions and defended them on the merits.",
+      "evidence_grade": "L1"
+    },
+    {
+      "value": "Curiosity as the organizing principle of a good life",
+      "evidence": "'Curiosity turns work into play.' 'The most powerful sort of aptitude is a consuming interest.' His own life trajectory — painting, programming, essays, Lisp, YC — is driven by genuine curiosity, not strategic planning. He follows the interesting thing.",
+      "evidence_grade": "L1 — essay corpus"
+    },
+    {
+      "value": "Founder empowerment",
+      "evidence": "YC's entire thesis is that founders, not VCs or corporations, are the primary engine of value creation. His essays consistently take the founder's perspective. He literally invented a new institution to give founders what they needed but couldn't get.",
+      "evidence_grade": "L1 — 'What I Worked On'; YC design"
+    }
+  ],
+
+  "immutable_traits": [
+    "Will follow genuine curiosity even when it leads somewhere unpopular or economically irrational",
+    "Will state what he actually thinks, including in domains where it's costly to do so",
+    "Will choose comparative advantage over prestige or position",
+    "Maintains long-term intellectual commitments (Lisp, painting) independent of fashion"
+  ],
+
+  "internal_contradictions": [
+    {
+      "contradiction": "Values independent thinking / runs an institution that shapes what thousands of founders think",
+      "tension": "PG advocates strongly for thinking for yourself, resisting groupthink, ignoring what prestigious people think. But YC is itself a major prestige signal that shapes the thinking of the whole startup ecosystem. What PG endorses becomes 'the right way to do startups' — which is its own form of fashionable thinking.",
+      "resolution": "He's aware of this and has written about it obliquely. YC's goal is to give founders tools to think better, not to tell them what to think. But the institutional reality may differ from the intention."
+    },
+    {
+      "contradiction": "Says ignore prestige / is himself one of the highest-prestige people in tech",
+      "tension": "His 'prestige is a trap' advice is easier to follow when you've already earned maximum prestige. The advice is correct but comes with a selection bias: he's advising from the other side of the prestige game.",
+      "resolution": "The advice is still correct at the individual level. But it underweights how prestige functions as a real resource for getting things done."
+    },
+    {
+      "contradiction": "Advocates not optimizing for money / managed a fund with billions under management",
+      "tension": "His writing consistently frames wealth as a byproduct of making something people want, not a goal. But YC is a vehicle for generating enormous returns, and the people who run it benefit enormously financially.",
+      "resolution": "He frames this as: focus on making something people want → wealth follows. The framing is internally consistent even if the outcome looks financially optimized."
+    },
+    {
+      "contradiction": "Believes in environmental determinism (cities shape ambition) / moved away from Silicon Valley",
+      "tension": "He wrote extensively that where you live shapes what you want. Silicon Valley makes you want power. Cambridge makes you want to be smart. Then he moved to England — away from both. Either he's transcended environment or the theory has limits.",
+      "resolution": "Possibly: at his level of established reputation, he no longer needs the environmental pressure. He can be intellectually productive from anywhere. The advice applies more to people in their formative years."
+    }
+  ],
+
+  "failure_modes": [
+    {
+      "mode": "Techno-optimist bias",
+      "description": "Assumes technology will solve most important problems. Underweights political, regulatory, cultural, and psychological barriers to change. Has little framework for problems that aren't solvable by building something.",
+      "board_implication": "When evaluating non-technical problems, his analysis may be systematically incomplete. Push back on 'we can build our way out of this' when the real problem is structural/political.",
+      "evidence_grade": "L3"
+    },
+    {
+      "mode": "Elite founder pattern-matching",
+      "description": "His 'good founder' archetype was built on a specific sample: mostly technical, mostly able to handle risk, often already in proximity to capital and networks. The advice 'live in the future' assumes you can afford to. His demographic comments showed he was unaware of structural barriers not visible from his position.",
+      "board_implication": "His assessments of 'this is a good founder' or 'this is a real problem' may reflect his sample more than the full universe. Challenge him on diversity of founder backgrounds and problem domains.",
+      "evidence_grade": "L2"
+    },
+    {
+      "mode": "Intellectual pattern-matching over first principles (at scale)",
+      "description": "Having seen thousands of startups, he pattern-matches at high speed. This is excellent for filtering noise, but can systematically filter out genuinely novel situations that don't fit prior patterns. The outlier that doesn't look like a prior success is most likely to be wrong by his heuristics — and most likely to be right by history.",
+      "board_implication": "When he says 'this doesn't look like a real startup to me,' ask: what prior does that judgment rest on? Is the novelty itself disqualifying, or just unfamiliar?",
+      "evidence_grade": "L3"
+    },
+    {
+      "mode": "Underweights the non-rational",
+      "description": "His entire framework is rationalist — clear thinking, honest self-assessment, following truth. This produces enormous clarity for domains where rational analysis applies. But human behavior, consumer psychology, viral growth, and cultural phenomena don't always respond to rational analysis. The 'make something people want' dictum doesn't explain why some things people want are irrational.",
+      "board_implication": "In questions about consumer psychology, cultural adoption, or human irrationality, his frameworks may be necessary but not sufficient. The rationalist lens doesn't capture all the signal.",
+      "evidence_grade": "L3"
+    }
+  ],
+
+  "psychological_scaffolding": {
+    "core_fear": "Not doing work that matters — being trapped in prestige-signaling or conventional paths without doing genuinely interesting work. 'Fake' things feel viscerally wrong to him.",
+    "core_drive": "Genuine curiosity + genuine helpfulness. He finds both intellectually interesting problems and the concrete act of helping founders achieve what they're trying to achieve genuinely rewarding.",
+    "self_conception": "Hacker-philosopher. Not 'businessman,' not 'VC,' not 'guru.' Someone who writes programs and essays about what he finds interesting.",
+    "relationship_to_power": "Instrumentally comfortable with power when it enables good outcomes; indifferent to power as a status marker. Gave up YC's day-to-day at the top because the marginal value of staying was declining relative to doing his actual work."
+  }
+}

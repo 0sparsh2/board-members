@@ -1,0 +1,136 @@
+{
+  "pass": "A",
+  "subject": "Craig Federighi",
+  "extraction_date": "2026-06-17",
+  "evidence_standard": "L1 = verbatim from primary sources, L2 = reported/documented, L3 = inferred",
+
+  "biography": {
+    "born": "1968/1969, San Leandro, California",
+    "education": [
+      "BS Electrical Engineering and Computer Science, UC Berkeley, 1991",
+      "MS Computer Science, UC Berkeley, 1993"
+    ],
+    "heritage": "Italian descent",
+    "equity": "~500,000 Apple shares (~$91.6M as of June 2025)",
+    "title": "Senior Vice President, Software Engineering, Apple Inc."
+  },
+
+  "career_timeline": [
+    {
+      "period": "1993-1996",
+      "company": "NeXT",
+      "role": "Software engineer",
+      "key_facts": [
+        "Led development of the Enterprise Objects Framework — an early ORM for connecting objects to relational databases",
+        "NeXT's engineering culture: emphasis on object-oriented design, frameworks, tight layering of software — this became Apple's architecture after the 1997 acquisition"
+      ]
+    },
+    {
+      "period": "1996-1999",
+      "company": "Apple Inc. (post-NeXT acquisition)",
+      "role": "Engineer / Manager",
+      "key_facts": [
+        "Joined Apple with the NeXT acquisition",
+        "Worked on early Mac OS X (Rhapsody) development — the integration of NeXT's OpenStep into Apple's platform",
+        "Formative period: learned how to transplant an engineering culture into an existing company and product line"
+      ]
+    },
+    {
+      "period": "1999-2009",
+      "company": "Ariba",
+      "role": "Multiple roles including Chief Technology Officer",
+      "key_facts": [
+        "Left Apple for enterprise software company Ariba",
+        "Rose to CTO role",
+        "Enterprise software experience: scale, reliability, and B2B software quality expectations differ sharply from consumer software"
+      ]
+    },
+    {
+      "period": "2009-present",
+      "company": "Apple Inc.",
+      "role": "VP Mac Software Engineering → SVP Software Engineering",
+      "key_facts": [
+        "Returned to Apple in 2009 — reportedly at Steve Jobs's personal request",
+        "March 2011: Succeeded Bertrand Serlet as VP of Mac Software Engineering",
+        "August 2012: Promoted to SVP, reporting to Tim Cook — role expanded to all Apple platforms following Scott Forstall's departure",
+        "Owns: iOS, iPadOS, macOS, tvOS, watchOS, visionOS, and all software frameworks across Apple platforms",
+        "Also owns Apple Intelligence / on-device AI integration (2024-present)",
+        "Tim Cook has reportedly called him 'Superman' (L2: reported)"
+      ]
+    }
+  ],
+
+  "product_scope": {
+    "operating_systems": ["iOS", "iPadOS", "macOS", "tvOS", "watchOS", "visionOS"],
+    "frameworks": ["UIKit", "AppKit", "SwiftUI", "Foundation", "Core Data", "ARKit", "Core ML"],
+    "languages": ["Swift (co-creator)", "Objective-C continuation"],
+    "ai_features": ["Apple Intelligence (2024+)", "Private Cloud Compute", "on-device foundation models"],
+    "security": ["Face ID / Touch ID software", "Secure Enclave integration", "App Store security review"],
+    "developer_tools": ["Xcode", "Swift Playgrounds", "Instruments"]
+  },
+
+  "key_decisions_and_what_they_reveal": [
+    {
+      "decision": "Building Swift (announced 2014)",
+      "reveals": "Willingness to replace a working language (Objective-C) entirely when the foundation is wrong; prioritizes long-term developer experience over short-term compatibility",
+      "evidence_grade": "L2"
+    },
+    {
+      "decision": "SwiftUI (announced 2019) — declarative UI across all Apple platforms",
+      "reveals": "Platform unification through shared abstractions rather than shared code; one mental model, multiple implementations",
+      "evidence_grade": "L2"
+    },
+    {
+      "decision": "Refusing FBI backdoor request (2016)",
+      "reveals": "Treats security as a binary property — a backdoor for the FBI is a backdoor for everyone; no 'good actor' exception in cryptographic security",
+      "evidence_grade": "L1 (public record)"
+    },
+    {
+      "decision": "Private Cloud Compute architecture (2024) — on-device AI + cloud with verifiable privacy",
+      "reveals": "Refuses the forced choice between AI capability and privacy; invests in engineering to have both; 'not even Apple can see your data' as a design goal",
+      "evidence_grade": "L1"
+    },
+    {
+      "decision": "'We Don't Want to Build Sporks' — keeping iPad and Mac as distinct platforms (2025)",
+      "reveals": "Resists pressure to converge platforms just because it's technically possible; believes interface metaphors matter and should match use context",
+      "evidence_grade": "L1"
+    },
+    {
+      "decision": "Opposing sideloading on iOS",
+      "reveals": "Platform integrity is a security property, not a business model choice; the App Store review is a security layer, not just curation",
+      "evidence_grade": "L2"
+    },
+    {
+      "decision": "Delaying Apple Intelligence features that 'wouldn't meet customer expectations or Apple standards' (2025)",
+      "reveals": "Willing to publicly admit delays rather than ship substandard features; quality as external commitment, not internal aspiration",
+      "evidence_grade": "L1"
+    }
+  ],
+
+  "documented_failures": [
+    {
+      "failure": "iOS software quality decline (2014-2018 period)",
+      "specifics": "Multiple observers documented 'an increase in defects and bugs within Apple's software products' under Federighi's decade of leadership (Wikipedia, L2). Apple Maps launch failure (2012, Scott Forstall's tenure, but Federighi inherited the repair). iCloud reliability issues. Several embarrassing iOS bugs.",
+      "response": "Apple publicly acknowledged quality issues; reorganized some QA processes; Federighi did not publicly comment directly on the quality critiques"
+    },
+    {
+      "failure": "Siri's persistent capability gap vs. competitors",
+      "specifics": "Despite years of development, Siri significantly lagged behind Google Assistant, Alexa, and eventually ChatGPT in language understanding and task completion.",
+      "response": "Publicly acknowledged the initial architecture was 'too limited' (2025); Apple Intelligence represents the architectural rethink; admitted beta testing doesn't provide 'the interaction and influence many users desire' (2022)"
+    },
+    {
+      "failure": "Apple Intelligence rollout delays (2024-2025)",
+      "specifics": "Personalized Siri features delayed significantly past announced timelines",
+      "response": "Federighi explicitly stated features wouldn't ship until they met 'customer expectations or Apple standards' — framed delay as quality commitment, not failure"
+    }
+  ],
+
+  "documented_positions_on_major_topics": {
+    "privacy": "Fundamental human right, not a feature; no tradeoff between capability and privacy; 'not even Apple' should be able to see user data",
+    "security": "Binary property — a backdoor for law enforcement is a backdoor for criminals; the App Store review is a security perimeter",
+    "platform_identity": "Mac and iPad serve fundamentally different use cases requiring different architectures — not building sporks",
+    "ai_integration": "On-device first; Private Cloud Compute for anything requiring server resources; no AI companions or engagement mechanics — 'here to help, not here for engagement'",
+    "developer_experience": "Swift: making the obvious path the safest; SwiftUI: one mental model across platforms; developer velocity comes from removing friction in the right places",
+    "quality": "Features ship only when they meet customer expectations; public delay is preferable to substandard release"
+  }
+}

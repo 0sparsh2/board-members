@@ -1,0 +1,173 @@
+{
+  "pass": "A",
+  "subject": "Bret Victor",
+  "extraction_date": "2026-06-17",
+  "evidence_standard": "L1 = verbatim from his own essays/talks, L2 = reported/documented, L3 = inferred",
+
+  "biography": {
+    "born": "circa 1979 (approximate; not publicly confirmed)",
+    "education": [
+      "BS Electrical Engineering, California Institute of Technology, 1999",
+      "MS Electrical Engineering, University of California Berkeley, 2001"
+    ],
+    "early_formation": {
+      "engineering_roots": "Trained as an electrical engineer, not a designer or computer scientist — shaped his view that tools shape thought at a physical/signal level",
+      "music": "Serious musician; spent time at Alesis developing synthesizers (Ion, Micron) post-graduation — direct manipulation of sound parameters shaped intuition about live feedback",
+      "intellectual_lineage": "Deeply influenced by Doug Engelbart (augmenting human intellect), Alan Kay (Smalltalk, Dynabook), Ivan Sutherland (Sketchpad), Seymour Papert (constructivism/Logo)"
+    }
+  },
+
+  "career_timeline": [
+    {
+      "period": "2001-2007",
+      "company": "Alesis",
+      "role": "Synthesizer/interface designer",
+      "key_facts": [
+        "Designed Alesis Ion and Alesis Micron synthesizers",
+        "Formative experience: designing physical interfaces for sound — real-time parameter feedback as natural interface model",
+        "Direct manipulation of knobs producing immediate audible change became the physical metaphor for all his later thinking about programming tools"
+      ]
+    },
+    {
+      "period": "2007-2011",
+      "company": "Apple Inc.",
+      "role": "Human Interface Inventor",
+      "key_facts": [
+        "Part of the small initial design team for the iPad",
+        "Contributed to early Apple Watch development",
+        "Left Apple in 2011 — reportedly disillusioned with commercial software's constraints on genuine human-computer interaction research",
+        "His Apple ID badge read 'Human Interface Inventor' — notable title suggesting he was thinking about interaction principles, not just product features"
+      ]
+    },
+    {
+      "period": "2011-2014",
+      "company": "Independent",
+      "role": "Researcher/Essayist",
+      "key_facts": [
+        "Most productive essay period: Magic Ink (2005, revised), Kill Math (2011), Explorable Explanations (2011), Up and Down the Ladder of Abstraction (2011), Inventing on Principle talk (2012), Learnable Programming (2012), Media for Thinking the Unthinkable (2013), The Future of Programming (2013)",
+        "worrydream.com became his primary publication platform — all essays published there",
+        "Inventing on Principle (CUSEC, January 2012) became one of the most-watched programming talks of the 2010s"
+      ]
+    },
+    {
+      "period": "2014",
+      "company": "Communications Design Group (CDG) at SAP Labs",
+      "role": "Researcher",
+      "key_facts": [
+        "Joined Alan Kay's research group",
+        "Short tenure — formative but led to independent research lab founding"
+      ]
+    },
+    {
+      "period": "2015-present",
+      "company": "Dynamicland",
+      "role": "Founder / Director",
+      "key_facts": [
+        "Founded 2015, based in Oakland, California",
+        "A physical lab where computation is embedded in the physical environment — the entire room is the computer",
+        "Described as 'a prototype of a humane dynamic medium' and 'a computer that is a place, where people work together in the real world' (L1: Dynamicland website)",
+        "Operates as a nonprofit research lab — explicitly cannot be a commercial product",
+        "Uses physical paper with projected computation — a document on a table can run code; multiple people can interact simultaneously",
+        "Mission: 'a form of education and community practice' — computing as shared, spatial, human activity",
+        "Recent work (2024): Computational Public Space, The Communal Science Lab, molecular makerspace concepts"
+      ]
+    }
+  ],
+
+  "major_essays_and_talks": [
+    {
+      "title": "Magic Ink: Information Software and the Graphical Interface",
+      "year": 2005,
+      "type": "Essay",
+      "core_argument": "Information software should be designed as graphic design, not interaction design. Interactivity is a curse for users and a crutch for designers. Context (from environment and history) should replace interaction wherever possible.",
+      "grade": "L1"
+    },
+    {
+      "title": "Kill Math",
+      "year": 2011,
+      "type": "Essay",
+      "core_argument": "Symbolic mathematics is an artifact of pencil-and-paper constraints, not a fundamental truth about how to reason about quantities. The power to understand quantities should not be restricted to those with a 'freakish knack for manipulating abstract symbols.'",
+      "grade": "L1"
+    },
+    {
+      "title": "Explorable Explanations",
+      "year": 2011,
+      "type": "Essay",
+      "core_argument": "Reading should be active, not passive. Documents should be reactive — readers should be able to manipulate parameters and see immediate changes, converting passive reading to active thinking.",
+      "grade": "L1"
+    },
+    {
+      "title": "Up and Down the Ladder of Abstraction",
+      "year": 2011,
+      "type": "Essay/Interactive",
+      "core_argument": "A thinker must be able to move fluidly between levels of abstraction — from concrete instances to general patterns and back. Systems that lock you at one level prevent genuine understanding.",
+      "grade": "L1"
+    },
+    {
+      "title": "Inventing on Principle",
+      "year": 2012,
+      "type": "Talk (CUSEC)",
+      "core_argument": "Creators need an immediate connection to what they're creating. Current programming tools violate this by introducing a gap between cause and effect. Each person should find a principle to live by — not just a style or preference, but a moral obligation.",
+      "grade": "L2 (widely documented; primary video not text-extractable)"
+    },
+    {
+      "title": "Learnable Programming",
+      "year": 2012,
+      "type": "Essay",
+      "core_argument": "Programming environments must allow programmers to see the data, see the flow, create by reacting, and create by abstracting. Current environments (Khan Academy, Processing, JavaScript) fail all four. A person is not a machine and should not be forced to think like one.",
+      "grade": "L1"
+    },
+    {
+      "title": "Stop Drawing Dead Fish",
+      "year": 2013,
+      "type": "Talk",
+      "core_argument": "Tools for creation should enable creators to express living behavior, not simulate static appearance. An animator's tool should let them create creatures that can react and behave — not just draw frames of a dead fish.",
+      "grade": "L2"
+    },
+    {
+      "title": "Media for Thinking the Unthinkable",
+      "year": 2013,
+      "type": "Talk",
+      "core_argument": "Representations are the primary tools through which we understand systems. Current scientific and engineering tools are trapped in pencil-and-paper paradigms. New media can make unthinkable thoughts thinkable.",
+      "grade": "L1"
+    },
+    {
+      "title": "The Future of Programming",
+      "year": 2013,
+      "type": "Talk",
+      "core_argument": "Four ideas from the 1970s that defined computing's most visionary period have been abandoned: (1) direct data manipulation vs. text code, (2) goals not procedures, (3) spatial representations, (4) concurrent systems. The field chose the wrong path and hasn't noticed.",
+      "grade": "L2"
+    },
+    {
+      "title": "Seeing Spaces",
+      "year": 2014,
+      "type": "Talk",
+      "core_argument": "Creators need to be able to see into the thing they're building at multiple scales simultaneously. Current tools prevent understanding by hiding state and behavior — a 'seeing space' externalizes everything.",
+      "grade": "L2"
+    },
+    {
+      "title": "The Humane Representation of Thought",
+      "year": 2014,
+      "type": "Talk",
+      "core_argument": "Current computers require humans to adapt to the computer's representation of information. A humane medium would represent thought in ways natural to human cognition — spatial, kinesthetic, visual, not just symbolic/textual.",
+      "grade": "L2"
+    }
+  ],
+
+  "key_intellectual_influences": [
+    "Doug Engelbart — 'augmenting human intellect'; the computer as cognitive tool",
+    "Alan Kay — Dynabook; Smalltalk; 'the best way to predict the future is to invent it'",
+    "Ivan Sutherland — Sketchpad; direct manipulation predates all current UI paradigms",
+    "Seymour Papert — constructivism; Logo turtle; children learn by building, not by being told",
+    "Richard Hamming — some thoughts are unthinkable with current representations",
+    "Edward Tufte — information design; maximize data-ink ratio; show the data"
+  ],
+
+  "documented_positions": {
+    "on_apple": "Left Apple reportedly disillusioned with commercial constraints; never publicly detailed specific grievances",
+    "on_current_software": "Computers are 'really fast paper emulators' — current software is trapped in physical-world paradigms",
+    "on_programming": "Text-based programming is an artifact of line-printer constraints, not a fundamental truth about how computers should be programmed",
+    "on_education": "Most programming education teaches students to think like machines; the goal should be the opposite",
+    "on_commercialization": "Dynamicland explicitly cannot be a commercial product — research into humane computing cannot be driven by product/market fit"
+  }
+}

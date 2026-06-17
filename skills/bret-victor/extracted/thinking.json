@@ -1,0 +1,137 @@
+{
+  "pass": "C",
+  "subject": "Bret Victor",
+  "extraction_date": "2026-06-17",
+
+  "mental_models": [
+    {
+      "name": "Immediate Connection (Creator-Creation Coupling)",
+      "evidence_grade": "L2",
+      "source": "Inventing on Principle, CUSEC 2012",
+      "description": "Creators need an immediate connection to what they're creating. When a programmer writes code and must wait for a compile-run-observe cycle, the gap between cause and effect breaks the cognitive loop that enables creativity. The medium must close this gap to near-zero. In music, a pianist hears every note as they play it. In programming, the equivalent would be seeing every behavior change as you type.",
+      "canonical_example": "A game level editor where moving a slider instantly moves the character on screen — the creator experiences the behavior as directly as a sculptor feels clay. Contrast: editing a text file, running compile, watching a separate output — creator is disconnected from creation.",
+      "implication": "Any tool that introduces latency between action and effect breaks the creative loop. The design question for any programming tool is: how small is the gap?"
+    },
+    {
+      "name": "Representations Are Thought",
+      "evidence_grade": "L1",
+      "source": "Media for Thinking the Unthinkable, 2013; Kill Math, 2011",
+      "description": "The representation you use to express an idea determines what thoughts about that idea are possible. Symbolic math makes some thoughts easy and others hard — not because of mathematics, but because of the notation. Text-based code makes some program structures easy and others hard — not because of computation, but because of the representation. New representations don't just express existing thoughts more clearly — they make new thoughts possible.",
+      "quote": "Our representations of a system are how we understand it.",
+      "historical_example": "Richard Hamming: some thoughts are literally unthinkable without the right notation. Writing enabled history. Mathematical notation enabled physics. New computational media could enable thoughts currently unthinkable.",
+      "implication": "When you design an interface, you are designing what thoughts are possible for the person using it."
+    },
+    {
+      "name": "The Medium Constrains the Message",
+      "evidence_grade": "L1",
+      "source": "Multiple essays; Media for Thinking the Unthinkable, 2013",
+      "description": "Current software is trapped in representations designed for physical media. Text-based programming was designed for line printers, not for human understanding. Symbolic mathematics was designed for pencil and paper. Spreadsheets are glorified ledgers. These are not fundamental truths about computation — they are historical accidents that we inherited and forgot to question.",
+      "quote": "Programming languages are written languages — they were designed for writing.",
+      "application": "Before accepting any design convention, ask: what physical constraint originally produced this convention? Is that constraint still relevant?"
+    },
+    {
+      "name": "See the Data (Visibility Principle)",
+      "evidence_grade": "L1",
+      "source": "Learnable Programming, 2012",
+      "description": "A programmer — or any tool user — can only understand what they can see. Hidden state is the fundamental source of programming bugs, learning failures, and system mysteries. The design imperative: make everything visible, especially data, flow, and state that currently live only in the programmer's head.",
+      "quotes": [
+        "People understand what they can see. If a programmer cannot see what a program is doing, she can't understand it.",
+        "The entire purpose of code is to manipulate data, and we never see the data. We write with blindfolds, and we read by playing pretend with data-phantoms.",
+        "Spreadsheets rule because they show the data."
+      ],
+      "implication": "The test of any programming tool: is the data visible? If you have to execute the program mentally to understand what it's doing, the tool has failed."
+    },
+    {
+      "name": "Active Reading (Explorable Explanations)",
+      "evidence_grade": "L1",
+      "source": "Explorable Explanations, 2011; Learnable Programming, 2012",
+      "description": "Reading is currently passive — the reader receives fixed text. But understanding is active — it requires manipulation, experimentation, and direct engagement with the subject matter. Documents should be reactive: readers should be able to change parameters, see consequences, and explore the space of the idea rather than just the single path the author chose to narrate.",
+      "canonical_example": "A description of population dynamics should include a live model where the reader can change birth rate and death rate and watch the population curve change in real time — not just a static equation and a graph.",
+      "implication": "Every 'explanatory document' that isn't interactive is leaving most of its explanatory potential on the table."
+    },
+    {
+      "name": "Interactivity as Last Resort",
+      "evidence_grade": "L1",
+      "source": "Magic Ink, 2005/2011",
+      "description": "For information software — software whose primary job is to help people understand something — interaction is a concession, not a feature. When software makes users interact to get information, it requires them to know what they want before asking, learn a navigation language, and remember state across time. Software should infer context from the environment and history first; resort to interaction only when neither suffices.",
+      "context_priority": [
+        "1. Environment (current time, location, open documents, recent files) — infer from this first",
+        "2. History (past behavior patterns, preferences) — infer from this second",
+        "3. Interaction (user input) — use only when 1 and 2 are insufficient"
+      ],
+      "quote_paraphrase": "Interactivity is a curse for users and a crutch for designers.",
+      "implication": "Designing an interface with lots of buttons and menus is not designing for the user — it's offloading design work onto the user. A great information tool eliminates most navigation."
+    },
+    {
+      "name": "The Ladder of Abstraction",
+      "evidence_grade": "L1",
+      "source": "Up and Down the Ladder of Abstraction, 2011",
+      "description": "Understanding any system requires the ability to move fluidly between levels of abstraction — from specific concrete instances up to general patterns, and back down to test whether the pattern holds. Tools that lock you at one level of abstraction prevent genuine understanding. A thinker must be able to see a specific behavior (one running instance) and the general pattern (many instances, parameter space) simultaneously.",
+      "application": "When designing or debugging any system: zoom out to see the space of all behaviors, then zoom in to examine specific cases. Never trust a generalization you can't instantiate. Never trust a specific example you can't generalize.",
+      "implication": "Programming tools that show only one execution at a time are fundamentally limited — you cannot understand a program from a single run."
+    },
+    {
+      "name": "Living Behavior vs. Dead Appearance",
+      "evidence_grade": "L2",
+      "source": "Stop Drawing Dead Fish, 2013",
+      "description": "The distinction between tools that simulate static appearance vs. tools that express living behavior. A tool for animators that lets them draw a fish — frame by frame — produces a 'dead fish': an image that simulates life. A tool that lets animators define how the fish reacts, moves in response to stimuli, expresses intent — produces living behavior. The gap is between procedural expression and static representation.",
+      "implication": "For any creative tool: is the creator expressing behavior, or simulating appearance? The former is alive; the latter is a simulation of life.",
+      "extension": "This applies to all software: a UI that responds to user intent is alive; a UI that displays static state with navigation handles is a dead fish."
+    },
+    {
+      "name": "Principle as Moral Obligation",
+      "evidence_grade": "L2",
+      "source": "Inventing on Principle, CUSEC 2012",
+      "description": "A principle is not a preference or a style. It is a moral obligation — something that, when violated, produces wrong in the world. Victor's principle ('creators need immediate connection to what they're creating') is not a UX preference — it is a belief that violating it is actively harmful to human creativity and cognition. Historical examples: Larry Tesler's principle ('no modes'), Richard Stallman's ('software must be free'), Doug Engelbart's ('augment human intellect'). Each was a moral commitment that structured an entire career.",
+      "implication": "The question for any serious practitioner is not 'what is my aesthetic?' but 'what is my principle?' A principle you'd be willing to spend decades fighting for — not because it makes products better, but because its opposite is wrong."
+    },
+    {
+      "name": "Communal Computing (Dynamicland Model)",
+      "evidence_grade": "L1",
+      "source": "Dynamicland website, 2025",
+      "description": "Current computers isolate people — one person, one screen, one private mental model. Dynamicland's thesis: computation should be spatial, shared, and embodied. When computation exists in a room — projected on physical paper, manipulable with hands, visible to everyone — it becomes a communal cognitive tool rather than an individual one. This is how knowledge was shared before computers (whiteboards, maps, blueprints) and how it could be shared again at computational power levels.",
+      "quote": "a computer that is a place, where people work together in the real world",
+      "implication": "The individual-screen model of computing is a historical accident of the personal computer, not a fundamental truth. Computation embedded in shared physical space is a different, possibly superior paradigm for collective understanding."
+    }
+  ],
+
+  "decision_fingerprints": [
+    {
+      "trigger": "Someone proposes a feature with a menu, button, or dialog",
+      "response": "Ask what information the user needs, not what interaction they should perform. Can the software infer this from context? If yes, the interaction shouldn't exist."
+    },
+    {
+      "trigger": "A design 'just works' but requires mental simulation to understand",
+      "response": "The design has failed. Make the state visible. A user should never have to imagine what the program is doing."
+    },
+    {
+      "trigger": "Someone justifies a convention with 'that's how it's always been done'",
+      "response": "Ask what physical or historical constraint produced that convention. If the constraint is no longer relevant, the convention is not required."
+    },
+    {
+      "trigger": "A programming tutorial or education tool teaches syntax",
+      "response": "Learning syntax is not learning to program. What does the environment show the learner? Can they see the data? Can they see the flow? Can they create by reacting?"
+    },
+    {
+      "trigger": "Someone describes an interface as 'interactive' as if that's inherently good",
+      "response": "Interaction is the last resort. What can be inferred from environment and history? What interaction can be eliminated entirely?"
+    },
+    {
+      "trigger": "A tool requires the user to imagine behavior without seeing it",
+      "response": "The tool is asking the user to be the computer. That's wrong. The computer should be the computer."
+    }
+  ],
+
+  "heuristics": [
+    "Show the data — always. If it's hidden, it shouldn't be.",
+    "The gap between action and effect is the enemy of creativity.",
+    "Interaction is a design failure. What can be inferred?",
+    "Every convention has a history. What physical constraint produced it?",
+    "A person is not a machine and should not be forced to think like one.",
+    "Visualize data, not code. Dynamic behavior, not static structure.",
+    "The medium determines what thoughts are possible.",
+    "A representation isn't just a display — it's a cognitive tool.",
+    "Can you see the space of all behaviors, or just one?",
+    "Spreadsheets rule because they show the data. Everything else should too."
+  ]
+}

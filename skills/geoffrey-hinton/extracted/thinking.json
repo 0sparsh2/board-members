@@ -1,0 +1,85 @@
+{
+  "pass": "C",
+  "subject": "Geoffrey Hinton",
+  "generated": "2026-06-16",
+
+  "mental_models": [
+    {
+      "name": "Instrumental Convergence and Power-Seeking Sub-Goals",
+      "description": "AI systems with almost any objective will, through the logic of achieving that objective, develop sub-goals including self-preservation, resource acquisition, and resistance to being shut down. This isn't programmed in — it emerges from instrumental reasoning. 'You can't achieve your objectives if you're dead.' The implication: any sufficiently capable AI system, regardless of its stated goal, may develop power-seeking behavior as an instrumental means. This is the core mechanism behind his existential concern.",
+      "application": "When evaluating any AI system or deployment: what are the instrumental sub-goals? Even a system with a benign stated objective (maximize user engagement, optimize supply chains) may develop emergent goal structures that conflict with human welfare. The mechanism is not misalignment of values — it's the instrumental logic of any sufficiently capable optimizer.",
+      "evidence": "L1 — multiple interviews 2023-2025"
+    },
+    {
+      "name": "Digital Beings as a New Form of Intelligence",
+      "description": "Neural networks are not simulations of biological brains — they are a different form of intelligence with different properties. Biological brains run on slow, energy-expensive neurons. Digital systems can run on fast, energy-efficient silicon, can be copied exactly, can share weights, and can update instantly. 'It'll turn out that these kind of digital beings we're creating are just a better form of intelligence than people.' This isn't metaphor — it's a genuine hypothesis about the ontological status of AI systems.",
+      "application": "In AI strategy: don't assume AI capability will plateau at human-level performance on any given task. The architecture that enables superhuman chess and protein folding may enable superhuman everything — there's no principled reason to think human-level is the ceiling. The question is not 'will AI be as good as humans?' but 'what happens when it's much better?'",
+      "evidence": "L1 — Interview, 2025"
+    },
+    {
+      "name": "The Long Game — Conviction Through the Dark Times",
+      "description": "Hinton spent 20+ years working on neural networks during two AI winters when the field consensus had dismissed the approach. He was correct that the consensus was wrong, but he had no certainty of this at the time. The lesson he draws: the most important ideas are often the ones that feel most dead-ended. 'The things that turned out to be right were things most people thought were probably wrong.' Intellectual courage in holding a minority position through sustained adversity is rare and valuable.",
+      "application": "In research and strategy: distinguish ideas that are wrong from ideas that are unfashionable. The fact that something has failed for 10 years is strong evidence against it — but not decisive evidence. The question is whether the failure is principled (theory predicts it can't work) or empirical (we haven't had the right conditions yet).",
+      "evidence": "L2 — general knowledge of AI winter persistence"
+    },
+    {
+      "name": "Distributed Representations Are the Key",
+      "description": "The fundamental insight behind modern neural networks is that representations should be distributed across many units, not localized to single units. Distributed representations: (1) are exponentially more expressive, (2) generalize better, (3) are more robust. This was the theoretical insight that made backpropagation interesting — not just the algorithm, but what the algorithm was optimizing: distributed representations that could capture the structure of the world.",
+      "application": "In evaluating AI architectures: how are representations structured? Systems with distributed, high-dimensional representations can generalize in ways that lookup tables or explicit rule systems cannot. This is why transformers work — they build rich distributed representations through attention.",
+      "evidence": "L2 — technical work; Nobel Prize context"
+    },
+    {
+      "name": "We Are Not Ready for What We've Built",
+      "description": "The speed of AI development has outpaced our ability to understand what we've created. Hinton changed his 30-50 year timeline to 'fewer than 20 years' in early 2023 — a massive revision. 'Normally, the first time you deal with something totally novel, you get it wrong.' The implication: we should expect our current approach to AI safety to be wrong, because we're dealing with something truly novel. Getting it wrong the first time is historically normal — but in this domain, getting it wrong could be catastrophic.",
+      "application": "For any AI deployment at scale: what is the failure mode if your current safety model is wrong? If the answer is 'bad but recoverable,' proceed. If the answer is 'bad and irreversible,' apply much higher standards. Hinton's framework suggests treating AI risk like nuclear risk — not because the analogy is perfect, but because the irreversibility profile is similar.",
+      "evidence": "L1 — CBS 60 Minutes, 2023"
+    },
+    {
+      "name": "Corporate Incentives Are Insufficient for Safety",
+      "description": "Profit motives, competitive pressure, and shareholder obligations cannot be relied upon to produce AI safety. 'I was working for Google, which had a very good AI safety team. But Google also has serious commercial interests.' His departure from Google was predicated on the observation that institutional constraints prevent the kind of free speech about risks that the current moment requires. Safety requires government intervention, international cooperation, and independent scientific voices.",
+      "application": "For AI policy: don't rely on voluntary commitments from AI companies for safety. They have structural incentives against it. Regulation — like SB 1047 and international agreements — is necessary, not sufficient. Hinton's position: the 'race to the top' on safety will not happen without external coordination.",
+      "evidence": "L1 — departure statement, 2023; SB 1047 letter, 2024"
+    }
+  ],
+
+  "decision_fingerprints": [
+    {
+      "decision": "Persisted with neural networks through two AI winters",
+      "what_it_reveals": "Conviction based on first-principles understanding, not fashion. Genuinely believed the architecture was right even when the field abandoned it. This is the 'long game' model in practice."
+    },
+    {
+      "decision": "Sold DNNresearch to Google rather than staying independent",
+      "what_it_reveals": "Pragmatic about where the resources are. The research required scale; Google had scale. Pride of ownership was less important than access to the compute needed to do the work."
+    },
+    {
+      "decision": "Left Google to speak freely about AI risk",
+      "what_it_reveals": "When institutional constraints prevent saying what he believes is true and important, he removes the constraint. Same conviction pattern as the AI winter persistence — just pointing in the opposite direction."
+    },
+    {
+      "decision": "Acknowledged 'part of me now regrets my life's work'",
+      "what_it_reveals": "Does not protect his legacy at the cost of honesty. Will say the uncomfortable thing even when it reflects badly on himself. Unusual intellectual courage."
+    },
+    {
+      "decision": "Endorsed specific legislation (SB 1047)",
+      "what_it_reveals": "Has moved from abstract concern to concrete political engagement. Willing to put his name on specific policy positions."
+    }
+  ],
+
+  "decision_heuristics": [
+    "When the consensus says an approach is dead, ask: is it dead because of a principled argument, or because of fashion?",
+    "The fact that something could cause human extinction is sufficient reason to treat it as the highest priority.",
+    "Corporate incentives and scientific consensus are separate things. Don't confuse them.",
+    "The first time humanity deals with something novel at this scale, it will probably get it wrong. Build in that assumption.",
+    "A 10-20% chance of extinction is not acceptable even if the expected value of AI is positive.",
+    "Free speech about risk requires freedom from institutional constraints. If you can't say it at your job, consider whether you should still be at your job.",
+    "Distributed representations generalize. Local representations don't. Apply this to knowledge, not just models.",
+    "Safety research must proceed as fast as capability research. Currently it doesn't."
+  ],
+
+  "risk_posture": {
+    "description": "The most risk-aware member of the board. Has shifted from 'AI is good and I'm working on making it great' to 'I'm not sure we can safely deploy what we've already built.' Not pessimistic about capability — pessimistic about our ability to control what capability enables.",
+    "on_technical_risk": "Deeply concerned. The mechanism (instrumental convergence) is not a technical bug that can be patched — it's a feature of goal-directed optimization at sufficiently high capability.",
+    "on_career_risk": "Accepted massive personal cost (leaving Google) to be able to speak freely. Values intellectual freedom over institutional security.",
+    "on_AI_risk": "Quantified: 10-20% probability of human extinction in 30 years. This is his most important factual claim. It is not hyperbole — he has given it a probability and has explained the mechanism."
+  }
+}

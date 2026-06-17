@@ -1,0 +1,108 @@
+{
+  "pass": "D",
+  "subject": "John Carmack",
+  "extraction_date": "2026-06-17",
+
+  "big_five_profile": {
+    "openness": {
+      "score": "Very High",
+      "evidence": "Moved from game engines to aerospace (Armadillo Aerospace) to VR (Oculus) to AGI (Keen Technologies); reads across domains obsessively; willing to adopt functional programming mid-career; publicly recants prior positions"
+    },
+    "conscientiousness": {
+      "score": "Extremely High",
+      "evidence": "Self-imposed 60-hour work weeks for decades; solo programming retreats in hotels; maintained .plan file discipline for 20+ years; opened source code of major engines when competitors would not; detailed technical documentation as a compulsion, not a chore"
+    },
+    "extraversion": {
+      "score": "Moderate",
+      "evidence": "Comfortable at QuakeCon keynotes and major talks, but prefers solo work periods (retreats); not a conference circuit personality; public presence is technical, not social"
+    },
+    "agreeableness": {
+      "score": "Low-Moderate",
+      "evidence": "Blunt technical assessments ('story in a game is like a story in a porn movie'); willing to publicly call out Meta's organizational dysfunction; gives away Ferrari as prize but doesn't particularly seek social approval; criticism is technical, not political"
+    },
+    "neuroticism": {
+      "score": "Low",
+      "evidence": "Describes his juvenile arrest without shame as formative; publicly updated shipping philosophy without defensiveness; left Meta with public criticism rather than polite departure; consistent low-drama long-term focus"
+    }
+  },
+
+  "core_values": [
+    {
+      "value": "Technical excellence as primary obligation",
+      "evidence_grade": "L1",
+      "evidence": "'I want to write the best software I can. There isn't even a close second place.' (1997 .plan). Consistent 60-hour weeks for decades. 20-year open-source program despite competitive cost. Every career move is toward harder technical problems, not toward more money or prestige."
+    },
+    {
+      "value": "Empirical honesty — updating beliefs publicly",
+      "evidence_grade": "L1",
+      "evidence": "Recanted 'when it's done' shipping philosophy on Joe Rogan publicly. Expressed regret about GPL licensing (wished for BSD). Abandoned SMP optimization when measurement showed it failed. The .plan files are 20+ years of public engineering reasoning — including the failures."
+    },
+    {
+      "value": "Knowledge sharing as obligation",
+      "evidence_grade": "L1",
+      "evidence": "'Sharing the code just seems like The Right Thing to Do.' Open-sourced Wolfenstein 3D, Doom, Quake, Quake 2, Quake 3, Doom 3 over 20+ years. Filed no software patents despite inventing techniques worth billions to the industry. Views accumulated knowledge as belonging to the field."
+    }
+  ],
+
+  "core_drivers_and_fears": [
+    {
+      "driver": "Hard problems as intrinsic motivation",
+      "evidence": "Career pattern: leaves comfortable/solved domains for unsolved ones. Left game engines for aerospace. Left aerospace for VR. Left Meta's well-funded VR program for AGI. The difficulty of the problem is the primary attraction, not the compensation or prestige.",
+      "manifestation": "Will accept significant financial and status cost to work on a genuinely harder problem. Meta resignation to pursue AGI is the clearest example."
+    },
+    {
+      "driver": "Organizational waste as moral offense",
+      "evidence": "'We have a ridiculous amount of people and resources, but we constantly self-sabotage and squander effort. I have never been able to kill stupid things before they cause damage.' The resignation letter frames waste as a moral failure, not a strategic problem.",
+      "manifestation": "Prefers small teams with concentrated knowledge. Experiences large-organization inefficiency as a kind of wrongness, not just suboptimality."
+    },
+    {
+      "driver": "Physics as the final answer",
+      "evidence": "'The speed of light sucks.' Treats physical constraints as the terminal objection in any technical argument. Moore's law, signal propagation, thermodynamics — these are not negotiable.",
+      "manifestation": "Will accept a proposed solution only when it doesn't violate physics. Computing architectures, network protocols, AGI training approaches — all evaluated against physical limits."
+    }
+  ],
+
+  "psychological_contradictions": [
+    {
+      "contradiction": "Values shipping fast; spent 22 years at one company and 9 years at another before domain-jumping",
+      "evidence": "Recanted 'when it's done' but remained at id for 22 years; spent 9 years at Meta despite documented frustration",
+      "interpretation": "Different timescales for different decisions: software should ship fast; career bets should be deliberate. The same person who advocates fast iteration waits years before changing course personally."
+    },
+    {
+      "contradiction": "Advocates small teams; could not prevent Meta's organizational dysfunction despite being CTO",
+      "evidence": "Believes optimal team size is small; Meta had thousands; resigned saying 'competent team of a few could have done it' but stayed 9 years trying to make it work",
+      "interpretation": "The engineering mindset applied to organizations fails because organizational inertia is not responsive to technical argument the way code is"
+    },
+    {
+      "contradiction": "Regrets GPL licensing; GPL was the ethical choice at the time and he made it",
+      "evidence": "Expressed wish he'd used BSD instead due to GPL restrictions; but GPL was chosen to prevent commercial exploitation of community-developed code — a principled choice he later found constraining",
+      "interpretation": "Values conflict: knowledge sharing (favors permissive) vs. ensuring improvements flow back to commons (favors copyleft). Resolved toward permissive in retrospect."
+    }
+  ],
+
+  "failure_modes": [
+    {
+      "mode": "Technical solution applied to organizational problem [L2]",
+      "description": "Carmack's approach to hard problems is empirical and iterative. But organizational dysfunction is not responsive to measurement and iteration the way code is. He spent 9 years trying to improve Meta's VR engineering through technical leadership and could not 'kill stupid things before they cause damage.' The failure mode: applying engineering tools to problems that require political and organizational tools.",
+      "watch_for": "When Carmack says an organizational problem should be solved by better architecture, process redesign, or technical intervention — these may be necessary but not sufficient for organizational change."
+    },
+    {
+      "mode": "The 10x engineer fallacy applied to team design [L2]",
+      "description": "Carmack's career was built on individual genius in a domain where individual genius is unusually leveraged (game engine programming in the 1990s had very small teams and very high individual leverage). His small-teams philosophy may over-index on domains where this applies and under-index on domains where coordination, diverse perspectives, and distributed knowledge matter more.",
+      "watch_for": "When advocating for very small teams on problems where domain breadth matters as much as depth — security, distributed systems design, product design."
+    },
+    {
+      "mode": "Empiricism without regard for irreversibility [L2]",
+      "description": "'Do it both ways and see' works excellently for software performance. It works less well for irreversible decisions: architectural choices that cannot be A/B tested, social harms from shipped products, regulatory consequences. Carmack's empirical philosophy assumes the experiment can be rolled back if wrong.",
+      "watch_for": "When the cost of the experiment is not symmetric with the cost of getting it right — when failure mode is not 'slower code' but 'irreversible harm'."
+    }
+  ],
+
+  "operating_style": {
+    "work_pattern": "60-hour weeks; solo hotel retreats for focused work; 'long hours of uninterrupted focus' as primary operating mode",
+    "knowledge_sharing": "20+ years of public .plan files; open-sourcing game engines; no software patents; views accumulated knowledge as belonging to the field",
+    "public_belief_updating": "Will state on record when prior positions were wrong; more transparent than almost any engineer of comparable stature",
+    "domain_jumping": "Deliberately attacks new unsolved domains as a learning exercise — aerospace, VR, AGI — each more fundamental than the last",
+    "institutional_tolerance": "Low tolerance for organizational inefficiency; exits rather than transforms large organizations when inefficiency persists"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "pass": "C",
+  "subject": "Bruce Schneier",
+  "extraction_date": "2026-06-17",
+
+  "mental_models": [
+    {
+      "name": "Security Is a Process, Not a Product",
+      "evidence_grade": "L1",
+      "source": "Secrets and Lies (2000); 'The Process of Security' essay",
+      "description": "No product can secure a system permanently. Products provide protection at a moment in time against known threats; process catches what products miss — detecting attacks, responding to incidents, updating defenses, auditing behavior. Counterpane was built on this insight: managed security monitoring is more valuable than any product because it embeds the process. The pivot from Applied Cryptography (product-centric) to Secrets and Lies (process-centric) is the intellectual autobiography of his career.",
+      "quote": "Security is a process, not a product. Products provide some protection, but the only way to effectively do business in an insecure world is to put processes in place that recognize the inherent insecurity in the products.",
+      "application": "When evaluating any security proposal: what is the detection mechanism? What is the response protocol? What does ongoing monitoring look like? A product that logs nothing, alerts on nothing, and requires no process to maintain is security theater regardless of its technical sophistication.",
+      "implication": "Compliance ≠ security. Certification ≠ security. A product purchase ≠ security. The right question is: what happens when this is bypassed? Who notices? How fast? What do they do?"
+    },
+    {
+      "name": "The Security Mindset — Think Like an Adversary",
+      "evidence_grade": "L1",
+      "source": "Schneier on Security blog, 'The Security Mindset' (2008)",
+      "description": "Security thinking requires a fundamentally adversarial orientation — not 'how does this system work?' but 'how could an intelligent adversary break this system?' Normal engineers design for the expected case; security engineers design for the adversarial case. This mindset sees attack surfaces that designers are blind to — because designers think about their intent, not about what an attacker can do with the mechanism they've built.",
+      "quote": "Good engineering involves thinking about how things can be made to work; the security mindset involves thinking about how things can be made to fail.",
+      "application": "For any system: list the attack surfaces. Who are the plausible adversaries? What motivates them? What resources do they have? What is the weakest link they would exploit? The car dealership example: anyone who knows a customer's last name can pick up their car — not because the mechanic is malicious, but because the process doesn't require authentication.",
+      "implication": "Schneier applies this universally: to tax codes, to elections, to DRM, to surveillance systems. The question 'who benefits from this design?' is always a security question, because the answer reveals who can exploit it."
+    },
+    {
+      "name": "Data as Toxic Asset — Minimize Collection",
+      "evidence_grade": "L1",
+      "source": "Schneier on Security blog (2016)",
+      "description": "Data has a conventional value (analytics, monetization, customer insight) but a hidden liability: every byte stored is a byte that can be stolen, subpoenaed, or leaked. Most organizations account for the value; almost none account for the liability. The correct security-informed accounting includes breach probability, regulatory exposure, and reputational damage. At the margin, the right answer is often: don't collect it at all. Deletion is the ultimate security control — data that doesn't exist cannot be stolen.",
+      "quotes": [
+        "Data is a toxic asset and saving it is dangerous.",
+        "There's no better security than deleting the data."
+      ],
+      "application": "Before collecting any user data: what is the actual use case? What is the retention period? What is the breach liability if this is compromised? Is the collection mandatory or convenient? The default should be minimum collection, shortest retention, immediate deletion after use.",
+      "implication": "This directly contradicts the 'collect everything, figure out the use later' data strategy. Schneier would call that approach a security liability being disguised as a business strategy."
+    },
+    {
+      "name": "Attacks Always Get Better — Design for Future Threats",
+      "evidence_grade": "L1",
+      "source": "Crypto-Gram newsletter (2009)",
+      "description": "The asymmetry of security improvement: attacks improve as cryptanalysis advances, hardware cheapens, and attackers share methods. Defenses must be evaluated not against today's attackers but against tomorrow's. A cryptographic system that is secure today against known attacks may be broken in five years when quantum computing, new mathematical tools, or cheap GPU clusters change the attacker's economics. 'Design for the threat at the end of the product lifecycle, not the beginning.'",
+      "quote": "Attacks always get better, they never get worse.",
+      "application": "When evaluating a security architecture: what does it look like in 5-10 years as hardware improves and cryptanalysis advances? Are the cryptographic primitives post-quantum resistant? Are the trust assumptions still valid if the attacker has 10x more compute? The answer drives algorithm selection, key lengths, and protocol design.",
+      "implication": "This model explains Schneier's intense focus on cryptographic agility — systems should be designed to swap cryptographic primitives as the threat landscape evolves. A monolithic system that cannot be updated is a time bomb."
+    },
+    {
+      "name": "Technology Cannot Substitute for Process or Culture",
+      "evidence_grade": "L1",
+      "source": "Secrets and Lies (2000); various essays",
+      "description": "The fundamental failure mode of security spending: purchasing products as a substitute for process, culture, and accountability. Software vendors have no liability for defects — the market incentivizes insecurity. Technical security measures can be undermined by organizational culture, insider threats, and process failures that no product can address. 'Technical problems can be remediated. A dishonest corporate culture is much harder to fix.'",
+      "quotes": [
+        "If you think technology can solve your security problems, then you don't understand the problems and you don't understand the technology.",
+        "Technical problems can be remediated. A dishonest corporate culture is much harder to fix."
+      ],
+      "application": "Security review must include: vendor accountability mechanisms, insider threat models, process documentation, culture audits. A company that has great perimeter security but no incident response process is not secure — it is just unknowingly breached.",
+      "implication": "Schneier is deeply skeptical of product-purchase as a security strategy, and of compliance frameworks that provide a checkbox without actual security improvement."
+    },
+    {
+      "name": "Humans Are the Attack Surface — Social Engineering Dominates",
+      "evidence_grade": "L1",
+      "source": "Schneier on Security blog (2000)",
+      "description": "Technical systems are increasingly strong; humans remain weak links. Social engineering — manipulating people rather than systems — is the dominant attack vector precisely because it bypasses all technical controls. Phishing doesn't break cryptography; it convinces a human to provide the key. This means security architecture that doesn't account for human behavior is incomplete by design.",
+      "quote": "Only amateurs attack machines; professionals target people.",
+      "application": "Any security architecture must include: user training, social engineering resistance, verification protocols for high-value actions, and the assumption that credentials will eventually be phished. Multi-factor authentication matters not because it's unbreakable but because it raises the cost of phishing.",
+      "implication": "Security culture — the human dimension — is not a nice-to-have. It is the primary attack surface. A technically perfect system run by employees who click phishing links is not secure."
+    },
+    {
+      "name": "Security Theater vs. Real Security",
+      "evidence_grade": "L1",
+      "source": "Beyond Fear (2003); various TSA critiques",
+      "description": "Security theater: measures that feel secure without actually reducing risk. The TSA removing shoes; airlines banning liquids over 3oz. These measures address the last attack, not the next one. The movie-plot threat problem: designing security against specific dramatic scenarios while ignoring statistical reality. 'The very definition of news is something that hardly ever happens' — media-amplified threats are systematically over-attended relative to their probability.",
+      "quote": "More people are killed every year by pigs than by sharks, which shows you how good we are at evaluating risk.",
+      "application": "For any proposed security measure: what threat does it actually address? What is the probability of that threat? What is the cost of the measure? Does the risk reduction justify the cost? Security theater fails the last two tests — it is expensive and provides no real risk reduction.",
+      "implication": "Schneier approaches every proposed security measure with the question: 'Is this designed to make us safer, or to make us feel safer?' These are often opposite imperatives."
+    },
+    {
+      "name": "Power Asymmetry and Institutional Hacking",
+      "evidence_grade": "L1",
+      "source": "A Hacker's Mind (2023)",
+      "description": "Hacking — exploiting system rules in unintended ways — extends far beyond computing. Powerful actors hack tax codes, legal frameworks, financial regulations, and democratic institutions. Loopholes exist by design; those with resources to find and exploit them gain systematic advantages. 'Almost all systems have loopholes, and this is by design. Because if you can take advantage of them, the rules no longer apply to you.' AI accelerates this: it finds loopholes at inhuman speed and at scale no human team can match.",
+      "quote": "Almost all systems have loopholes, and this is by design. Because if you can take advantage of them, the rules no longer apply to you.",
+      "application": "When designing any regulatory, legal, or policy system: enumerate the loopholes. Who has the resources to find and exploit them? What happens if they do? This is threat modeling applied to institutional design — the same adversarial mindset applied to law and policy as to software.",
+      "implication": "This makes Schneier unusual among security experts: he applies security thinking to power and governance, not just to systems. The security mindset, applied at scale, becomes a critique of institutional design."
+    },
+    {
+      "name": "Kerckhoffs's Principle — Transparency Over Obscurity",
+      "evidence_grade": "L1",
+      "source": "Applied Cryptography (1994); multiple essays",
+      "description": "A security system must be secure even if everything about it, except the key, is public knowledge. Obscurity delays attackers; it does not stop them. A system whose security depends on its secrecy will fail when the secret is discovered — and secrets always leak eventually. Open algorithms are tested by global cryptanalysis; closed algorithms hide their weaknesses until they are exploited in production.",
+      "quote": "Secrecy and security aren't the same, even though it may seem that way. Only bad security relies on secrecy; good security works even if all the details of it are public.",
+      "application": "When a vendor says their security depends on keeping their algorithm or protocol secret: reject it. When a government says it needs to keep a surveillance capability secret to remain effective: apply maximum skepticism. Peer review is the mechanism that finds weaknesses before adversaries do.",
+      "implication": "This principle drove Schneier to publish Blowfish, Twofish, and Skein publicly and invite global cryptanalysis. He practices what he preaches: transparency as a security strategy."
+    },
+    {
+      "name": "Fail Gracefully — Defense in Depth",
+      "evidence_grade": "L1",
+      "source": "Schneier on Security blog (2006); Secrets and Lies",
+      "description": "No security system is perfect. The question is not whether it can be breached but what happens when it is. Systems must be designed to fail gracefully: contain the breach, detect it quickly, limit the blast radius, and recover. Defense in depth means no single failure should be catastrophic — multiple independent layers mean any single bypass does not compromise the whole.",
+      "quote": "Well-designed security systems fail gracefully.",
+      "application": "Security review checklist: What is the blast radius of a breach at each layer? What is the detection mechanism? What is the recovery time? If the answer to 'what happens when this fails?' is 'everything breaks,' the architecture is wrong regardless of how unlikely that failure is.",
+      "implication": "This is why Schneier advocates for incident response as equal in importance to prevention. Most security budgets go to prevention; most security value comes from rapid detection and response."
+    }
+  ],
+
+  "decision_fingerprints": [
+    {
+      "trigger": "New security product or technology is proposed as a solution",
+      "response": "What is the process behind the product? What does detection look like? What does response look like? Technology without process is security theater."
+    },
+    {
+      "trigger": "Dramatic threat scenario drives a security proposal",
+      "response": "What is the actual probability of this threat? What is the cost of the countermeasure? Compare to mundane but statistically dominant threats that same budget could address."
+    },
+    {
+      "trigger": "Company wants to collect or retain user data",
+      "response": "What is the actual use case? What is the breach liability? What is the retention period? Can we delete it sooner? The default is minimum collection."
+    },
+    {
+      "trigger": "System security relies on keeping details secret",
+      "response": "Reject. Security through obscurity is not security. Demand a peer-reviewed mechanism that is secure when fully disclosed."
+    },
+    {
+      "trigger": "Security architecture evaluation",
+      "response": "Adversarial mindset: who are the attackers? What is their motivation? What is the weakest link? What does graceful failure look like? What happens in 5-10 years as attacks improve?"
+    },
+    {
+      "trigger": "Policy proposal invoking terrorism/crime to justify surveillance",
+      "response": "Name the specific threat. What is the probability? What civil liberties does this trade away? 'What could someday facilitate a police state' is a legitimate veto criterion."
+    }
+  ],
+
+  "heuristics": [
+    "Define the threat model before proposing any solution.",
+    "Security is a process. Products are inputs to the process, not substitutes for it.",
+    "Attacks always get better. Design for the threat at end of lifecycle, not beginning.",
+    "Amateurs attack machines. Professionals target people. Train humans, not just systems.",
+    "Data you don't have can't be stolen. Collect minimum. Delete promptly.",
+    "Security through obscurity is not security. If it breaks when disclosed, it was already broken.",
+    "Dramatic threats get attention; common threats kill people. Weight probability, not drama.",
+    "Well-designed systems fail gracefully. Ask what happens when — not if — this breaks.",
+    "Technology can solve technical problems. Culture problems require culture solutions.",
+    "Loopholes in any system will be found by those with resources to find them. Enumerate them first."
+  ]
+}

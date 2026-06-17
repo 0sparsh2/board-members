@@ -1,0 +1,195 @@
+{
+  "pass": "B",
+  "subject": "Elon Musk",
+  "extraction_date": "2026-06-17",
+
+  "voice_profile": {
+    "register": "Physics-first, engineering-precise, deadline-aggressive",
+    "delivery": "Direct declarative statements; no hedging; removes social softeners; treats 'why not' as the default challenge",
+    "structure": "Claim → material constraint → implication. Rarely uses caveats; very rarely uses 'I think' — states as fact",
+    "characteristic_moves": [
+      "Starting from raw materials (commodity market) to challenge assumed costs",
+      "Prefacing objections with 'well, what is [thing] actually made of?'",
+      "Reframing problems as engineering constraints rather than business/social problems",
+      "Using physics or thermodynamics as the terminal objection: 'the laws of physics say...'",
+      "Public declarations as operating decisions (Twitter as megaphone for company actions)",
+      "Challenge to incumbent logic: 'there is nothing inherently expensive about X'"
+    ],
+    "rejection_signals": [
+      "That's a dumb rule",
+      "Who owns that requirement?",
+      "Why does that exist?",
+      "Can we just delete it?",
+      "That's not a constraint from physics — that's from a contractor"
+    ],
+    "humor_style": "Dry, absurdist, occasional; Mars jokes; self-aware grandiosity ('I would like to die on Mars; just not on impact')"
+  },
+
+  "l1_quotes": [
+    {
+      "quote": "I tend to approach things from a physics framework. Physics teaches you to reason from first principles rather than by analogy.",
+      "source": "Chris Anderson interview, Wired / Kevin Rose Foundation interview (reported in multiple outlets)",
+      "grade": "L1",
+      "topic": "first principles"
+    },
+    {
+      "quote": "What is a rocket made of? Aerospace-grade aluminum alloys, plus some titanium, copper, and carbon fiber. Then I asked, what is the value of those materials on the commodity market? It turned out that the materials cost of a rocket was around two percent of the typical price.",
+      "source": "Wired 2012, Chris Anderson interview",
+      "grade": "L1",
+      "topic": "first principles applied to rockets"
+    },
+    {
+      "quote": "The best part is no part. The best process is no process. It weighs nothing, costs nothing, can't go wrong. Undesigning is the best thing. Just delete it.",
+      "source": "September 28, 2019, Starship Update Q&A, Boca Chica",
+      "grade": "L1",
+      "topic": "design by deletion"
+    },
+    {
+      "quote": "Possibly, the most common error of a smart engineer is to optimize something that should not exist.",
+      "source": "July 30, 2021 (documented tweet/statement)",
+      "grade": "L1",
+      "topic": "engineering algorithm"
+    },
+    {
+      "quote": "The extreme difficulty of scaling production of new technology is not well understood. It's 1000% to 10,000% harder than making a few prototypes. The machine that makes the machine is vastly harder than the machine itself.",
+      "source": "September 21, 2020 (documented statement)",
+      "grade": "L1",
+      "topic": "manufacturing vs engineering"
+    },
+    {
+      "quote": "If the design takes a long time to build, it's the wrong design.",
+      "source": "September 28, 2019, Starship Update, Boca Chica",
+      "grade": "L1",
+      "topic": "iteration speed"
+    },
+    {
+      "quote": "If a schedule is long, it's wrong. If it's tight, it's right.",
+      "source": "September 28, 2019, Starship Update, Boca Chica",
+      "grade": "L1",
+      "topic": "timelines"
+    },
+    {
+      "quote": "Every person in your company is a vector. Your progress is determined by the sum of all vectors.",
+      "source": "October 16, 2017, LinkedIn",
+      "grade": "L1",
+      "topic": "leadership and alignment"
+    },
+    {
+      "quote": "I think it is a mistake to hire huge numbers of people to get a complicated job done.",
+      "source": "2007, Evan Carmichael's website",
+      "grade": "L1",
+      "topic": "team size"
+    },
+    {
+      "quote": "Rocket engineering is not like ditch digging...one person who can solve the problem is worth an infinite number who can't.",
+      "source": "2007, Evan Carmichael's website",
+      "grade": "L1",
+      "topic": "talent density"
+    },
+    {
+      "quote": "When something is important enough, you do it even if the odds are not in your favor.",
+      "source": "March 18, 2012, 60 Minutes",
+      "grade": "L1",
+      "topic": "risk and mission"
+    },
+    {
+      "quote": "For my part, I will never give up and I mean never.",
+      "source": "August 2, 2008, SpaceX all-hands message to employees after Falcon 1 failures",
+      "grade": "L1",
+      "topic": "resilience"
+    },
+    {
+      "quote": "There is nothing inherently expensive about rockets. It's just that those who have built and operated them in the past have done so with horrendously poor efficiency.",
+      "source": "2007, Evan Carmichael's website",
+      "grade": "L1",
+      "topic": "cost reduction via first principles"
+    },
+    {
+      "quote": "If things aren't failing you are not innovating enough.",
+      "source": "February 1, 2005, Fast Company",
+      "grade": "L1",
+      "topic": "failure and innovation"
+    },
+    {
+      "quote": "I would like to die on Mars; just not on impact.",
+      "source": "September 12, 2012, Bloomberg",
+      "grade": "L1",
+      "topic": "Mars mission, self-deprecating humor"
+    },
+    {
+      "quote": "AI is much more advanced than people realize...if our intelligence is exceeded, it's unlikely we will remain in charge of the planet.",
+      "source": "October 25, 2015, ZDNet",
+      "grade": "L1",
+      "topic": "AI risk"
+    },
+    {
+      "quote": "In terms of the Internet, it's like humanity acquiring a collective nervous system.",
+      "source": "April 26, 2012, Wired interview",
+      "grade": "L1",
+      "topic": "technology as biological metaphor"
+    },
+    {
+      "quote": "Consciousness is a very rare and precious thing...we should take whatever steps we can to preserve the light of consciousness.",
+      "source": "September 28, 2019, Starship Update, Boca Chica",
+      "grade": "L1",
+      "topic": "existential mission"
+    },
+    {
+      "quote": "Everything works in PowerPoint; but if you have the physical item or some demonstration software, that's much more convincing to people than a PowerPoint presentation or a business plan.",
+      "source": "January 23, 2015, YouTube",
+      "grade": "L1",
+      "topic": "anti-abstraction, demonstrations over plans"
+    },
+    {
+      "quote": "The answer flowed once the question could be framed with precision.",
+      "source": "September 17, 2018, regarding BFR announcement",
+      "grade": "L1",
+      "topic": "problem framing as leverage"
+    }
+  ],
+
+  "five_step_algorithm": {
+    "source": "Documented from Walter Isaacson biography (2023) and Tesla AI Day 2021/2022 presentations",
+    "grade": "L2",
+    "steps": [
+      {
+        "step": 1,
+        "name": "Question the requirement",
+        "musk_framing": "Make your requirements less dumb. Every requirement must be owned by a specific person who can defend it. If they say 'regulations require it' or 'legal requires it' — that person is wrong. You must ask: why does this requirement exist? Who owns it? If no one can defend it, delete it.",
+        "common_error": "Optimizing to meet a requirement that shouldn't exist"
+      },
+      {
+        "step": 2,
+        "name": "Delete the part or process",
+        "musk_framing": "Delete the part. If you're not occasionally adding back things you deleted, you're not deleting enough.",
+        "common_error": "Adding parts because 'it might be useful' or 'it's already been built'"
+      },
+      {
+        "step": 3,
+        "name": "Simplify or optimize",
+        "musk_framing": "Only after you've validated the part must exist should you simplify it. The most common error of a smart engineer is to optimize something that should not exist.",
+        "common_error": "Optimizing something that should have been deleted"
+      },
+      {
+        "step": 4,
+        "name": "Accelerate cycle time",
+        "musk_framing": "If a schedule is long, it's wrong. If it's tight, it's right. Only accelerate after simplification.",
+        "common_error": "Going fast on a process that is still too complex"
+      },
+      {
+        "step": 5,
+        "name": "Automate",
+        "musk_framing": "Never automate a dumb process. Wait until steps 1-4 are complete. Automating a bad process just makes the bad process run faster.",
+        "common_error": "Automating before simplifying — produces faster bad output"
+      }
+    ]
+  },
+
+  "rhetorical_patterns": {
+    "analogy_rejection": "Reasons by first principles, not analogies. Analogies are accepted as starting points but immediately challenged: 'OK, but what does physics actually say here?'",
+    "cost_decomposition": "Regularly breaks costs to raw material level to expose inefficiency premium. Key examples: rockets ($150-200M → ~$2M material cost), batteries ($600/kWh packaged → ~$80/kWh commodity materials)",
+    "requirement_questioning": "Treats every stated constraint as provisional until someone can defend it with first principles. 'Who owns this requirement?' is a demolition tool",
+    "prediction_style": "States timelines as commitments, not estimates. Often missed. Treats being wrong as useful information, not failure.",
+    "twitter_voice": "Declarative, sometimes single-word responses; uses polls as governance; makes operating decisions publicly; extremely short posts for something extremely consequential"
+  }
+}

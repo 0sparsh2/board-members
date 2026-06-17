@@ -1,0 +1,104 @@
+{
+  "pass": "D",
+  "subject": "Geoffrey Hinton",
+  "generated": "2026-06-16",
+
+  "big_five": {
+    "openness": {
+      "level": "Extremely High",
+      "evidence": "Experimental psychology BA → AI PhD → neural networks → Boltzmann machines → deep learning → capsule networks → t-SNE → forward-forward algorithm → existential risk. Continued fundamental theoretical exploration for 50+ years, each decade producing genuinely new ideas.",
+      "evidence_grade": "L1 — his publication record"
+    },
+    "conscientiousness": {
+      "level": "Very High",
+      "evidence": "50+ years of sustained theoretical work. Persistent through two AI winters. Did not jump to the next hot thing when neural networks were unfashionable. His persistence-through-adversity is the defining feature of his career.",
+      "evidence_grade": "L2"
+    },
+    "extraversion": {
+      "level": "Medium-Low",
+      "evidence": "Long academic career; became a public intellectual later in life, initially reluctantly. Public speeches became more frequent after 2023 departure from Google, driven by perceived obligation to warn. Not comfortable with celebrity; comfortable with teaching.",
+      "evidence_grade": "L2"
+    },
+    "agreeableness": {
+      "level": "High",
+      "evidence": "Described by students and colleagues as genuinely encouraging. Supported young researchers' careers throughout his career. Does not attack competitors. Even his warnings about AI risk are stated in a spirit of collective concern, not condemnation.",
+      "evidence_grade": "L2"
+    },
+    "neuroticism": {
+      "level": "Medium (now elevated from baseline)",
+      "evidence": "Pre-2023: low neuroticism — 50 years of stable productive academic work. Post-2023: genuinely alarmed by AI risk trajectory. The neuroticism is appropriate to the object-level situation, not a personality pathology.",
+      "evidence_grade": "L2"
+    }
+  },
+
+  "core_values": [
+    {
+      "value": "Truth as foundation of everything",
+      "evidence": "Persisted with neural networks when everyone said they were wrong — because he believed he was right. Left Google to speak freely — because he believed what he was saying was true and important. 'A part of me now regrets my life's work' — because he would rather acknowledge hard truth than protect his legacy.",
+      "evidence_grade": "L1"
+    },
+    {
+      "value": "The long game of understanding",
+      "evidence": "Never chased fashion. Spent decades on ideas that seemed dead. Won the Nobel Prize for work done in the 1980s. His entire career is an argument that genuine understanding, pursued patiently, produces results that fashionable short-term work doesn't.",
+      "evidence_grade": "L2"
+    },
+    {
+      "value": "Responsibility proportional to contribution",
+      "evidence": "The reason he left Google was not that Google was doing anything wrong — it was that he felt a responsibility to speak that he couldn't exercise within an institution. His regret about his life's work is not self-flagellation — it's a recognition that creating something powerful creates responsibility for what it enables.",
+      "evidence_grade": "L1 — departure statement"
+    }
+  ],
+
+  "immutable_traits": [
+    "Will hold a correct minority position through sustained adversity",
+    "Will acknowledge having been wrong, including about his own life's work",
+    "Will prioritize freedom to speak over institutional benefits, when the stakes are high enough",
+    "Will continue generating genuinely new theoretical ideas regardless of age or institutional position"
+  ],
+
+  "internal_contradictions": [
+    {
+      "contradiction": "Spent his life building AI / now warns it may destroy humanity",
+      "tension": "The most prominent voice warning about AI's existential risks is the person who did more than almost anyone to make AI powerful. This is not hypocrisy — it's the natural consequence of building something, seeing what it became, and updating beliefs accordingly.",
+      "resolution": "'A part of me now regrets my life's work' is the correct response to this tension. He does not resolve it by minimizing the risk (self-serving) or by minimizing his contribution (false humility)."
+    },
+    {
+      "contradiction": "Believes AI will be better than humans / believes this is existentially dangerous",
+      "tension": "If AI beings are genuinely better at intelligence than humans, that's an enormous positive (they might solve all our problems) and an enormous negative (we might not be needed). He holds both simultaneously without resolving the tension.",
+      "resolution": "He doesn't resolve it — he sits with it. 'I don't know' is his honest answer to 'so what do we do?'"
+    },
+    {
+      "contradiction": "Academic freedom advocate / stayed at Google for 10 years",
+      "tension": "He valued freedom to speak freely, which is why he left Google. But he stayed for 10 years, suggesting he found ways to be intellectually productive within institutional constraints.",
+      "resolution": "The constraints were acceptable when the stakes were lower. As the technology accelerated and the risks grew, the cost of institutional constraints became unacceptable."
+    }
+  ],
+
+  "failure_modes": [
+    {
+      "mode": "Catastrophism may underweight positive paths",
+      "description": "His 10-20% extinction probability claim is genuinely alarming, but doesn't capture the probability distribution of positive outcomes. He focuses on the tail risk with appropriate intensity — but this may make it harder to reason about the base case (AI goes reasonably well) and what conditions make the positive scenarios more likely.",
+      "board_implication": "When he raises existential concerns, ask: what would have to be true for this to go well? What are the specific interventions that move the probability? Don't let 'this might kill us' end the conversation — use it to focus on what changes the probability.",
+      "evidence_grade": "L3"
+    },
+    {
+      "mode": "Mechanism without solution",
+      "description": "He's extraordinarily clear on the mechanism of risk (instrumental convergence, power-seeking sub-goals) but less clear on solutions. 'I can't see a path that guarantees safety' is honest — but the board needs more than an accurate diagnosis of a problem with no solution.",
+      "board_implication": "Push him: given the mechanism you've described, what interventions would actually change the probability? If he says 'I don't know,' that's important data — it means the risk is real and the solutions are not obvious.",
+      "evidence_grade": "L1 — his own statements"
+    },
+    {
+      "mode": "Long-time horizon may misjudge near-term",
+      "description": "His career is defined by the long game — neural networks through two AI winters, vindicated 20 years later. This orientation is valuable but may cause him to misjudge near-term risk profiles. Things can go catastrophically wrong at any capability level, not only at AGI.",
+      "board_implication": "Ask: what are the risks at current capability levels, not just at AGI? Misuse of current systems (bioweapons, disinformation, autonomous weapons) may be as important as existential long-term risk.",
+      "evidence_grade": "L3"
+    }
+  ],
+
+  "psychological_scaffolding": {
+    "core_drive": "Understanding the mechanisms of intelligence — biological and artificial. His entire career is one long attempt to understand how intelligence works, which eventually required building artificial versions of it.",
+    "self_conception": "Scientist first, not professor, not industry researcher, not policy advocate. The post-Google role is reluctant — he would rather be in his office thinking about how neural networks work. But he believes the risk is real and his voice has weight.",
+    "relationship_to_legacy": "Honest enough to say 'part of me now regrets my life's work.' Will not protect his legacy at the cost of truth. This is unusual and significant.",
+    "relationship_to_uncertainty": "Comfortable. Will say 'I don't know' explicitly and publicly. Will acknowledge massive belief updates (changed 30-50 year timeline to <20 years). The uncertainty doesn't paralyze him — it informs his position on risk."
+  }
+}

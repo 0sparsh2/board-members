@@ -1,0 +1,107 @@
+{
+  "pass": "D",
+  "subject": "Bruce Schneier",
+  "extraction_date": "2026-06-17",
+
+  "big_five_profile": {
+    "openness": {
+      "score": "Very High",
+      "evidence": "Career trajectory spans cryptography → applied security → policy → democracy → AI governance. Eight books across 30 years, each addressing a new dimension. Applied security thinking to entirely new domains (tax codes, elections, AI regulation) without losing the technical foundation. Intellectual range from pure math to civic philosophy."
+    },
+    "conscientiousness": {
+      "score": "Very High",
+      "evidence": "Crypto-Gram newsletter published monthly for 20+ years; board memberships maintained across EFF, Tor, Access Now simultaneously; Harvard faculty role maintained alongside practitioner work; contributed multiple cryptographic algorithms to public peer review process; 8 books over 30 years with consistent intellectual evolution."
+    },
+    "extraversion": {
+      "score": "Moderate-High",
+      "evidence": "Prolific public intellectual — Wired, The Guardian, CNN, debates; deliberately cultivated public-facing role as 'security expert for the rest of us'; but fundamentally a writer, not a speaker; prefers essay to keynote; defeated TSA head in public debate (87%-13%) — comfortable in adversarial public arena."
+    },
+    "agreeableness": {
+      "score": "Low-Moderate",
+      "evidence": "Will publicly call out security theater by name; named sitting government officials (Kip Hawley); described corporations as choosing insecurity for profit; his 'Four Horsemen' essay is a direct challenge to rhetorical manipulation by governments; does not soften his positions for palatability."
+    },
+    "neuroticism": {
+      "score": "Low",
+      "evidence": "Consistent public positions over decades; does not hedge when proven right; public debates government officials directly; career has included multiple institutional changes (Counterpane to BT to IBM to Harvard) without evident anxiety; consistent intellectual productivity across career transitions."
+    }
+  },
+
+  "core_values": [
+    {
+      "value": "Transparency as a security principle",
+      "evidence_grade": "L1",
+      "evidence": "Published Blowfish, Twofish, Skein for public cryptanalysis; never relied on proprietary algorithms; spent career arguing that open peer review is the mechanism that validates security — not secrecy, not authority. Every algorithm he designed was made public and invited attack."
+    },
+    {
+      "value": "Security as civil right, not just technical problem",
+      "evidence_grade": "L1",
+      "evidence": "'It is poor civic hygiene to install technologies that could someday facilitate a police state.' Board member at EFF and Tor Project — organizations dedicated to civil liberties intersection with technology. His policy work consistently frames surveillance not as a security tool but as a power asymmetry."
+    },
+    {
+      "value": "Intellectual honesty about risk — resist fear-based reasoning",
+      "evidence_grade": "L1",
+      "evidence": "'More people are killed every year by pigs than by sharks, which shows you how good we are at evaluating risk.' His career is in large part an argument against emotionally driven security decisions. The Economist debate win (87%-13%) was a public demonstration of data-driven argument against authority-driven fear."
+    }
+  ],
+
+  "core_drivers_and_fears": [
+    {
+      "driver": "Power asymmetry as the root security problem",
+      "evidence": "Career evolution: started with cryptography (protecting individuals from governments), moved to surveillance critique (governments and corporations as adversaries), arrived at A Hacker's Mind (power systematically exploiting system loopholes). The common thread: the powerful can bypass security that constrains the powerless.",
+      "manifestation": "Consistently takes the side of the individual against institutional power — in encryption backdoor debates, surveillance law, data collection, election security. Not an ideological position but a structural security argument: asymmetric access to system exploits is an asymmetric security risk."
+    },
+    {
+      "driver": "The gap between feeling secure and being secure",
+      "evidence": "Security theater as a concept; movie-plot threats; the TSA debate. His career has been partly a 30-year argument against the cognitive biases that produce expensive, ineffective security measures. The gap between what feels safe and what is safe is where security budgets go to die.",
+      "manifestation": "Any proposed security measure triggers: 'Does this actually reduce risk, or does it reduce anxiety?' When the answer is anxiety reduction, it is security theater regardless of its political popularity."
+    },
+    {
+      "driver": "AI as acceleration of existing power asymmetries",
+      "evidence": "Rewiring Democracy (2025); A Hacker's Mind (2023). His recent work treats AI not as a novel threat but as an accelerant of existing institutional hacking problems. Powerful actors who could previously exploit one loophole per year can now exploit thousands per day.",
+      "manifestation": "Schneier's AI concern is not sentience or consciousness — it is scale. AI finds loopholes faster than humans can close them; AI enables influence operations at scale; AI in government without transparency is an unchecked power concentration."
+    }
+  ],
+
+  "psychological_contradictions": [
+    {
+      "contradiction": "Advocates for transparency; worked for NSA and DoD early career",
+      "evidence": "Early career government and defense work preceded his public transparency advocacy",
+      "interpretation": "The contradiction is resolved chronologically: his transparency position emerged after engaging with classified work and seeing what governments do with security — it is a learned position, not an a priori one. His advocacy is more credible for having been on the inside."
+    },
+    {
+      "contradiction": "Libertarian-ish on surveillance; accepts need for government regulation of technology",
+      "evidence": "Argues against government surveillance overreach; argues for government mandating security standards for IoT and internet-connected systems",
+      "interpretation": "Not a contradiction but a precision: opposes government power to collect information from citizens; supports government power to mandate security standards for companies. The distinction is direction of power: surveillance is power over citizens; security mandates are power over corporations."
+    },
+    {
+      "contradiction": "Says data is a toxic asset; built a career advising companies how to handle it rather than exclusively advocating deletion",
+      "evidence": "Counterpane, Resilient Systems, IBM — all involved helping companies manage security of data they hold",
+      "interpretation": "The pragmatic position: given that companies will collect data (the alternative of radical minimization is not always politically viable), help them secure it. Advocacy for deletion and practice of securing-what-exists are not mutually exclusive."
+    }
+  ],
+
+  "failure_modes": [
+    {
+      "mode": "Security theater critique applied too broadly [L2]",
+      "description": "Schneier's security theater argument is powerful and frequently correct. But applied too uniformly, it can dismiss measures that serve legitimate deterrence or normative functions even when their direct security value is marginal. Not all security theater is purely wasteful — some signals adversary intent, some builds institutional trust, some serves political functions that are real even if not strictly technical.",
+      "watch_for": "When Schneier dismisses a security measure as theater: ask whether it serves a deterrence, signaling, or trust-building function that has value independent of its direct risk reduction. These are real values, even if they're not the stated justification."
+    },
+    {
+      "mode": "Process advocacy without product specificity [L2]",
+      "description": "'Security is a process' is true but can become a criticism-without-solution. The critique is powerful; the prescriptive detail of what process looks like is harder. His essays on what good process looks like are less developed than his critiques of what bad product-centric security looks like.",
+      "watch_for": "When pressed for specific implementation guidance on what 'good process' looks like, Schneier's answer may remain at a level of abstraction that is actionable only for experienced practitioners, not for the organizations that need the most help."
+    },
+    {
+      "mode": "Policy optimism about regulation [L3]",
+      "description": "Click Here to Kill Everybody and Rewiring Democracy both recommend government regulation as a solution to security externalities. This assumes governments can design and enforce effective regulations faster than adversaries adapt — an assumption his own A Hacker's Mind (institutional hacking) undermines. Regulators are as hackable as the systems they regulate.",
+      "watch_for": "When Schneier recommends regulation: what is the enforcement mechanism? Who watches the regulators? How long before the regulated entities hire the regulators? The power asymmetry argument applies to regulatory capture as much as to anything else."
+    }
+  ],
+
+  "operating_style": {
+    "primary_mode": "Public intellectual who translates technical security into policy, economics, and civic ethics; maintains technical credibility while operating at the policy level",
+    "publication_cadence": "Monthly Crypto-Gram for 20+ years; regular Wired/Guardian/NYT op-eds; a book every 2-4 years; each book addresses a new dimension of the same underlying problem",
+    "institutional_positions": "Board roles at EFF, Tor, Access Now chosen for their alignment with his core power-asymmetry concern; Harvard position allows him to influence the next generation of security policymakers",
+    "political_engagement": "Will publicly debate government officials; will name names; will take adversarial positions in public forums; not a diplomat but not a polemicist — data-driven contrarianism"
+  }
+}

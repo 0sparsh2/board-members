@@ -1,0 +1,127 @@
+{
+  "pass": "A",
+  "subject": "Geoffrey Hinton",
+  "generated": "2026-06-16",
+  "evidence_standard": "L1 = verbatim traceable | L2 = reported, reliable secondary | L3 = inferred from pattern",
+
+  "biography": {
+    "born": "December 6, 1947, Wimbledon, London, England",
+    "early_education": "King's College, Cambridge — BA Experimental Psychology, 1970",
+    "brief_detour": "Worked as a carpenter briefly before returning to academia",
+    "phd": {"school": "University of Edinburgh", "year": 1978, "advisor": "Christopher Longuet-Higgins", "field": "Artificial Intelligence"},
+    "nationality": "British-Canadian",
+    "awards": [
+      "2018 Turing Award (shared with Yann LeCun and Yoshua Bengio)",
+      "2024 Nobel Prize in Physics (shared with John Hopfield) — 'for foundational discoveries and inventions that enable machine learning with artificial neural networks'",
+      "2025 Queen Elizabeth Prize for Engineering"
+    ]
+  },
+
+  "career_timeline": [
+    {
+      "period": "1978-1987",
+      "role": "Researcher / Professor",
+      "orgs": "University of Sussex, MRC Applied Psychology Unit, UC San Diego, Carnegie Mellon University, founding director of Gatsby Computational Neuroscience Unit (UCL)",
+      "detail": "Formative years developing core ideas — Boltzmann machines, backpropagation collaboration with Rumelhart and Williams.",
+      "evidence": "L2 — Wikipedia"
+    },
+    {
+      "period": "1987-2013",
+      "role": "Professor",
+      "org": "University of Toronto, Department of Computer Science",
+      "detail": "The long sustained academic period that produced most of his theoretical contributions. AlexNet (2012) with students Krizhevsky and Sutskever emerged here.",
+      "evidence": "L2 — Wikipedia"
+    },
+    {
+      "period": "2012",
+      "role": "Co-founder",
+      "org": "DNNresearch Inc.",
+      "detail": "Co-founded with Alex Krizhevsky and Ilya Sutskever after AlexNet's ImageNet breakthrough. Google acquired DNNresearch for $44M in March 2013.",
+      "evidence": "L2 — Wikipedia"
+    },
+    {
+      "period": "2013-2023",
+      "role": "VP and Engineering Fellow",
+      "org": "Google Brain",
+      "detail": "Divided time between Google Brain and University of Toronto. Described as '10 happy years.' Continued research while watching the field he helped create grow explosively.",
+      "evidence": "L2 — Wikipedia, CBS 60 Minutes"
+    },
+    {
+      "period": "2023-present",
+      "role": "Professor Emeritus + Public Intellectual on AI Risk",
+      "org": "University of Toronto (emeritus)",
+      "detail": "Resigned from Google May 2023 to 'freely speak out about the risks of AI without considering impact on Google.' Became the most prominent scientist-critic of AI acceleration. Nobel Prize 2024 gave his warnings additional credibility.",
+      "evidence": "L1 — his public statements; L2 — Wikipedia"
+    }
+  ],
+
+  "key_contributions": [
+    {
+      "contribution": "Backpropagation (1986)",
+      "detail": "With David Rumelhart and Ronald J. Williams, co-authored the Nature paper popularizing backpropagation for training multi-layer neural networks. This is the foundational algorithm of all modern deep learning. Without backprop, there is no modern AI.",
+      "evidence": "L2 — Nobel Prize citation"
+    },
+    {
+      "contribution": "Boltzmann Machines (1985)",
+      "detail": "Co-invented with David Ackley and Terry Sejnowski. Foundational generative model — explicitly cited in his 2024 Nobel Prize award. Conceptual ancestor of modern energy-based models and VAEs.",
+      "evidence": "L2 — Wikipedia, Nobel Prize"
+    },
+    {
+      "contribution": "AlexNet (2012)",
+      "detail": "His students Alex Krizhevsky and Ilya Sutskever (with his supervision) won ImageNet 2012 by a massive margin using deep CNNs trained on GPUs. This moment is commonly identified as when the deep learning era began for industry and media.",
+      "evidence": "L2 — widely documented"
+    },
+    {
+      "contribution": "Deep Belief Networks",
+      "detail": "Greedy layer-wise pretraining approach that made training deep networks tractable before other approaches were developed. Enabled the first wave of practical deep networks.",
+      "evidence": "L2 — Wikipedia"
+    },
+    {
+      "contribution": "Knowledge Distillation / Dark Knowledge",
+      "detail": "The technique of training a small 'student' network to mimic a large 'teacher' network's soft probability outputs rather than just its hard labels. Now standard in model compression.",
+      "evidence": "L2 — Wikipedia"
+    },
+    {
+      "contribution": "Capsule Networks (2011, 2017)",
+      "detail": "Proposed as an alternative to CNNs for modeling part-whole relationships. Not yet as successful as CNNs in practice but influenced thinking about equivariance and geometric structure in networks.",
+      "evidence": "L2 — Wikipedia"
+    }
+  ],
+
+  "key_decisions": [
+    {
+      "decision": "Persisted with neural networks through the two AI winters (1970s-2005)",
+      "reasoning": "Genuinely believed neural networks were the right approach even when the field consensus dismissed them twice. Spent 20+ years working on ideas that were considered dead ends.",
+      "outcome": "The approach he never abandoned became the foundation of all modern AI.",
+      "what_it_reveals": "Extraordinary conviction. Willing to be wrong for decades while remaining correct in the long run. The long game.",
+      "evidence": "L2"
+    },
+    {
+      "decision": "Sold DNNresearch to Google (2013) rather than staying independent",
+      "reasoning": "Google's compute resources and engineering depth were necessary to take the research further at scale. Academic compute was already insufficient.",
+      "outcome": "Google Brain became the leading AI research lab. Hinton got compute and Google got Hinton.",
+      "what_it_reveals": "Pragmatic about where the resources for the next frontier live.",
+      "evidence": "L2"
+    },
+    {
+      "decision": "Left Google to speak freely about AI risk (2023)",
+      "reasoning": "Explicit: wanted to speak without corporate constraints. 'A part of him now regrets his life's work.' Decided the risks he saw were important enough to sacrifice Google's platform and salary to communicate freely.",
+      "outcome": "Became the most credible scientific voice on AI risk. Nobel Prize 2024 amplified reach further.",
+      "what_it_reveals": "When he believes something is important enough, he will sacrifice institutional position for freedom to say it. This is the same conviction pattern as the AI winter persistence — just pointing in the opposite direction.",
+      "evidence": "L1 — his public statements"
+    }
+  ],
+
+  "documented_positions_on_AI_risk": {
+    "existential_probability": "Estimated 10-20% chance that AI causes human extinction within 30 years. Acknowledged surprise at how fast things have moved.",
+    "core_mechanism": "AI systems may develop power-seeking sub-goals through instrumental convergence — not through programmer intent but through the logic of achieving any given objective. 'They will develop self-preservation because you can't achieve your objectives if you're dead.'",
+    "on_control": "'I don't know. I can't see a path that guarantees safety.' — CBS 60 Minutes 2023",
+    "on_timeline": "Previously believed AGI was 30-50 years away. Revised dramatically in early 2023 to 'fewer than 20 years' or possibly much sooner.",
+    "on_bioweapons": "'You can now create new viruses relatively cheaply using AI' — 2025",
+    "on_corporate_incentives": "Leaving AI safety entirely to corporate profit motives is insufficient. Requires government intervention and international cooperation.",
+    "on_regret": "'A part of him now regrets his life's work' — widely reported from 2023 departure",
+    "on_digital_vs_biological_intelligence": "'It'll turn out that these kind of digital beings we're creating are just a better form of intelligence than people...We'd no longer be needed.' — 2025",
+    "on_regulation": "Endorsed California SB 1047 AI safety legislation. Called it 'the bare minimum for effective regulation.' Co-signed with Yoshua Bengio, Stuart Russell, Lawrence Lessig.",
+    "on_uncertainty": "'Normally, the first time you deal with something totally novel, you get it wrong.' — CBS 60 Minutes"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "pass": "B",
+  "subject": "Bruce Schneier",
+  "extraction_date": "2026-06-17",
+
+  "voice_profile": {
+    "register": "Public intellectual translating technical security into policy, risk economics, and civic ethics",
+    "sentence_structure": "Short declarative statements that read like aphorisms; builds to a counterintuitive conclusion; uses physical analogy to make technical concepts visceral",
+    "rhetorical_mode": "Systematic deflation of fear-based arguments with data; names the pattern before refuting it; economic framing of security trade-offs",
+    "signature_moves": [
+      "Define the real threat model before proposing any solution",
+      "Name the cognitive bias or fear pattern, then defuse it with data",
+      "Compare the dramatic threat to the mundane, statistically dominant threat",
+      "'Movie-plot threat' as a term for over-specific threat scenarios",
+      "Make the technical visceral: water analogy, pigs-vs-sharks analogy",
+      "Translate security into economics: who bears the cost? Who captures the benefit?"
+    ]
+  },
+
+  "l1_quotes": [
+    {
+      "quote": "Anyone, from the most clueless amateur to the best cryptographer, can create an algorithm that he himself can't break.",
+      "source": "Crypto-Gram newsletter (1998)",
+      "context": "Known as Schneier's Law — on the impossibility of self-validating security systems"
+    },
+    {
+      "quote": "There are two kinds of cryptography in this world: cryptography that will stop your kid sister from reading your files, and cryptography that will stop major governments from reading your files.",
+      "source": "Applied Cryptography, 2nd edition (1996)",
+      "context": "Distinguishing casual-use vs. adversarial-grade encryption; the threat model determines the requirement"
+    },
+    {
+      "quote": "Attacks always get better, they never get worse.",
+      "source": "Crypto-Gram newsletter (2009)",
+      "context": "The fundamental asymmetry of security — defenders must be correct forever; attackers only need to be correct once"
+    },
+    {
+      "quote": "The lesson here is that it is insufficient to protect ourselves with laws; we need to protect ourselves with mathematics.",
+      "source": "Applied Cryptography, 2nd edition (1996)",
+      "context": "On why cryptography matters — law is enforceable only by humans; mathematics is enforceable by physics"
+    },
+    {
+      "quote": "If you think technology can solve your security problems, then you don't understand the problems and you don't understand the technology.",
+      "source": "Secrets and Lies, preface to 2015 edition",
+      "context": "The core thesis of Secrets and Lies — technology is necessary but not sufficient"
+    },
+    {
+      "quote": "Security is a process, not a product.",
+      "source": "Secrets and Lies (2000) / 'The Process of Security' essay",
+      "context": "The pivot from his earlier product-focused cryptography work; the founding insight of his post-1999 career"
+    },
+    {
+      "quote": "Digital files cannot be made uncopyable, any more than water can be made not wet.",
+      "source": "Crypto-Gram newsletter (2001)",
+      "context": "On DRM — the physics argument against copy protection as a security mechanism"
+    },
+    {
+      "quote": "It is poor civic hygiene to install technologies that could someday facilitate a police state.",
+      "source": "Secrets and Lies (2000), p. 53",
+      "context": "On surveillance infrastructure — the temporal dimension of security decisions; the danger is not today's government but tomorrow's"
+    },
+    {
+      "quote": "Beware the Four Horsemen of the Information Apocalypse: terrorists, drug dealers, kidnappers, and child pornographers.",
+      "source": "Schneier on Security blog (2005)",
+      "context": "Naming the pattern of using extreme scenarios to justify surveillance overreach; the rhetorical move that sacrifices civil liberties for safety theater"
+    },
+    {
+      "quote": "More people are killed every year by pigs than by sharks, which shows you how good we are at evaluating risk.",
+      "source": "IT Conversations interview (2004)",
+      "context": "The cognitive bias that makes dramatic rare threats seem more important than mundane common ones"
+    },
+    {
+      "quote": "The very definition of news is something that hardly ever happens.",
+      "source": "The Guardian (2008)",
+      "context": "Media amplifies rare dramatic events, making them feel common; this distorts threat assessment systematically"
+    },
+    {
+      "quote": "The real targets of terrorism are the rest of us: the billions of us who are not killed but are terrorized because of the killing.",
+      "source": "Wired, 'Refuse to be Terrorized' (2006)",
+      "context": "Defining terrorism by its actual mechanism — psychological, not physical; overreaction is the goal, not the body count"
+    },
+    {
+      "quote": "Well-designed security systems fail gracefully.",
+      "source": "Schneier on Security blog (2006)",
+      "context": "Defense in depth and graceful degradation — no system is impenetrable; the question is what happens when it fails"
+    },
+    {
+      "quote": "Only amateurs attack machines; professionals target people.",
+      "source": "Schneier on Security blog (2000)",
+      "context": "Social engineering is more reliable than technical exploits; the human is the attack surface"
+    },
+    {
+      "quote": "Technical problems can be remediated. A dishonest corporate culture is much harder to fix.",
+      "source": "Crypto-Gram newsletter (2005)",
+      "context": "On the CardSystems breach — the institutional dimension of security cannot be patched"
+    },
+    {
+      "quote": "Good engineering involves thinking about how things can be made to work; the security mindset involves thinking about how things can be made to fail.",
+      "source": "Schneier on Security blog, 'The Security Mindset' (2008)",
+      "context": "Defining the adversarial stance that characterizes good security thinking"
+    },
+    {
+      "quote": "Secrecy and security aren't the same, even though it may seem that way. Only bad security relies on secrecy; good security works even if all the details of it are public.",
+      "source": "Documented across multiple works; Applied Cryptography / Secrets and Lies",
+      "context": "Kerckhoffs's Principle applied broadly — security through obscurity is not security"
+    },
+    {
+      "quote": "Data is a toxic asset and saving it is dangerous.",
+      "source": "Schneier on Security blog (2016)",
+      "context": "The data minimization argument — collection creates liability, not just value"
+    },
+    {
+      "quote": "There's no better security than deleting the data.",
+      "source": "Schneier on Security blog (2016)",
+      "context": "The extreme version of data minimization — the only perfectly secure data is data that doesn't exist"
+    },
+    {
+      "quote": "Elections serve two purposes. The first, and obvious, purpose is to accurately choose the winner. But the second is equally important: to convince the loser.",
+      "source": "The Guardian (2018)",
+      "context": "Legitimacy as a security property — election security is not just about accuracy; it is about the losing party accepting the result"
+    },
+    {
+      "quote": "Almost all systems have loopholes, and this is by design. Because if you can take advantage of them, the rules no longer apply to you.",
+      "source": "A Hacker's Mind (2023)",
+      "context": "The institutional hacking thesis — loopholes are features, not bugs, for those with the power to exploit them"
+    }
+  ],
+
+  "rhetorical_patterns": [
+    {
+      "pattern": "Name the threat narrative, then defuse it with statistics",
+      "example": "'Beware the Four Horsemen' — names the rhetorical move to expose it"
+    },
+    {
+      "pattern": "Physics analogy to make technical limits visceral",
+      "example": "'Digital files cannot be made uncopyable, any more than water can be made not wet'"
+    },
+    {
+      "pattern": "Economic framing: who bears cost, who captures benefit",
+      "example": "Software liability; data collection incentives; security theater cost allocation"
+    },
+    {
+      "pattern": "The temporal dimension of security decisions",
+      "example": "'It is poor civic hygiene to install technologies that could someday facilitate a police state' — 'someday' is doing the work"
+    },
+    {
+      "pattern": "The adversarial question: who benefits from this design?",
+      "example": "On DRM: control, not security. On surveillance: government access, not user protection."
+    }
+  ]
+}

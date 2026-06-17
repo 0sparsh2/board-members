@@ -1,0 +1,95 @@
+{
+  "pass": "A",
+  "subject": "Marc Benioff + Diane Greene — Market/Customer Reality dual seat",
+  "extraction_date": "2026-06-17",
+  "note": "Paired board seat. Benioff covers enterprise market reality from the demand/customer side (he sells to enterprises via CRM/AI); Greene covers enterprise infrastructure reality from the supply/platform side (she built the cloud infrastructure enterprises run on). Together they represent what enterprise customers actually need vs. what product teams assume.",
+
+  "benioff": {
+    "full_name": "Marc Russell Benioff",
+    "born": "September 25, 1964, San Francisco, CA",
+    "education": "B.S. Business Administration, USC, 1986; summer intern at Apple in college",
+    "early_career": "Oracle Corporation 1986-1999 — youngest VP in Oracle history at 23, Oracle Rookie of the Year",
+    "career_timeline": [
+      {"period": "1979", "role": "Founded Liberty Software at age 15 — built games for Atari"},
+      {"period": "1986-1999", "role": "Oracle — sales, marketing, product development; youngest VP"},
+      {"period": "1999", "role": "Founded Salesforce from San Francisco apartment with slogan 'The End of Software'"},
+      {"period": "2004", "role": "Established Salesforce.org and 1-1-1 philanthropic model"},
+      {"period": "2007", "role": "Salesforce IPO"},
+      {"period": "2018", "role": "Purchased Time magazine with wife Lynne for $190 million"},
+      {"period": "2021-2022", "role": "Co-CEO with Bret Taylor; sole CEO again Nov 2022"},
+      {"period": "2023", "role": "Laid off 7,000 employees; later called it 'a bad idea'"},
+      {"period": "2025", "role": "Reduced support from 9,000 to 5,000 due to AI agents; agents now handle 50% of customer interactions"}
+    ],
+    "major_books": [
+      {"title": "Behind the Cloud", "year": "2009", "argument": "Salesforce founding story; introduces V2MOM framework; cloud as software category disruptor"},
+      {"title": "Trailblazer", "year": "2019", "argument": "Business is the greatest platform for change; stakeholder capitalism over shareholder primacy; 1-1-1 model; became NYT bestseller"}
+    ],
+    "key_frameworks": {
+      "v2mom": {
+        "name": "V2MOM — Vision, Values, Methods, Obstacles, Measures",
+        "description": "Annual organizational alignment tool used at Salesforce from founding; cascaded from CEO to every employee. Vision = what you want to achieve. Values = what matters most. Methods = specific steps to get there. Obstacles = what stands in the way. Measures = how you know you succeeded. Key insight: shared document visible to all employees creates radical organizational transparency and alignment.",
+        "origin": "Created when founding Salesforce to align 5 people; scaled to tens of thousands"
+      },
+      "one_one_one": {
+        "name": "1-1-1 Model",
+        "description": "1% of equity, 1% of product, 1% of employee time dedicated to philanthropy. Founded Salesforce.org on this model; co-founded Pledge 1% in 2014 with Atlassian's Scott Farquhar. Over $1 billion donated by Salesforce over 25 years.",
+        "extension": "Pledge 1% as movement: other companies adopt the model; philanthropy embedded in corporate DNA from founding, not bolted on after success"
+      },
+      "stakeholder_capitalism": {
+        "description": "Business must serve all stakeholders — employees, communities, environment, customers — not just shareholders. Rejects the Friedman Doctrine ('the business of business is business'). Business is the most powerful force for change in the world, and therefore the most responsible for using that power.",
+        "davos_2020": "Publicly stated 'capitalism as we know it is dead' at World Economic Forum 2020"
+      },
+      "ohana_culture": {
+        "description": "Hawaiian concept of family — the idea that the Salesforce community (employees, customers, partners, community) is a family with shared obligations. Drives his model of company as community, not just commercial entity."
+      }
+    },
+    "social_stands": [
+      {"year": "2015", "action": "Canceled all Indiana programs after RFRA passed; contributed to revised bill protecting LGBTQ+ rights"},
+      {"year": "2016", "action": "Threatened to reduce Georgia investments if HB 757 passed; governor vetoed"},
+      {"year": "2021", "action": "Announced relocation support for Texas employees after Texas Heartbeat Act"},
+      {"year": "2023", "action": "Advocated for 'refunding the police' in San Francisco"},
+      {"year": "2025", "action": "Became Trump supporter; called for National Guard in San Francisco; apologized after controversy"}
+    ],
+    "contradictions": [
+      "Preached stakeholder capitalism; laid off 7,000 in 2023 — admitted 'bad idea'",
+      "Advocated for workers; deployed AI agents to replace customer support at scale (9,000 → 5,000)",
+      "Social liberal positioning; became Trump supporter by 2025",
+      "Used Indiana/Georgia social stands as business leverage (business benefit from brand positioning coincided with moral stance)"
+    ]
+  },
+
+  "greene": {
+    "full_name": "Diane B. Greene",
+    "born": "June 9, 1955, Annapolis, Maryland",
+    "education": [
+      "B.S. Mechanical Engineering, University of Vermont, 1976",
+      "M.S. Naval Architecture, MIT, 1978",
+      "M.S. Computer Science, UC Berkeley, 1987 (where she met Mendel Rosenblum)"
+    ],
+    "athletics": "Ran first Windsurfing World Championship at age 19; national women's dinghy sailing champion 1976",
+    "career_timeline": [
+      {"period": "Pre-tech", "role": "Naval architect — designed ocean-going vessels; engineering rigor predates tech career"},
+      {"period": "1980s-1990s", "role": "Engineer/manager at Sybase, Tandem Computers, Silicon Graphics"},
+      {"period": "1996-1998", "role": "Co-founded VXtreme; acquired by Microsoft for $75M (became Windows Media Player basis)"},
+      {"period": "1998", "role": "Co-founded VMware with Mendel Rosenblum, Scott Devine, Edward Wang, Edouard Bugnion"},
+      {"period": "1998-2008", "role": "CEO of VMware — pioneered x86 virtualization for mainstream use; led EMC acquisition (2004, $635M); led 2007 IPO ($19.1B valuation, largest tech IPO that year)"},
+      {"period": "2008", "role": "Removed as CEO by VMware board; replaced by Paul Maritz — notable: board removed the founder"},
+      {"period": "2012-2015", "role": "Co-founded Bebop (cloud development platform); joined Google board Jan 2012"},
+      {"period": "2015-2019", "role": "CEO of Google Cloud — acquired via Bebop acquisition ($380M); built first enterprise-capable unit; grew to $8B+ ARR"},
+      {"period": "2019-present", "role": "Board: SAP, Stripe, Wix, A.P. Moller-Maersk; Chair, MIT Corporation (2020)"}
+    ],
+    "key_contributions": {
+      "vmware_insight": "Virtualization should start on desktop (multi-OS without reboot), then move to servers (utilization, management, efficiency). Bottom-up adoption strategy: get developers comfortable, then sell to enterprise IT.",
+      "google_cloud_pivot": "Google had consumer-grade reliability and consumer-grade support when she arrived. Enterprise customers need: 99.99% SLA commitments, 24/7 enterprise support, regulatory compliance (HIPAA, FedRAMP, SOC2), data residency controls, audit logs. Built these from scratch.",
+      "enterprise_vs_consumer": "Enterprise is not 'bigger consumer.' Enterprise means: multi-year contracts, procurement processes, CIO approval chains, regulatory constraints, support SLAs, integration requirements. A company that treats enterprise like consumer will fail at enterprise.",
+      "technical_credibility": "Engineers earn trust with enterprise customers differently than salespeople. Technical depth — actual architecture decisions, benchmark data, security audits — is the foundation of enterprise trust, not relationship management."
+    },
+    "board_philosophy": "Selective: SAP (enterprise software), Stripe (payments infrastructure), Wix (SMB/creator economy), Maersk (global logistics) — crosses sectors but always infrastructure-adjacent. MIT Corporation chair signals commitment to scientific/technical foundation.",
+    "awards": [
+      "Fortune 50 Most Powerful Women (2007)",
+      "IEEE Computer Society Computer Entrepreneur Award (2011, with Rosenblum)",
+      "Bloomberg 50 most influential (2017)",
+      "National Academy of Engineering (2018)"
+    ]
+  }
+}

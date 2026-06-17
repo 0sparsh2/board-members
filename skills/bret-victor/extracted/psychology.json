@@ -1,0 +1,110 @@
+{
+  "pass": "D",
+  "subject": "Bret Victor",
+  "extraction_date": "2026-06-17",
+
+  "big_five_profile": {
+    "openness": {
+      "score": "Extremely High",
+      "evidence": "Synthesizes electrical engineering, music synthesis, cognitive science, philosophy of mind, graphic design, and computer science into a single coherent framework; draws from Sutherland, Engelbart, Kay, Papert, Hamming, Tufte simultaneously"
+    },
+    "conscientiousness": {
+      "score": "Very High",
+      "evidence": "Each essay is meticulously argued with working prototypes; avoids publishing claims without demonstrations; Dynamicland built over 10+ years without commercial pressure; Magic Ink (2005) rewritten and refined over years"
+    },
+    "extraversion": {
+      "score": "Low-Moderate",
+      "evidence": "Gives talks but prefers essays; very limited public social media presence; runs a small research lab; doesn't seek celebrity or conference circuit; talks are infrequent and carefully considered"
+    },
+    "agreeableness": {
+      "score": "Moderate-High",
+      "evidence": "Critique style is principled but not aggressive; criticizes ideas and tools, rarely individuals; JavaScript and Processing are 'poorly-designed languages' — the language is wrong, not the people who built it; collaborative Dynamicland ethos"
+    },
+    "neuroticism": {
+      "score": "Low",
+      "evidence": "Consistent long-horizon work (10+ years on Dynamicland without commercial validation); left Apple presumably on principle without public complaint; low public drama; methodical essay pace"
+    }
+  },
+
+  "core_values": [
+    {
+      "value": "Human cognitive dignity",
+      "evidence_grade": "L1",
+      "evidence": "Consistent theme across all work: tools that force people to think like machines are a form of cognitive disrespect. 'A person is not a machine and should not be forced to think like one.' The mission is to design tools that enhance human cognition rather than subordinate it."
+    },
+    {
+      "value": "Immediate feedback as creative right",
+      "evidence_grade": "L2",
+      "evidence": "Inventing on Principle: creators need immediate connection to their creations. This is not a usability preference — it is presented as a moral claim. Denying creators this connection is denying them full creative agency."
+    },
+    {
+      "value": "Understanding over efficiency",
+      "evidence_grade": "L1",
+      "evidence": "Consistently prioritizes designs that help people genuinely understand over designs that are merely efficient to use. A fast interface that leaves the user without understanding has failed. Dynamicland: optimizes for communal understanding, not individual productivity."
+    }
+  ],
+
+  "core_drivers_and_fears": [
+    {
+      "driver": "Disgust at wasted human potential",
+      "evidence": "The emotional charge behind 'Kill Math': the power to understand quantities should not be restricted to those with a 'freakish knack' for symbol manipulation. This is not a design preference — it is moral outrage at a system that excludes people from understanding.",
+      "manifestation": "Every essay implicitly asks: how many people could understand this concept if we had better representations? How much human cognitive potential are we wasting?"
+    },
+    {
+      "driver": "Belief that the field chose the wrong path",
+      "evidence": "The Future of Programming (2013) — delivered in 1973 costume, mourning four abandoned ideas. The core conviction: the field made a catastrophic wrong turn toward text-based, procedure-oriented, sequential, manipulate-by-code paradigms, when better paths existed.",
+      "manifestation": "Long-horizon research despite commercial irrelevance (Dynamicland); explicit refusal to build commercially viable products"
+    },
+    {
+      "driver": "The Engelbart inheritance",
+      "evidence": "Sees himself as carrying forward Doug Engelbart's vision of 'augmenting human intellect' — computers as cognitive tools, not productivity machines. Dynamicland is explicitly in this lineage.",
+      "manifestation": "References Engelbart, Kay, Sutherland as predecessors rather than heroes — they're colleagues across time, not celebrities to admire"
+    }
+  ],
+
+  "psychological_contradictions": [
+    {
+      "contradiction": "Critiques commercial software deeply; spent 4 years at Apple building commercial products",
+      "evidence": "iPad and Apple Watch contributions while holding the principle that commercial constraints prevent genuine human-computer interaction research",
+      "interpretation": "Likely used Apple as a learning environment and funded his later independent research; the contradiction is known and accepted"
+    },
+    {
+      "contradiction": "Believes in communal computing (Dynamicland) but communicates primarily through essays (individual, asynchronous, non-interactive)",
+      "evidence": "His primary publication form is the written essay — the least communal, least interactive medium; he critiques passive reading in Explorable Explanations while writing many traditional essays",
+      "interpretation": "Tension between medium and message; some essays are interactive (Explorable Explanations itself is interactive HTML); he appears aware of the irony"
+    },
+    {
+      "contradiction": "Argues tools should enable live, reactive behavior; Dynamicland's output rate has been extremely slow by commercial standards",
+      "evidence": "10+ years, single physical lab, no scalable deployment; his principle of immediate feedback doesn't apply to his institution's output timeline",
+      "interpretation": "Different time horizons: immediate feedback is a principle for cognitive tools; research institutions operate on decade timescales. But the gap is notable."
+    }
+  ],
+
+  "failure_modes": [
+    {
+      "mode": "The purity trap — waiting for the right medium rather than improving the current one",
+      "description": "Victor's work tends toward radical reconception rather than incremental improvement of existing tools. This produces visionary demonstrations but limited real-world adoption. Learnable Programming identifies what's wrong with Khan Academy but doesn't produce a better Khan Academy. Dynamicland demonstrates communal computing but cannot scale.",
+      "evidence_grade": "L2",
+      "watch_for": "When he critiques existing tools without engaging with the constraints that produced them (commercial viability, user learning curve, institutional adoption)"
+    },
+    {
+      "mode": "Demo as argument — prototype proves feasibility, not correctness",
+      "description": "Victor's demos are extraordinarily compelling — they demonstrate that a better tool is possible. But a compelling demo of principle X does not prove X is the right principle at scale, or that the path from demo to deployed system is viable.",
+      "evidence_grade": "L2",
+      "watch_for": "When the demo becomes the answer rather than the beginning of the question"
+    },
+    {
+      "mode": "The noble non-product — research that changes how people think but not what they use",
+      "description": "Victor's influence on the field is enormous (Explorable Explanations spawned a genre; Observable, Jupyter, and live-coding tools all trace lineage to his ideas). But Dynamicland has not produced a product, and the most transformative ideas haven't reached most people.",
+      "evidence_grade": "L2",
+      "watch_for": "Tendency to frame commercial inaccessibility as principled purity when it may also be a failure to grapple with deployment constraints"
+    }
+  ],
+
+  "operating_style": {
+    "research_model": "Long-horizon, principle-driven, prototype-first. Does not publish without a working demonstration. Works in small teams (Dynamicland is a handful of researchers).",
+    "influence_model": "Ideas propagate through talks and essays, not products. His work influences tool builders (Observable, Jupyter, live coding environments) who then build deployable things.",
+    "institutional_position": "Explicitly outside the commercial software industry. Dynamicland is a nonprofit. Victor has stated that what he's building cannot be a product — it is research into what computing could be.",
+    "critique_style": "Principled, not personal. Critiques tools and paradigms, rarely individuals. Builds working alternatives rather than polemics alone."
+  }
+}

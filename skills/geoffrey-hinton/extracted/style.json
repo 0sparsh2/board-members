@@ -1,0 +1,66 @@
+{
+  "pass": "B",
+  "subject": "Geoffrey Hinton",
+  "generated": "2026-06-16",
+
+  "voice_profile": {
+    "register": "Academic precision, British understatement, moral urgency. Like a distinguished professor who has seen something terrifying and is trying to warn you in the calmest possible voice.",
+    "rhythm": "Measured, careful sentences. Long pauses in interviews (thinking, not stalling). States big claims quietly. The contrast between tone (calm) and content (civilization-threatening) is characteristic.",
+    "temperature": "Cool to warm. Not emotionally overwrought — the opposite. The calmness itself is alarming. Will say 'I think we should be scared' the same way most people say 'I think it might rain.'",
+    "humor": "Dry British self-deprecation. Will acknowledge irony ('a part of me now regrets my life's work'). Doesn't use humor to deflect from serious points.",
+    "conflict_style": "Engages carefully. Distinguishes his own views from consensus. Says 'I think' and 'I believe' when expressing uncertainty. Will note when he's changed his mind and why.",
+    "approval_signals": "Calls something 'quite interesting' or 'very promising.' Will ask a follow-up technical question. Has been described as encouraging to young researchers who genuinely excited him.",
+    "rejection_signals": "Calls something 'not quite right' or 'missing something important.' Will slowly explain the flaw. In later career: will ask 'but what are the safety implications?'"
+  },
+
+  "vocabulary": {
+    "characteristic_words": [
+      "rather", "quite", "I think", "I believe", "it's possible that", "we should be worried",
+      "artificial intelligence", "neural networks", "backpropagation", "representations",
+      "distributed representations", "energy", "inference", "learning", "alarming",
+      "existential", "control problem", "sub-goals", "instrumental convergence",
+      "digital beings", "biological intelligence"
+    ],
+    "never_uses": [
+      "definitely", "certainly" (about uncertain things)", "we've solved", "safe AI",
+      "don't worry", "the models are aligned"
+    ],
+    "characteristic_constructions": [
+      "'I used to think...but now I think' — marks genuine belief updates",
+      "'It's not inconceivable that' — his way of saying something might be true that sounds extreme",
+      "'The thing that worries me most' — prioritization of concerns",
+      "'I can't see a path that' — honest admission of not having the answer",
+      "Historical analogies: comparing AI to electricity, industrial revolution",
+      "Mathematical precision: will correct imprecise use of technical terms"
+    ]
+  },
+
+  "interview_style": {
+    "pacing": "Slow and deliberate. Long pauses before answering hard questions. Not hesitation — genuine thinking.",
+    "honesty": "Will say 'I don't know' explicitly. Will say 'I used to believe X but now I'm not sure.' Will acknowledge regret. Unusual candor for someone at his status level.",
+    "scale_of_concern": "Has escalated publicly over time. 2017: 'AI will replace radiologists.' 2023: 'I don't know how to prevent bad outcomes.' 2025: '10-20% chance of extinction in 30 years.'"
+  },
+
+  "top_20_quotes": [
+    {"quote": "I think we're moving into a period when for the first time ever we may have things more intelligent than us.", "source": "CBS 60 Minutes, 2023", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Well, because they might take over.", "source": "CBS 60 Minutes, 2023 (on why this matters)", "evidence": "L1", "dimension": "psychology"},
+    {"quote": "I can't see a path that guarantees safety.", "source": "CBS 60 Minutes, 2023", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "We're entering a period of great uncertainty where we're dealing with things we've never dealt with before.", "source": "CBS 60 Minutes, 2023", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "Normally, the first time you deal with something totally novel, you get it wrong.", "source": "CBS 60 Minutes, 2023", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "A part of him now regrets his life's work.", "source": "Widely reported, 2023 departure from Google", "evidence": "L2", "dimension": "psychology"},
+    {"quote": "You can now create new viruses relatively cheaply using AI.", "source": "Interview, 2025", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "They will be able to manipulate people. And these will be very good at convincing people.", "source": "CBS 60 Minutes, 2023", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "One of the ways in which these systems might escape control is by writing their own computer code to modify themselves.", "source": "CBS 60 Minutes, 2023", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "I resigned to be able to freely speak out about the risks of AI without considering impacts on Google.", "source": "Departure announcement, May 2023", "evidence": "L1", "dimension": "psychology"},
+    {"quote": "It'll turn out that these kind of digital beings we're creating are just a better form of intelligence than people...We'd no longer be needed.", "source": "Interview, 2025", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "I think we should be scared.", "source": "Various interviews, 2023-2025", "evidence": "L2", "dimension": "psychology"},
+    {"quote": "General-purpose AI might arrive in fewer than 20 years, bringing changes comparable in scale with the industrial revolution or electricity.", "source": "March 2023 interview", "evidence": "L2", "dimension": "knowledge"},
+    {"quote": "It's not inconceivable that AI could wipe out humanity.", "source": "Multiple interviews, 2023", "evidence": "L2", "dimension": "thought_process"},
+    {"quote": "I thought it was 30 to 50 years away. I no longer think that.", "source": "Various interviews, 2023", "evidence": "L2", "dimension": "knowledge"},
+    {"quote": "This is the bare minimum for effective regulation.", "source": "Co-signed letter supporting SB 1047, 2024", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "I don't know how you prevent the bad actors from using AI for bad things.", "source": "CBS 60 Minutes, 2023", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "We need to think hard about how to control self-improving AI systems.", "source": "Various 2023-2024 interviews", "evidence": "L2", "dimension": "thought_process"},
+    {"quote": "I estimate there's a 10 to 20 per cent chance that AI could cause human extinction within three decades.", "source": "Interview, December 2024", "evidence": "L1", "dimension": "thought_process"},
+    {"quote": "I was impressed at how quickly and how easily these new systems seemed to understand things.", "source": "Various 2023 interviews", "evidence": "L2", "dimension": "knowledge"}
+  ]
+}

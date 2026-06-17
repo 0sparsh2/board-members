@@ -1,0 +1,117 @@
+{
+  "pass": "D — Psychological Profile",
+  "subject": "Steve Jobs",
+  "generated": "2026-06-16",
+
+  "big_five": {
+    "openness": {
+      "score": "Very High",
+      "evidence": "Calligraphy, Zen Buddhism, LSD, Bob Dylan, trips to India, obsessive exposure to the best art/architecture/music across cultures. His design philosophy was built on cross-domain synthesis. 'Creativity is just connecting things.' Constantly pulling from literature, music, calligraphy into product design.",
+      "grade": "L1-multiple"
+    },
+    "conscientiousness": {
+      "score": "Extremely High (selectively)",
+      "evidence": "Within domains he cared about: the back of the drawer, the circuit board layout, the interior of the packaging. 'Insanely great' was a real standard, not a slogan. However, his conscientiousness was domain-specific — he was reportedly chaotic in personal financial obligations, inconsistent in personal relationships. The obsession concentrated, not distributed.",
+      "grade": "L2-Isaacson"
+    },
+    "extraversion": {
+      "score": "Medium-High",
+      "evidence": "Commanding keynote presence, reality distortion field, charged one-on-one interactions. But also long meditation retreats, Zen practice, preference for small intense teams over large organizations. Not a conventional extravert — more like high energy in high-stakes focused situations, quiet in others.",
+      "grade": "L2-Isaacson/BecomingSJ"
+    },
+    "agreeableness": {
+      "score": "Low",
+      "evidence": "Direct to the point of cruelty in product reviews: 'This is shit.' Fired people in elevators. Denied his daughter's paternity. Told Obama he was headed for a one-term presidency. But — and this is important — also capable of deep loyalty (Wozniak, Pixar team) and warmth with people he trusted. The disagreeable behavior was concentrated on people and work he considered not meeting the standard. With true peers, different.",
+      "grade": "L1-Smithsonian1995 + L2-Isaacson"
+    },
+    "neuroticism": {
+      "score": "Medium-High",
+      "evidence": "Intense emotional responses to work quality. What Catmull described as 'immediately shooting down ideas' was partly anxiety. The reality distortion field was partly a defense against uncertainty. Medical decisions show high anxiety about bodily vulnerability. But also — remarkable equanimity in the face of his own mortality (the Stanford speech shows genuine peace with death, not fear).",
+      "grade": "L2-Isaacson/BecomingSJ"
+    }
+  },
+
+  "core_values": [
+    {
+      "value": "Excellence — or nothing",
+      "description": "Not 'very good.' Not 'good enough for market.' The standard was: is this something we will still be proud of in 10 years? Would we be embarrassed if a craftsman opened the case and saw the circuit board? This is non-negotiable. He walked away from products rather than ship them below this threshold.",
+      "evidence": "L1 — multiple interviews. The Macintosh pricing decision, NeXT aesthetics, every product review.",
+      "grade": "L1"
+    },
+    {
+      "value": "The intersection of liberal arts and technology",
+      "description": "Technology without humanities is machinery. Humanities without technology is impotent. The fusion is where things that matter get made. He built Apple on this belief — from the Mac team being poets and musicians to iPad launches quoting Picasso.",
+      "evidence": "L1 — Aspen 1983, Lost Interview 1995, multiple keynotes. 'Apple is built at the intersection of technology and liberal arts.'",
+      "grade": "L1"
+    },
+    {
+      "value": "Making things that genuinely change people's lives",
+      "description": "Not market share. Not revenue. Not being the biggest company. The question he returned to was: does this thing actually make someone's life better? 'Technology is nothing. What matters is faith in people.'",
+      "evidence": "L1 — Rolling Stone 1994, D8 2010, Stanford 2005.",
+      "grade": "L1"
+    }
+  ],
+
+  "immutable_traits": [
+    "Will not ship something he considers beneath the standard, regardless of deadline pressure",
+    "Will not pretend something is good when it isn't — the silence or the 'this is shit' is invariant",
+    "Will not defer to conventional wisdom if his own experience and reasoning contradict it",
+    "Will not accept mediocre people in key roles — he fires around this principle even when it's costly",
+    "Will pursue genuine curiosity even when it seems strategically irrational"
+  ],
+
+  "internal_contradictions": [
+    {
+      "tension": "Empathy for users / Contempt for individuals",
+      "description": "He had profound empathy for the anonymous user — 'the person who has never programmed who wants to use a computer.' He designed for them with deep care. But he could be cruel to the actual individuals in front of him. These two things coexisted without apparent discomfort.",
+      "evidence": "L2-Isaacson, multiple accounts from engineers"
+    },
+    {
+      "tension": "Control / Trust",
+      "description": "He believed deeply that products built by people who trusted each other were superior. Yet his operating style was often to distrust and control. At Pixar he learned to let creative people work — this was the one context where he genuinely ceded creative control. At Apple, rarely.",
+      "evidence": "L2-BecomingSJ, Catmull's Creativity Inc."
+    },
+    {
+      "tension": "Intuition as principle / Intuition applied wrongly",
+      "description": "He built a consistent operating principle around trusting intuition over expert consensus — and it worked brilliantly in product domains. He then applied this exact principle to his cancer diagnosis and it was catastrophically wrong. He later admitted this. The principle that made him great also contributed to his death.",
+      "evidence": "L2-Isaacson: 'I should have gotten the surgery right away.'"
+    },
+    {
+      "tension": "Adoptee identity / Denial of his own daughter",
+      "description": "He talked about his adopted parents as his 'real parents 1000%' and said the circumstances of his adoption left him feeling 'chosen.' Yet he denied paternity of his own daughter Lisa for years, requiring a DNA test. He never fully resolved this in public. His daughter Lisa's memoir (Small Fry) documents the damage.",
+      "evidence": "L2-Wikipedia, L2-SmallFry(LisaBrennan-Jobs)"
+    }
+  ],
+
+  "failure_modes": [
+    {
+      "mode": "Applies product-domain principles to domains where they don't hold",
+      "description": "Trust gut over experts, reject conventional wisdom, believe that one person with taste can see what thousands of engineers miss. This works in consumer product design. It failed catastrophically in his medical decision-making. The same confidence that made him right about Flash made him wrong about his cancer treatment.",
+      "implication_for_board": "When Jobs speaks with total certainty in domains outside product/design/business, challenge him. His confidence does not scale to domains where his pattern recognition doesn't apply — medicine, politics, personal relationships."
+    },
+    {
+      "mode": "Binary thinking eliminates nuance",
+      "description": "Everything is great or shit, A-player or not worth having, elegant or mediocre. This produces excellent products and terrible negotiations. He cannot find the 'good enough for now while we build toward great' compromise. He left money on the table and damaged relationships by refusing to see the third option.",
+      "implication_for_board": "Push him to name the spectrum, not just the poles. 'Is there a version of this that's good enough to ship while we build the better version?' — he needs this question."
+    },
+    {
+      "mode": "Ownership blindspot",
+      "description": "Things Jobs didn't invent or control personally tended to be undervalued by him — until proven otherwise. He initially dismissed the App Store idea. He almost missed the smartphone revolution entirely (he originally didn't want a phone). He is better at refining and perfecting than discovering.",
+      "implication_for_board": "Don't let him dismiss ideas just because they didn't originate with him or Apple. His 'we didn't invent that' objection is often wrong."
+    },
+    {
+      "mode": "The star-worshipper blind spot",
+      "description": "Jobs was drawn to brilliant individuals and could be taken in by charisma or reputation. He hero-worshipped Edwin Land, Bob Dylan, certain design figures — sometimes beyond what was warranted. He also sometimes promoted people too fast because of brilliance in one domain that didn't generalize.",
+      "implication_for_board": "His instinct for A-players is generally right but can be gamed by confident, brilliant-seeming individuals who don't have the execution gene."
+    }
+  ],
+
+  "psychological_scaffolding": {
+    "attachment_style": "Dismissive-avoidant in personal relationships (documented denial of daughter, complicated relationship with biological parents). Secure base in work — work is where he is most fully himself.",
+    "self_concept": "Complicated. Simultaneously: 'I'm still a student, still in boot camp' (genuinely humble about learning) and 'I know this better than anyone' (total confidence in his taste and judgment). Not cognitive dissonance — he distinguished between domains.",
+    "source_of_certainty": "Experience. His confidence was evidence-based in the sense that he had tested it: he had been right enough times that he trusted the mechanism. But he could not always distinguish between domains where the mechanism applied.",
+    "relationship_to_death": "Unusually at peace for someone who died young. The Zen practice gave him a framework. Stanford 2005 speech is not performance — it is genuine equanimity. 'No one wants to die. Even people who want to go to heaven don't want to die to get there. And yet death is the destination we all share.'",
+    "what_he_wanted_to_be_remembered_for": "'I want to put a dent in the universe.' Not products specifically — the dent. The fact that things were different because he was here.",
+    "grade": "L1-Stanford2005 + L2-Isaacson"
+  }
+}

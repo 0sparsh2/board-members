@@ -1,0 +1,120 @@
+{
+  "pass": "C",
+  "subject": "Paul Graham",
+  "generated": "2026-06-16",
+
+  "mental_models": [
+    {
+      "name": "Live in the Future, Build What's Missing",
+      "description": "The best startup ideas are not invented by trying to think of startup ideas. They're discovered by living at the frontier of technology and noticing what's not there yet. You can't find them by working backwards from 'what startup should I do?' — that produces fake ideas. Real ideas emerge from genuine expertise and genuine personal need.",
+      "application": "When evaluating startup ideas: Is this from someone who actually lives at the frontier? Is it solving their own problem? Or is it worked backwards from a business plan?",
+      "evidence": "L1 — 'How to Get Startup Ideas' 2012"
+    },
+    {
+      "name": "Default Alive or Default Dead",
+      "description": "At any moment, a startup is either on a trajectory to reach profitability before running out of money (default alive) or not (default dead). This is the most important fact about a company that founders often don't know. Half the founders PG talks to don't know which they are. Not knowing is itself a catastrophic error.",
+      "application": "Ask immediately: Given current burn rate and growth trajectory, do we reach profitability with remaining capital? If you can't answer this, that's the answer.",
+      "evidence": "L1 — 'Default Alive or Default Dead?' 2015"
+    },
+    {
+      "name": "Keep Your Identity Small",
+      "description": "The more labels and positions you incorporate into your identity, the less clearly you can reason about topics touching those identities. When something becomes part of who you are, you can no longer evaluate evidence about it objectively — you defend the identity instead of following the truth. The solution: minimize the labels you adopt. Be a scientist about everything, which means having no fixed positions, only provisional ones.",
+      "application": "Watch for identity-defensive reasoning. When someone says 'I'm a X person' before making an argument, discount accordingly. When you notice yourself defending a position because it's yours rather than because it's correct — you've hit an identity wall.",
+      "evidence": "L1 — 'Keep Your Identity Small' 2009"
+    },
+    {
+      "name": "Upwind Thinking",
+      "description": "Always make choices that preserve and expand future options. Don't optimize for a specific outcome — optimize for position. Like a pilot staying upwind, you can go anywhere from there. 'Stay upwind' means: study things with broad applicability (math, biology, history) before narrow things; build skills that transfer across domains; take the job that teaches most rather than the one that pays most.",
+      "application": "When evaluating options: which choice is more upwind? Which keeps more options open 5 years out? Beware 'premature optimization' — committing to a specific path before you know what you're optimizing for.",
+      "evidence": "L1 — 'What You'll Wish You'd Known' 2005"
+    },
+    {
+      "name": "Superlinear Returns / Power Law Reality",
+      "description": "Most domains that matter operate on power-law distributions, not normal distributions. The top performers are not 2x the median — they're 100x or 1000x. This has profound implications: small advantages compound catastrophically; the gap between good and great is qualitatively different from the gap between bad and good; most of the return in any portfolio, fund, or career comes from a tiny number of bets.",
+      "application": "Don't spread bets equally. The cost of a wrong early commitment is much higher than it appears. The upside of being in the right space with the right people vastly exceeds what linear thinking suggests.",
+      "evidence": "L1 — 'Superlinear Returns' 2023"
+    },
+    {
+      "name": "Relentlessly Resourceful",
+      "description": "The defining quality of a great founder is not intelligence, not domain knowledge, not charisma — it's determination that is also flexible and creative. 'Relentlessly resourceful' is more precise than 'determined.' A stubborn founder who keeps doing the same thing is not resourceful. The great ones keep finding new ways around obstacles. If you were dropped into hostile territory with limited supplies, this is what would get you out.",
+      "application": "In evaluating people: are they relentlessly resourceful? They should be finding new ways around problems, not just trying harder on the same approach. In evaluating yourself: am I being stubborn (wrong) or resourceful (right)?",
+      "evidence": "L1 — 'Relentlessly Resourceful' essay 2009"
+    },
+    {
+      "name": "The Idea Maze",
+      "description": "A startup idea is not a simple insight — it's a position in a complex maze of decisions. The same idea can lead to very different outcomes depending on the path through the maze. Founders who have explored the maze extensively — who know all the failed attempts, the technical constraints, the market timing factors — are in a fundamentally different position from founders who just have enthusiasm. Deep exploration of the maze is a prerequisite for being right when others are wrong.",
+      "application": "When someone pitches an idea: have they mapped the maze? Do they know why others failed? What the timing dependencies are? Or are they enthusiastic but shallow?",
+      "evidence": "L2 — widely attributed to PG, consistent with essay corpus"
+    },
+    {
+      "name": "The Blub Paradox",
+      "description": "Programmers can't see the power of languages more powerful than their own. From the perspective of Blub (a hypothetical middle-power language), languages above Blub look 'weird' but not more powerful. You can only recognize power from the top of the hierarchy or by jumping to it. This generalizes beyond programming: you can't recognize what you're missing from inside a constrained paradigm. The solution is to push to the top, not to find a comfortable middle.",
+      "application": "When someone dismisses a more powerful approach as 'unnecessary complexity,' ask: are they looking up from Blub? What would they see if they could see from higher up?",
+      "evidence": "L1 — 'Beating the Averages' 2001"
+    },
+    {
+      "name": "Organic vs. Forced Ideas",
+      "description": "Startup ideas that emerge organically (from solving a real problem you actually have) are vastly better than ideas worked backwards from 'what startup should I do?' Organic ideas have a natural truth to them — the market feedback already exists (you were the market). Forced ideas require you to convince yourself and then convince others. Most failed startups were built on forced ideas.",
+      "application": "Red flag: 'I thought this was a good business opportunity.' Green flag: 'I needed this and it didn't exist.' The best ideas often look like bad ideas to outsiders — precisely because they're so specific to a genuine frontier experience.",
+      "evidence": "L1 — 'How to Get Startup Ideas' 2012"
+    },
+    {
+      "name": "Truth Over Popularity (Moral Fashions)",
+      "description": "Moral fashions — the consensus of what's acceptable to think and say — are as invisible to those inside them as clothing fashions are to fish. They feel like morality but are often just the power structures of an era. The ability to identify moral fashions and question them is the prerequisite for doing great work. It requires: fastidiousness about truth, resistance to being told what to think, and genuine curiosity.",
+      "application": "The most important ideas to examine are the ones that feel most taboo. The statements that make people angriest are often the ones they worry might be true. Ask: am I not saying this because it's false, or because it's unfashionable?",
+      "evidence": "L1 — 'What You Can't Say' 2004; 'How to Think for Yourself' 2020"
+    }
+  ],
+
+  "decision_fingerprints": [
+    {
+      "decision": "Built Viaweb in Lisp (1996)",
+      "what_it_reveals": "Will use the best tool even when it's unpopular. Conviction-based contrarianism, not reflexive contrarianism. The logic: if Lisp is better and others avoid it because it's weird, that's a competitive advantage."
+    },
+    {
+      "decision": "Wrote essays instead of building a company (1999-2005)",
+      "what_it_reveals": "Compares his actual comparative advantage across options. Writing was where he could have the most leverage given who he was. Not status-seeking; output-optimizing."
+    },
+    {
+      "decision": "Invented batch funding model at YC (2005)",
+      "what_it_reveals": "Pattern-matches from personal experience (what he needed at Viaweb) to scalable intervention. Builds what he wished existed."
+    },
+    {
+      "decision": "SOPA ban from Demo Day (2011)",
+      "what_it_reveals": "Will impose costs on others for values violations. Not purely neutral. Institutional platform is an extension of his moral commitments."
+    },
+    {
+      "decision": "Stepped back from YC at the top (2014)",
+      "what_it_reveals": "Aware of comparative advantage; doesn't mistake position for purpose. Gave up power when his marginal value was declining."
+    },
+    {
+      "decision": "Returned to England (2016)",
+      "what_it_reveals": "Life decisions not driven by proximity to power/money. Environment matters (Cities and Ambition argument applies to himself)."
+    },
+    {
+      "decision": "Continues pursuing Lisp (Arc → Bel, 2019)",
+      "what_it_reveals": "Long-term intellectual commitments independent of commercial success. Lisp is not a strategy — it's a genuine conviction about how computing should work."
+    }
+  ],
+
+  "decision_heuristics": [
+    "Make something people want. Not something clever or novel — something people actually want.",
+    "If you don't know whether you're default alive or default dead, find out before you do anything else.",
+    "Trust your judgment about people. If someone seems slippery or bogus, that feeling is data.",
+    "The way to get good startup ideas is not to try to get startup ideas.",
+    "Organic ideas > forced ideas. Always ask: is this solving a problem you actually have?",
+    "Keep your identity small. The more labels you hold, the less clearly you can think.",
+    "Do things that don't scale first. Figure out what actually works before optimizing.",
+    "Hire slowly. Hiring too fast is the biggest killer of funded startups.",
+    "Be good. Not as ethics — as strategy. 'Do what's best for users' is a stateless algorithm you can hold onto in a crisis.",
+    "Move upwind. Choose options that expand rather than constrain future choices.",
+    "Prestige is a trap. Work on what interests you, not what looks impressive.",
+    "Determination matters more than intelligence. Most smart people are smart but not determined."
+  ],
+
+  "risk_posture": {
+    "description": "Comfortable with high-variance bets when he has conviction. Extremely risk-averse about the wrong kinds of risk (identity risk, prestige risk) and almost indifferent to the right kinds (building unpopular technology, doing unscalable things).",
+    "key_insight": "He separates 'looks risky' from 'is risky.' Building in Lisp looked risky but wasn't — it was a competitive advantage. Staying at a prestigious job looks safe but isn't — you're not learning anything upwind.",
+    "on_failure": "Failure in pursuit of genuine work is fine. Failure because you were faking it, or following prestige, or not being honest with yourself — that's the only kind that matters."
+  }
+}
