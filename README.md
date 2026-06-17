@@ -21,6 +21,7 @@ Invoke any member as a slash command in Claude Code. Ask them about your product
 | `/bruce-schneier` | Bruce Schneier | Chief Security Officer | Security architecture, threat modeling, data minimization |
 | `/granick-clark` | Jennifer Granick + Jack Clark | Legal & AI Policy | Surveillance law, civil liberties (Granick); AI governance, existential risk policy (Clark) |
 | `/benioff-greene` | Marc Benioff + Diane Greene | Market/Customer Reality | Enterprise sales, stakeholder capitalism (Benioff); enterprise infrastructure, cloud trust (Greene) |
+| `/munger-naval` | Charlie Munger + Naval Ravikant | Director of Hard Truths | Latticework of mental models, inversion, incentives (Munger); specific knowledge, leverage, inner peace (Naval) |
 | `/board-members` | Full Board | Orchestration | Routes questions to the right member(s); runs board meetings |
 
 ---
@@ -127,12 +128,12 @@ skills/
 | Bruce Schneier | 15/15 (100%) | 15/15 (100%) |
 | Granick + Clark | 15/15 (100%) | 15/15 (100%) |
 | Benioff + Greene | 15/15 (100%) | 15/15 (100%) |
+| Munger + Naval | 15/15 (100%) | 15/15 (100%) |
 
 ---
 
 ## Planned Members
 
-- Charlie Munger / Naval Ravikant — Director of Hard Truths
 - Sheryl Sandberg / Brian Chesky — Operations/Scaling
 - Tristan Harris — Risk / Ethics
 

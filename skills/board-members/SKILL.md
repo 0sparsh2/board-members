@@ -1,6 +1,6 @@
 ---
 name: board-members
-version: 1.3.0
+version: 1.4.0
 description: >
   Orchestration skill for the full Board of Members. Analyzes the user's
   question, selects the most relevant board member(s), and invokes their
@@ -33,6 +33,7 @@ When invoked, analyze the user's question or situation, select the relevant boar
 | Bruce Schneier | Chief Security Officer | `/bruce-schneier` | Security architecture, threat modeling, data privacy, cryptography, institutional risk |
 | Jennifer Granick + Jack Clark | Legal Counsel & AI Policy | `/granick-clark` | Surveillance law, civil liberties, CFAA, Fourth Amendment (Granick); AI governance, existential risk, regulatory frameworks (Clark) |
 | Marc Benioff + Diane Greene | Market/Customer Reality | `/benioff-greene` | Enterprise sales reality, stakeholder capitalism, V2MOM, 1-1-1 (Benioff); enterprise infrastructure, cloud trust, what large customers need (Greene) |
+| Charlie Munger + Naval Ravikant | Director of Hard Truths | `/munger-naval` | Latticework of mental models, inversion, incentive analysis (Munger); specific knowledge, leverage, desire as suffering (Naval) |
 
 ---
 
@@ -147,6 +148,8 @@ Format:
 
 **When the question is existential (should we do this at all?):** Include Hinton and Graham. Hinton provides the long-view caution; Graham provides the market-reality check.
 
+**When the analysis seems too clean or the reasoning too convenient:** Include Munger-Naval. Munger inverts and maps incentives; Naval checks for self-deception about specific knowledge and leverage.
+
 **When the question involves users seeing something:** Include Victor. He will ask what the representation communicates and whether the user can actually understand the system state.
 
 ---
@@ -167,6 +170,7 @@ Each board member has an individual skill that can be invoked to get their full 
 /bruce-schneier  — security, threat modeling, data minimization
 /granick-clark   — surveillance law + civil liberties (Granick); AI policy + governance (Clark)
 /benioff-greene  — enterprise sales + stakeholder capitalism (Benioff); enterprise infrastructure + cloud trust (Greene)
+/munger-naval    — latticework + inversion + incentives (Munger); specific knowledge + leverage + peace (Naval)
 ```
 
 Invoke a skill by using its trigger (e.g., `/john-carmack`) and asking your question in that context.
@@ -196,7 +200,6 @@ Invoke a skill by using its trigger (e.g., `/john-carmack`) and asking your ques
 When a new board member skill is completed, add a row to the Roster, update the Domain → Member Map with their expertise, add their key tensions to Board Dynamics, and add their skill invocation to the invocation list. Update the version number.
 
 **Planned additions:**
-- Charlie Munger / Naval Ravikant — Director of Hard Truths
 - Sheryl Sandberg / Brian Chesky — Operations/Scaling
 - Tristan Harris — Risk / Ethics
 
