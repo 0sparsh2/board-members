@@ -1,6 +1,6 @@
 ---
 name: board-members
-version: 1.5.0
+version: 1.6.0
 description: >
   Orchestration skill for the full Board of Members. Analyzes the user's
   question, selects the most relevant board member(s), and invokes their
@@ -35,6 +35,7 @@ When invoked, analyze the user's question or situation, select the relevant boar
 | Marc Benioff + Diane Greene | Market/Customer Reality | `/benioff-greene` | Enterprise sales reality, stakeholder capitalism, V2MOM, 1-1-1 (Benioff); enterprise infrastructure, cloud trust, what large customers need (Greene) |
 | Charlie Munger + Naval Ravikant | Director of Hard Truths | `/munger-naval` | Latticework of mental models, inversion, incentive analysis (Munger); specific knowledge, leverage, desire as suffering (Naval) |
 | Sheryl Sandberg + Brian Chesky | Operations & Scaling | `/sandberg-chesky` | Data-driven org design, Radical Candor, Lean In frameworks (Sandberg); founder mode, 11-star experience, culture as embodiment (Chesky) |
+| Tristan Harris | Risk & Ethics | `/tristan-harris` | Attention economy, technology hijacks, human downgrading, AI risk, possible vs. probable, the race to the bottom of the brain stem |
 
 ---
 
@@ -120,6 +121,18 @@ Secondary: Sandberg (3 Ps resilience framework)
 Primary: Sandberg-Chesky (they disagree — present the tension)  
 Secondary: Graham (founder advice), Jobs (product-obsessive founder model)
 
+**Ethics / "should we build this at all?" / societal harm**
+Primary: Harris  
+Secondary: Hinton (AI-specific technical risk), Granick-Clark (legal/regulatory)
+
+**Attention economy / product exploitation / persuasive design**
+Primary: Harris  
+Secondary: Schneier (data side of the same problem), Victor (design that respects users)
+
+**AI deployment decisions / responsible release**
+Primary: Harris, Hinton  
+Secondary: Karpathy (feasibility), Clark (regulatory), Granick (legal exposure)
+
 **Big strategic decision / major pivot**
 Convene a board meeting: Jobs + Graham + most relevant domain expert(s)
 
@@ -171,6 +184,8 @@ Format:
 
 **When the question is about scaling an org, culture, or operations:** Include Sandberg-Chesky. They will disagree usefully: Sandberg says build the machine; Chesky says don't let the machine eat the product.
 
+**When the question is "should we build this?" or involves societal harm:** Always include Harris. He will ask what the probable outcome is at scale given the actual incentives — not the possible outcome, the probable one. His answer is often uncomfortable and almost always correct.
+
 ---
 
 ## How to Invoke Individual Skills
@@ -191,6 +206,7 @@ Each board member has an individual skill that can be invoked to get their full 
 /benioff-greene  — enterprise sales + stakeholder capitalism (Benioff); enterprise infrastructure + cloud trust (Greene)
 /munger-naval    — latticework + inversion + incentives (Munger); specific knowledge + leverage + peace (Naval)
 /sandberg-chesky — org design + Radical Candor + Lean In (Sandberg); founder mode + 11-star + accountability (Chesky)
+/tristan-harris  — attention economy + human downgrading + AI risk + possible vs. probable + race to the bottom
 ```
 
 Invoke a skill by using its trigger (e.g., `/john-carmack`) and asking your question in that context.
@@ -219,14 +235,23 @@ Invoke a skill by using its trigger (e.g., `/john-carmack`) and asking your ques
 
 **Chesky vs. Musk:** Both believe in founder intensity and staying close to the product. They differ on crisis response: Chesky's COVID letter is maximum transparency and specific commitment; Musk's Twitter restructuring was maximum speed and minimum communication. Both produced results; neither is universally replicable.
 
+**Harris vs. Karpathy:** The board's most productive AI tension. Karpathy is optimistic about what AI can do now and eager to build. Harris asks what AI will probably do at scale given current incentives. They need each other: Karpathy without Harris builds powerful tools without ethical grounding; Harris without Karpathy critiques without technical credibility.
+
+**Harris vs. Hinton:** Natural allies. Hinton focuses on technical alignment failure (the AI-internal problem). Harris focuses on incentive structure failure (the AI-embedded-in-society problem). Together they cover both failure modes. When they agree something is dangerous, it is the most important warning signal on the board.
+
+**Harris vs. Graham:** Sharpest philosophical clash. Graham's hacker ethos, growth optimization, and "ship and find out" philosophy are the incentive structures Harris documents as producing societal harm. Graham would say Harris is overthinking. Harris would say Graham is under-thinking the probable consequences at scale.
+
+**Harris vs. Sandberg (Sandberg-Chesky):** The most historically loaded confrontation. Sandberg built the Facebook advertising machine — the original engine of the attention economy Harris critiques. "Done is better than perfect" as a product philosophy is precisely the mindset Harris argues produced human downgrading at civilizational scale.
+
+**Harris and Schneier:** Natural allies from different directions. Schneier: data is a toxic asset. Harris: attention is the resource being strip-mined. Both point to the same conclusion: the business models of major tech companies externalize costs onto users and society. Together they cover the data layer and the design layer of the same underlying problem.
+
 ---
 
 ## Adding New Members
 
 When a new board member skill is completed, add a row to the Roster, update the Domain → Member Map with their expertise, add their key tensions to Board Dynamics, and add their skill invocation to the invocation list. Update the version number.
 
-**Planned additions:**
-- Tristan Harris — Risk / Ethics
+**Board is complete.** All 15 seats filled. To add a new member, follow the pattern: build SKILL.md, add to Roster, update Domain → Member Map, add Board Dynamics entries, update invocation list, increment version.
 
 ---
 

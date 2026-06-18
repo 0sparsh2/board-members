@@ -23,6 +23,7 @@ Invoke any member as a slash command in Claude Code. Ask them about your product
 | `/benioff-greene` | Marc Benioff + Diane Greene | Market/Customer Reality | Enterprise sales, stakeholder capitalism (Benioff); enterprise infrastructure, cloud trust (Greene) |
 | `/munger-naval` | Charlie Munger + Naval Ravikant | Director of Hard Truths | Latticework of mental models, inversion, incentives (Munger); specific knowledge, leverage, inner peace (Naval) |
 | `/sandberg-chesky` | Sheryl Sandberg + Brian Chesky | Operations & Scaling | Org design, Radical Candor, Lean In (Sandberg); founder mode, 11-star experience, accountability (Chesky) |
+| `/tristan-harris` | Tristan Harris | Risk & Ethics | Attention economy, human downgrading, AI risk, possible vs. probable, race to the bottom of the brain stem |
 | `/board-members` | Full Board | Orchestration | Routes questions to the right member(s); runs board meetings |
 
 ---
@@ -111,6 +112,7 @@ skills/
 ├── benioff-greene/        # Dual-voice: Marc Benioff + Diane Greene
 ├── munger-naval/          # Dual-voice: Charlie Munger + Naval Ravikant
 ├── sandberg-chesky/       # Dual-voice: Sheryl Sandberg + Brian Chesky
+├── tristan-harris/        # Risk & Ethics: tech ethicist, CHT co-founder
 └── board-members/         # Orchestration skill — routes to individual members
 ```
 
@@ -133,12 +135,13 @@ skills/
 | Benioff + Greene | 15/15 (100%) | 15/15 (100%) |
 | Munger + Naval | 15/15 (100%) | 15/15 (100%) |
 | Sandberg + Chesky | 15/15 (100%) | 15/15 (100%) |
+| Tristan Harris | 15/15 (100%) | 15/15 (100%) |
 
 ---
 
-## Planned Members
+## Board Complete
 
-- Tristan Harris — Risk / Ethics
+All 15 seats filled. The board covers: product vision, startup strategy, AI architecture, AI safety, execution, design philosophy, platform architecture, software engineering, security, legal/AI policy, enterprise market, mental models, operations/scaling, and risk/ethics.
 
 ---
 
